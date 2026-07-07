@@ -4,20 +4,25 @@ import HttpBackend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 i18n
-.use(HttpBackend)
-.use(LanguageDetector)
-.use(initReactI18next)
-.init({
+  .use(HttpBackend)
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
     fallbackLng: "es",
     debug: import.meta.env.DEV,
 
-    interpolation:{
-        escapeValue: false,
+    supportedLngs: ["es", "en", "fr", "ja", "zh"],
+
+    ns: ["navbar", "footer", "home"],
+    defaultNS: "navbar",
+
+    interpolation: {
+      escapeValue: false,
     },
 
     backend: {
-        loadPath: "/locales/{{lng}}/{{ns}}.json",
-    }
-});
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
+    },
+  });
 
 export default i18n;
