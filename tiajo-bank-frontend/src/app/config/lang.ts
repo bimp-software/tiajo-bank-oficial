@@ -3,5 +3,5 @@ export const LANG = [
     { code: "en", label: "English", flag: "🇺🇸" },
     { code: "fr", label: "Français", flag: "🇫🇷" },
     { code: "jp", label: "日本語", flag: "🇯🇵" },
-    { code: "cn", label: "中文", flag: "🇨🇳" },
+    { code: "zh", label: "中文", flag: "🇨🇳" },
 ];

@@ -11,7 +11,7 @@ i18n
     fallbackLng: "es",
     debug: import.meta.env.DEV,
 
-    supportedLngs: ["es", "en", "fr", "ja", "zh"],
+    supportedLngs: ["es", "en", "fr", "jp", "zh"],
 
     ns: ["navbar", "footer", "home"],
     defaultNS: "navbar",
