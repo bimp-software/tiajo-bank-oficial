@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "title": {
+      "before": "在游戏中学习，",
+      "highlight": "带着目标成长，",
+      "after": "共同改变你的课堂。"
+    },
+    "description": "TíaJo Bank 将校园生活打造为充满游戏化元素的学习体验，包括虚拟货币、目标、角色、奖励以及积极参与。",
+    "buttons": {
+      "features": "了解功能",
+      "video": "观看视频"
+    },
+    "imageAlt": "TíaJo Bank 吉祥物",
+    "pills": {
+      "gamification": "教育游戏化",
+      "coexistence": "积极校园氛围",
+      "economy": "代币激励体系",
+      "community": "学校社区"
+    }
+  },
+  "methodology": {
+    "title": {
+      "before": "一种具有",
+      "highlight": "持久教育影响力的方法"
+    },
+    "cards": {
+      "motivation": {
+        "title": "真正的学习动力",
+        "description": "学生通过目标、奖励和可见的成就不断成长。"
+      },
+      "progress": {
+        "title": "可衡量的成长",
+        "description": "帮助追踪责任感、参与度和良好习惯的发展。"
+      },
+      "coexistence": {
+        "title": "积极校园氛围",
+        "description": "鼓励积极行为、合作精神和课堂自我管理。"
+      },
+      "participation": {
+        "title": "共同参与",
+        "description": "连接学生、教师、家庭以及支持团队。"
+      }
+    }
+  }
+}

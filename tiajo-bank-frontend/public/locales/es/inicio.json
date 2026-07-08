@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "title": {
+      "before": "Aprende jugando,",
+      "highlight": "crece con propósito",
+      "after": "y transforma tu curso."
+    },
+    "description": "TíaJo Bank convierte la convivencia escolar en una experiencia gamificada con monedas, metas, roles, recompensas y participación activa.",
+    "buttons": {
+      "features": "Conocer funcionalidades",
+      "video": "Ver video"
+    },
+    "imageAlt": "Personajes de TíaJo Bank",
+    "pills": {
+      "gamification": "Gamificación educativa",
+      "coexistence": "Convivencia positiva",
+      "economy": "Economía simbólica",
+      "community": "Comunidad escolar"
+    }
+  },
+  "methodology": {
+    "title": {
+      "before": "Una metodología con",
+      "highlight": "huella educativa"
+    },
+    "cards": {
+      "motivation": {
+        "title": "Motivación real",
+        "description": "Los estudiantes avanzan mediante metas, recompensas y logros visibles."
+      },
+      "progress": {
+        "title": "Progreso medible",
+        "description": "Permite observar avances en responsabilidad, participación y hábitos."
+      },
+      "coexistence": {
+        "title": "Convivencia positiva",
+        "description": "Refuerza buenas acciones, colaboración y autorregulación en el aula."
+      },
+      "participation": {
+        "title": "Participación",
+        "description": "Integra estudiantes, docentes, familias y equipos de apoyo."
+      }
+    }
+  }
+}

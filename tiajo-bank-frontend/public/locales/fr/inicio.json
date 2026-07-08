@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "title": {
+      "before": "Apprendre en jouant,",
+      "highlight": "grandir avec un objectif",
+      "after": "et transformer votre classe."
+    },
+    "description": "TíaJo Bank transforme la vie scolaire en une expérience ludifiée avec des pièces, des objectifs, des rôles, des récompenses et une participation active.",
+    "buttons": {
+      "features": "Découvrir les fonctionnalités",
+      "video": "Voir la vidéo"
+    },
+    "imageAlt": "Personnages de TíaJo Bank",
+    "pills": {
+      "gamification": "Gamification éducative",
+      "coexistence": "Climat scolaire positif",
+      "economy": "Économie symbolique",
+      "community": "Communauté scolaire"
+    }
+  },
+  "methodology": {
+    "title": {
+      "before": "Une méthodologie avec",
+      "highlight": "un impact éducatif durable"
+    },
+    "cards": {
+      "motivation": {
+        "title": "Motivation réelle",
+        "description": "Les élèves progressent grâce à des objectifs, des récompenses et des réussites visibles."
+      },
+      "progress": {
+        "title": "Progrès mesurables",
+        "description": "Permet de suivre les progrès en responsabilité, participation et bonnes habitudes."
+      },
+      "coexistence": {
+        "title": "Climat scolaire positif",
+        "description": "Renforce les actions positives, la collaboration et l'autorégulation en classe."
+      },
+      "participation": {
+        "title": "Participation",
+        "description": "Implique les élèves, les enseignants, les familles et les équipes de soutien."
+      }
+    }
+  }
+}

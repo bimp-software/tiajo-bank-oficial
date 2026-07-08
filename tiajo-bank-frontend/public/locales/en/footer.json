@@ -1,0 +1,44 @@
+{
+    "tagline": "An educational platform that transforms school life through gamification, symbolic economy, and active participation.",
+    "social": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "tiktok": "TikTok",
+        "youtube": "YouTube"
+    },
+    "platform": {
+        "title": "Platform",
+        "que_es": "What is it?",
+        "funcionalidades": "Features",
+        "planes": "Plans",
+        "seguridad": "Security"
+    },
+    "resources": {
+        "title": "Resources",
+        "blog": "Blog",
+        "guias": "Guides",
+        "faq": "FAQ",
+        "ayuda": "Help"
+    },
+    "company": {
+        "title": "Company",
+        "nosotros": "About us",
+        "contacto": "Contact",
+        "trabajo": "Careers",
+        "politicas": "Policies"
+    },
+    "newsletter": {
+        "title": "TíaJo Bank news",
+        "description": "Get news, resources, and project updates.",
+        "email_label": "Email address",
+        "placeholder": "Your email",
+        "button": "Send"
+    },
+    "copyright": "© 2026 TíaJo Bank. All rights reserved.",
+    "legal": {
+        "terminos": "Terms",
+        "privacidad": "Privacy",
+        "cookies": "Cookies",
+        "soporte": "Support"
+    }
+}

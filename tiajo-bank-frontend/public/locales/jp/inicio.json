@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "title": {
+      "before": "遊びながら学び、",
+      "highlight": "目的を持って成長し、",
+      "after": "クラスを変えましょう。"
+    },
+    "description": "TíaJo Bank は、コイン、目標、役割、報酬、積極的な参加を通じて、学校生活をゲーミフィケーションされた学びの体験へと変えます。",
+    "buttons": {
+      "features": "機能を見る",
+      "video": "動画を見る"
+    },
+    "imageAlt": "TíaJo Bank のキャラクター",
+    "pills": {
+      "gamification": "教育ゲーミフィケーション",
+      "coexistence": "前向きな学級づくり",
+      "economy": "トークンエコノミー",
+      "community": "学校コミュニティ"
+    }
+  },
+  "methodology": {
+    "title": {
+      "before": "教育に",
+      "highlight": "長く残る価値をもたらすメソッド"
+    },
+    "cards": {
+      "motivation": {
+        "title": "本物のモチベーション",
+        "description": "児童・生徒は目標、報酬、成果を通して成長します。"
+      },
+      "progress": {
+        "title": "測定できる成長",
+        "description": "責任感、参加意欲、良い習慣の成長を可視化できます。"
+      },
+      "coexistence": {
+        "title": "前向きな学級づくり",
+        "description": "良い行動、協力、自律的な行動を教室で育みます。"
+      },
+      "participation": {
+        "title": "参加",
+        "description": "児童・生徒、教師、保護者、支援チームをつなぎます。"
+      }
+    }
+  }
+}

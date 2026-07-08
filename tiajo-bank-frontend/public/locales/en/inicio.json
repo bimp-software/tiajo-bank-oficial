@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "title": {
+      "before": "Learn through play,",
+      "highlight": "grow with purpose",
+      "after": "and transform your classroom."
+    },
+    "description": "TíaJo Bank transforms the school experience into a gamified environment with coins, goals, roles, rewards, and active participation.",
+    "buttons": {
+      "features": "Explore Features",
+      "video": "Watch Video"
+    },
+    "imageAlt": "TíaJo Bank Characters",
+    "pills": {
+      "gamification": "Educational Gamification",
+      "coexistence": "Positive School Climate",
+      "economy": "Token Economy",
+      "community": "School Community"
+    }
+  },
+  "methodology": {
+    "title": {
+      "before": "A methodology with",
+      "highlight": "lasting educational impact"
+    },
+    "cards": {
+      "motivation": {
+        "title": "Real Motivation",
+        "description": "Students progress through goals, rewards, and visible achievements."
+      },
+      "progress": {
+        "title": "Measurable Progress",
+        "description": "Track growth in responsibility, participation, and positive habits."
+      },
+      "coexistence": {
+        "title": "Positive School Climate",
+        "description": "Reinforces positive actions, collaboration, and self-regulation in the classroom."
+      },
+      "participation": {
+        "title": "Participation",
+        "description": "Brings together students, teachers, families, and support teams."
+      }
+    }
+  }
+}

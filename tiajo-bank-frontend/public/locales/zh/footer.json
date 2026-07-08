@@ -1,0 +1,44 @@
+{
+    "tagline": "一个通过游戏化、象征性经济和积极参与来改变校园生活的教育平台。",
+    "social": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "tiktok": "TikTok",
+        "youtube": "YouTube"
+    },
+    "platform": {
+        "title": "平台",
+        "que_es": "这是什么？",
+        "funcionalidades": "功能",
+        "planes": "套餐",
+        "seguridad": "安全"
+    },
+    "resources": {
+        "title": "资源",
+        "blog": "博客",
+        "guias": "指南",
+        "faq": "常见问题",
+        "ayuda": "帮助"
+    },
+    "company": {
+        "title": "公司",
+        "nosotros": "关于我们",
+        "contacto": "联系我们",
+        "trabajo": "招聘",
+        "politicas": "政策"
+    },
+    "newsletter": {
+        "title": "TíaJo Bank 最新动态",
+        "description": "获取新闻、资源和项目更新。",
+        "email_label": "电子邮箱",
+        "placeholder": "输入你的邮箱",
+        "button": "发送"
+    },
+    "copyright": "© 2026 TíaJo Bank. 保留所有权利。",
+    "legal": {
+        "terminos": "条款",
+        "privacidad": "隐私",
+        "cookies": "Cookie",
+        "soporte": "支持"
+    }
+}

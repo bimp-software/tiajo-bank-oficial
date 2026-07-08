@@ -21,10 +21,10 @@
 
 .hero-content h1 {
     font-size: clamp(3.2rem, 6.5vw, 6.4rem);
-    line-height: .92;
+    line-height: .90;
     font-weight: 900;
     color: #1b775f;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
     margin-bottom: 1.6rem;
 }
 
@@ -71,12 +71,12 @@
 }
 
 .btn-hero-video {
-    background: #fff;
-    color: #17212b;
-    border: 2px solid #ded7c9;
-    border-radius: 10px;
-    padding: .95rem 1.45rem;
-    font-weight: 900;
+    background: #fff !important;
+    color: #17212b !important;
+    border: 2px solid #ded7c9 !important;
+    border-radius: 10px !important;
+    padding: .95rem 1.45rem !important;
+    font-weight: 900 !important;
 }
 
 .hero-image {

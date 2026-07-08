@@ -16,13 +16,8 @@
     --tj-yellow-h: #e0b400;
 }
 
-@font-face {
-    font-family: "Nonito";
-    src: url("../fonts/Nunito-VariableFont_wght.ttf") format("truetype");
-    font-weight: 400;
-}
-
 body {
+    font-family: 'Nunito', sans-serif;
     background: var(--blanco-pastel);
     color: var(--color-letra-gris);
 }

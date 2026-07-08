@@ -24,7 +24,7 @@ export default function Navbar(){
     return(
         <nav className="navbar navbar-expand-lg bg-tj sticky-top shadow" aria-label={t("navbar.menu_prinicipal")}>
             <div className="container-xl py-1">
-                <Link className="navbar-brand p-0 m-0" to={`${lang}/`}>
+                <Link className="navbar-brand p-0 m-0" to={`/${lang}/`}>
                     <img src={Logo} alt="TíaJo Bank" className="tj-logo-img"/>
                 </Link>
 
@@ -37,32 +37,38 @@ export default function Navbar(){
                 <div className="collapse navbar-collapse" id="navMain">
                      <ul className="navbar-nav tj-nav mx-auto gap-2 py-2 py-lg-3">
                         <li className="nav-item">
-                            <NavLink to={`${lang}/`} end className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
+                            <NavLink to={`/${lang}/`} end className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
                                 {t("inicio")}
                             </NavLink>
                         </li>
 
                         <li className="nav-item">
-                            <NavLink to={`${lang}/que-es`} className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
+                            <NavLink to={`/${lang}/que-es`} className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
                                 {t("que_es")}
                             </NavLink>
                         </li>
 
                         <li className="nav-item">
-                            <NavLink to={`${lang}/beneficios`} className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
+                            <NavLink to={`/${lang}/beneficios`} className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
                                 {t("beneficios")}
                             </NavLink>
                         </li>
 
                         <li className="nav-item">
-                            <NavLink to={`${lang}/funcionalidades`} className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
+                            <NavLink to={`/${lang}/funcionalidades`} className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
                                 {t("funcionalidades")}
                             </NavLink>
                         </li>
 
                         <li className="nav-item">
-                            <NavLink to={`${lang}/planes`} className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
+                            <NavLink to={`/${lang}/planes`} className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
                                 {t("planes")}
+                            </NavLink>
+                        </li>
+
+                        <li className="nav-item">
+                            <NavLink to={`/${lang}/recursos`} className={({ isActive }) => `nav-link px-2 py-2 ${isActive ? "active" : ""}` }>
+                                {t("recursos")}
                             </NavLink>
                         </li>
                     </ul>
@@ -94,10 +100,10 @@ export default function Navbar(){
                     </div>
 
                     <div className="d-flex flex-column flex-lg-row gap-2 pb-2 pb-lg-0">
-                        <Link to={`${lang}/acceder`} className="btn btn-tj-outline btn-sm px-3">
+                        <Link to={`/${lang}/acceder`} className="btn btn-tj-outline btn-sm px-3">
                             {t("iniciar_sesion")}
                         </Link>
-                        <Link to={`${lang}/registrarse`} className="btn btn-tj-cta btn-sm px-3">
+                        <Link to={`/${lang}/registrarse`} className="btn btn-tj-cta btn-sm px-3">
                             {t("comenzar")}
                         </Link>
                     </div>

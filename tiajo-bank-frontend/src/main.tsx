@@ -6,6 +6,7 @@ import "./app/i18n";
 
 import "./shared/assets/styles/bootstrap.min.css";
 import "./shared/assets/styles/bootstrap-icons.min.css";
+
 import "./shared/assets/styles/styles.css";
 
 import "./shared/assets/js/bootstrap.min.js";
