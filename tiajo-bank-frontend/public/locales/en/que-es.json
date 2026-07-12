@@ -1,0 +1,76 @@
+{
+  "body": {
+    "hero": {
+      "titulo_1": "TiaJo Bank is the educational platform that turns",
+      "titulo_2": "learning",
+      "titulo_3": "into an unforgettable adventure.",
+      "descripcion": "A complete ecosystem designed for students, teachers, parents, and educational institutions, combining gamification, emotional well-being, school coexistence, and financial education.",
+      "btn_funciones": "See features",
+      "btn_video": "Watch video"
+    },
+    "beneficios": {
+      "titulo": "Platform Benefits",
+      "descripcion": "Discover everything TiaJo Bank offers to transform your school community's educational experience.",
+      "card_1": {
+        "titulo": "Classroom Gamification",
+        "descripcion": "Turn daily activities and homework into interactive missions that motivate students to constantly improve."
+      },
+      "card_2": {
+        "titulo": "Emotional Well-being",
+        "descripcion": "Tools designed to monitor, understand, and support the socio-emotional state of students in a safe environment."
+      },
+      "card_3": {
+        "titulo": "Financial Education",
+        "descripcion": "Learn the value of saving, planning, and resource management practically through a simulated school economy."
+      },
+      "card_4": {
+        "titulo": "School Coexistence",
+        "descripcion": "Encourage collaboration, mutual respect, and positive conflict resolution, strengthening group bonds."
+      },
+      "card_5": {
+        "titulo": "Comprehensive Ecosystem",
+        "descripcion": "Seamlessly and transparently connect students, teachers, parents, and administrators in one single place."
+      }
+    },
+    "funciona": {
+      "titulo": "How does it work?",
+      "descripcion": "A simple and motivating step-by-step process that introduces school economy and well-being into the classroom.",
+      "step_1_titulo": "Earn virtual coins",
+      "step_1_desc": "Students receive virtual coins by meeting academic goals, demonstrating good coexistence, or logging their emotional state.",
+      "step_2_titulo": "Manage and save",
+      "step_2_desc": "Through their digital account, they learn to manage their income, plan expenses, and understand the value of long-term savings.",
+      "step_3_titulo": "Redeem rewards",
+      "step_3_desc": "Accumulated coins can be used in the school store to get educational benefits or incentives defined by teachers.",
+      "step_4_titulo": "Gain experience",
+      "step_4_desc": "Every positive action allows them to level up, unlock badges, and strengthen their personal and academic growth."
+    },
+    "comunidad": {
+      "titulo_1": "Impact on the entire",
+      "titulo_2": "school community",
+      "estudiantes": {
+        "titulo": "Students",
+        "item_1": "Immediate boost in classroom motivation.",
+        "item_2": "Practical development of healthy financial habits.",
+        "item_3": "Safe environment to track and understand emotions.",
+        "item_4": "Recognition through badges and unlockable levels.",
+        "item_5": "Enhanced school coexistence and peer camaraderie."
+      },
+      "docentes": {
+        "titulo": "Teachers",
+        "item_1": "Reduced time spent on behavior management.",
+        "item_2": "Clear insights into the classroom's emotional status.",
+        "item_3": "Automation of student rewards and goal tracking.",
+        "item_4": "Gamified teaching tools aligned with the curriculum.",
+        "item_5": "Real-time performance and progress reports."
+      },
+      "apoderados": {
+        "titulo": "Parents",
+        "item_1": "Greater visibility into their child's emotional well-being.",
+        "item_2": "Active involvement in their children's educational growth.",
+        "item_3": "Access to personalized tips for support at home.",
+        "item_4": "Clear and direct connection with the institution.",
+        "item_5": "Reinforcement of financial education from home."
+      }
+    }
+  }
+}

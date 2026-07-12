@@ -1,0 +1,89 @@
+{
+  "features": {
+    "hero": {
+      "title_line1": "Tudo o que você precisa,",
+      "title_line2": "em uma única plataforma",
+      "description": "O TiaJo Bank combina educação financeira, tecnologia e diversão para transformar a maneira como estudantes, professores e famílias aprendem e ensinam.",
+      "image_alt": "Funcionalidades do TiaJo Bank",
+      "mini1": {
+        "title": "Para toda a comunidade",
+        "desc": "Estudantes, professores, famílias e escolas.",
+        "alt": "Para toda a comunidade"
+      },
+      "mini2": {
+        "title": "Seguro e confiável",
+        "desc": "Protegemos os dados e a privacidade de todos.",
+        "alt": "Seguro e confiável"
+      },
+      "mini3": {
+        "title": "Fácil de usar",
+        "desc": "Projetado para aprender de forma simples e intuitiva.",
+        "alt": "Fácil de usar"
+      },
+      "actions": {
+        "demo": "Ver demonstração interativa",
+        "advisor": "Falar com um consultor"
+      }
+    },
+    "main": {
+      "heading_title": "Découvrez nos fonctionnalités principales",
+      "heading_subtitle": "Des outils puissants qui font de l'apprentissage financier une expérience unique.",
+      "learn_more": "En savoir plus →",
+      "more_box": {
+        "title": "Voulez-vous voir plus de fonctionnalités ?",
+        "desc": "TiaJo Bank inclut de nombreux autres outils pour les étudiants, les enseignants, les parents et les écoles.",
+        "button": "Afficher plus de fonctionnalités"
+      },
+      "cards": {
+        "lessons": {
+          "title": "Leçons interactives",
+          "desc": "Apprenez les concepts financiers grâce à des leçons courtes, dynamiques et alignées sur le programme scolaire."
+        },
+        "missions": {
+          "title": "Missions et défis",
+          "desc": "Remplissez des missions amusantes, gagnez des récompenses et développez des habitudes financières saines."
+        },
+        "games": {
+          "title": "Jeux éducatifs",
+          "desc": "Apprenez en jouant avec des activités interactives qui renforcent vos connaissances financières."
+        },
+        "savings": {
+          "title": "Épargne et objectifs",
+          "desc": "Créez des objectifs d'épargne, organisez votre argent et visualisez vos progrès à l'aide de graphiques simples."
+        },
+        "reports": {
+          "title": "Rapports et analyses",
+          "desc": "Les enseignants et les écoles peuvent suivre les progrès en temps réel."
+        },
+        "family": {
+          "title": "Participation familiale",
+          "desc": "Impliquez les familles grâce à un accès aux progrès, des recommandations et des ressources pour la maison."
+        },
+        "resources": {
+          "title": "Ressources et activités",
+          "desc": "Guides, modèles, activités imprimables et matériel prêt à l'emploi."
+        },
+        "security": {
+          "title": "Sécurité et confidentialité",
+          "desc": "Protection des données pour les étudiants, les enseignants et les familles."
+        },
+        "certifications": {
+          "title": "Certifications",
+          "desc": "Valorisez les réussites et les progrès avec des certificats numériques."
+        },
+        "badges": {
+          "title": "Badges et niveaux",
+          "desc": "Motivez les étudiants avec des accomplissements, des niveaux et des récompenses."
+        },
+        "teacher_panel": {
+          "title": "Tableau de bord enseignant",
+          "desc": "Gérez les cours, examinez les progrès et organisez les activités."
+        },
+        "communication": {
+          "title": "Communication scolaire",
+          "desc": "Connectez la communauté éducative depuis un seul et même endroit."
+        }
+      }
+    }
+  }
+}

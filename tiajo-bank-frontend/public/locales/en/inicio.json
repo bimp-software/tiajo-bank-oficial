@@ -41,5 +41,91 @@
         "description": "Brings together students, teachers, families, and support teams."
       }
     }
+  },
+  "process": {
+    "title": {
+      "before": "How does it",
+      "highlight": "work?"
+    },
+    "steps": {
+      "earn": {
+        "alt": "Educational coins",
+        "title": "Earn coins",
+        "description": "Students receive coins for responsibility, effort, and participation."
+      },
+      "save": {
+        "alt": "School savings",
+        "title": "Save and decide",
+        "description": "They learn to manage their symbolic resources and make decisions."
+      },
+      "redeem": {
+        "alt": "Rewards",
+        "title": "Redeem rewards",
+        "description": "They access benefits, challenges, prizes, and experiences within the class."
+      },
+      "celebrate": {
+        "alt": "Achievements",
+        "title": "Celebrate achievements",
+        "description": "Progress becomes visible and reinforces academic self-esteem."
+      }
+    }
+  },
+  "platform": {
+    "left": {
+      "title": {
+        "before": "A platform for",
+        "highlight": "the entire community"
+      },
+      "features": {
+        "teachers": "Dashboard for teachers and administrators.",
+        "management": "Management of students, courses, and coins.",
+        "roles": "Roles and permissions by user type.",
+        "reports": "Participation and progress reports.",
+        "access": "Access for parents and students.",
+        "multilang": "Multilanguage and accessible design."
+      },
+      "button": "Explore platform",
+      "img_alt": "TíaJo Bank Application"
+    },
+    "right": {
+      "title": "A community learning together",
+      "roles": {
+        "students": {
+          "title": "Students",
+          "description": "Participate, meet goals, and visualize their progress."
+        },
+        "teachers": {
+          "title": "Teachers",
+          "description": "Manage incentives, courses, and classroom dynamics."
+        },
+        "guardians": {
+          "title": "Parents",
+          "description": "Accompany the process and recognize achievements."
+        }
+      },
+      "testimonial": {
+        "quote": "When learning makes sense, students become more engaged.",
+        "author": "TíaJo Bank"
+      }
+    }
+  },
+  "final": {
+    "left": {
+      "title": {
+        "before": "Take school gamification",
+        "highlight": "to the next level"
+      },
+      "stats": {
+        "schools": { "number": "+500", "label": "Potential schools" },
+        "families": { "number": "+100,000", "label": "Reachable families" },
+        "coins": { "number": "+10M", "label": "Symbolic coins" },
+        "languages": { "number": "14", "label": "Projected languages" }
+      }
+    },
+    "right": {
+      "title": "Want to try TíaJo Bank?",
+      "description": "Request a demo and discover how it can adapt to your school.",
+      "button": "Request a demo"
+    }
   }
 }

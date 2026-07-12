@@ -1,4 +1,7 @@
-export default function Methodology({ t }) {
+import type { WithT } from "../../types/common";
+
+
+export default function Methodology({ t }:WithT) {
 
     return (
         <section className="section-soft">

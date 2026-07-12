@@ -41,5 +41,91 @@
         "description": "Implique les élèves, les enseignants, les familles et les équipes de soutien."
       }
     }
+  },
+  "process": {
+    "title": {
+      "before": "Comment ça",
+      "highlight": "marche ?"
+    },
+    "steps": {
+      "earn": {
+        "alt": "Pièces éducatives",
+        "title": "Gagner des pièces",
+        "description": "Les étudiants reçoivent des pièces pour leur responsabilité, leur effort et leur participation."
+      },
+      "save": {
+        "alt": "Épargne scolaire",
+        "title": "Épargner et décider",
+        "description": "Ils apprennent à gérer leurs ressources symboliques et à prendre des décisions."
+      },
+      "redeem": {
+        "alt": "Récompenses",
+        "title": "Échanger des récompenses",
+        "description": "Ils accèdent à des avantages, des défis, des prix et des expériences au sein de la classe."
+      },
+      "celebrate": {
+        "alt": "Réussites",
+        "title": "Célébrer les réussites",
+        "description": "Le progrès devient visible et renforce l'estime de soi académique."
+      }
+    }
+  },
+  "platform": {
+    "left": {
+      "title": {
+        "before": "Une plateforme pour",
+        "highlight": "toute la communauté"
+      },
+      "features": {
+        "teachers": "Tableau de bord pour enseignants et directeurs.",
+        "management": "Gestion des élèves, des cours et des pièces.",
+        "roles": "Rôles et permissions par type d'utilisateur.",
+        "reports": "Rapports de participation et de progrès.",
+        "access": "Accès pour les parents et les élèves.",
+        "multilang": "Design multilingue et accessible."
+      },
+      "button": "Explorer la plateforme",
+      "img_alt": "Application TíaJo Bank"
+    },
+    "right": {
+      "title": "Une communauté qui apprend ensemble",
+      "roles": {
+        "students": {
+          "title": "Élèves",
+          "description": "Ils participent, atteignent des objectifs et visualisent leurs progrès."
+        },
+        "teachers": {
+          "title": "Enseignants",
+          "description": "Ils gèrent les incitations, les cours et la dynamique de la classe."
+        },
+        "guardians": {
+          "title": "Parents",
+          "description": "Ils accompagnent le processus et reconnaissent les réussites."
+        }
+      },
+      "testimonial": {
+        "quote": "Lorsque l'apprentissage a du sens, les élèves s'impliquent davantage.",
+        "author": "TíaJo Bank"
+      }
+    }
+  },
+  "final": {
+    "left": {
+      "title": {
+        "before": "Poussez la gamification scolaire",
+        "highlight": "au niveau supérieur"
+      },
+      "stats": {
+        "schools": { "number": "+500", "label": "Écoles potentielles" },
+        "families": { "number": "+100 000", "label": "Familles joignables" },
+        "coins": { "number": "+10M", "label": "Pièces symboliques" },
+        "languages": { "number": "14", "label": "Langues projetées" }
+      }
+    },
+    "right": {
+      "title": "Voulez-vous essayer TíaJo Bank ?",
+      "description": "Demandez une démo et découvrez comment elle peut s'adapter à votre école.",
+      "button": "Demander une démo"
+    }
   }
 }

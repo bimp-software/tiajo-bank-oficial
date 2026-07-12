@@ -13,7 +13,7 @@ i18n
 
     supportedLngs: ["es", "en", "fr", "jp", "zh"],
 
-    ns: ["navbar", "footer", "home"],
+    ns: ["navbar", "footer", "inicio"],
     defaultNS: "navbar",
 
     interpolation: {

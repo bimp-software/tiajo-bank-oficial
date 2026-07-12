@@ -41,5 +41,91 @@
         "description": "児童・生徒、教師、保護者、支援チームをつなぎます。"
       }
     }
+  },
+  "process": {
+    "title": {
+      "before": "どのような",
+      "highlight": "仕組みですか？"
+    },
+    "steps": {
+      "earn": {
+        "alt": "教材用コイン",
+        "title": "コインを獲得する",
+        "description": "生徒は責任感、努力、そして参加度に応じてコインを受け取ります。"
+      },
+      "save": {
+        "alt": "学校での貯金",
+        "title": "貯金して決める",
+        "description": "象徴的なリソースを管理し、自分で意思決定することを学びます。"
+      },
+      "redeem": {
+        "alt": "ご褒美",
+        "title": "特典と交換する",
+        "description": "クラス内でのメリット、チャレンジ、景品、そして特別な体験にアクセスできます。"
+      },
+      "celebrate": {
+        "alt": "実績",
+        "title": "成果を祝う",
+        "description": "成長が目に見える形になり、学業に対する自己肯定感が 高まります。"
+      }
+    }
+  },
+  "platform": {
+    "left": {
+      "title": {
+        "before": "地域社会",
+        "highlight": "すべての人のためのプラットフォーム"
+      },
+      "features": {
+        "teachers": "教員・管理者用ダッシュボード",
+        "management": "生徒、クラス、コインの管理",
+        "roles": "ユーザータイプ別の役割と権限設定",
+        "reports": "参加度と成長のレポート機能",
+        "access": "保護者と生徒のためのアクセス権",
+        "multilang": "多言語対応かつアクセシブルなデザイン"
+      },
+      "button": "プラットフォームを体験する",
+      "img_alt": "TíaJo Bank アプリケーション"
+    },
+    "right": {
+      "title": "共に学び合うコミュニティ",
+      "roles": {
+        "students": {
+          "title": "生徒",
+          "description": "主体的に参加し、目標を達成し、自らの成長を可視化します。"
+        },
+        "teachers": {
+          "title": "教員",
+          "description": "インセンティブ、クラス、そして授業のダイナミクスを管理します。"
+        },
+        "guardians": {
+          "title": "保護者",
+          "description": "学びのプロセスに寄り添い、成果を共に認め合います。"
+        }
+      },
+      "testimonial": {
+        "quote": "学びに意味があると感じるとき、生徒はより深く熱中します。",
+        "author": "TíaJo Bank"
+      }
+    }
+  },
+  "final": {
+    "left": {
+      "title": {
+        "before": "学校のゲーミフィケーションを",
+        "highlight": "次のステージへ"
+      },
+      "stats": {
+        "schools": { "number": "+500", "label": "導入見込み校" },
+        "families": { "number": "+100,000", "label": "アプローチ可能な家庭" },
+        "coins": { "number": "+10M", "label": "流通予定の仮想コイン" },
+        "languages": { "number": "14", "label": "対応予定の言語" }
+      }
+    },
+    "right": {
+      "title": "TíaJo Bankを体験してみませんか？",
+      "description": "デモをリクエストして、あなたの学校にどのようにフィットするかを確かめましょう。",
+      "button": "デモを申し込む"
+    }
   }
 }

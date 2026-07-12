@@ -41,5 +41,91 @@
         "description": "连接学生、教师、家庭以及支持团队。"
       }
     }
+  },
+  "process": {
+    "title": {
+      "before": "如何",
+      "highlight": "运作？"
+    },
+    "steps": {
+      "earn": {
+        "alt": "教育代币",
+        "title": "赚取硬币",
+        "description": "学生因责任心、努力和积极参与而获得硬币。"
+      },
+      "save": {
+        "alt": "校园储蓄",
+        "title": "储蓄与决策",
+        "description": "他们学习如何管理自己的虚拟资源并做出决策。"
+      },
+      "redeem": {
+        "alt": "奖励",
+        "title": "兑换奖品",
+        "description": "他们可以获得班级内部的福利、挑战、奖品和专属体验。"
+      },
+      "celebrate": {
+        "alt": "成就",
+        "title": "庆祝成就",
+        "description": "进步变得清晰可见，从而增强他们在学业上的自信心。"
+      }
+    }
+  },
+  "platform": {
+    "left": {
+      "title": {
+        "before": "一个服务于",
+        "highlight": "整个社区的平台"
+      },
+      "features": {
+        "teachers": "教师与管理人员专用工作台。",
+        "management": "学生、班级及硬币管理。",
+        "roles": "按用户类型分配角色与权限。",
+        "reports": "参与度与进步分析报告。",
+        "access": "家长与学生专属访问入口。",
+        "multilang": "多语言且无障碍的可访问性设计。"
+      },
+      "button": "探索平台功能",
+      "img_alt": "TíaJo Bank 应用程序"
+    },
+    "right": {
+      "title": "共同学习成长的社区",
+      "roles": {
+        "students": {
+          "title": "学生",
+          "description": "积极参与、达成目标并清晰查看自身进步。"
+        },
+        "teachers": {
+          "title": "教师",
+          "description": "管理激励机制、日常课程与课堂互动。"
+        },
+        "guardians": {
+          "title": "家长",
+          "description": "全程陪伴成长过程，见证并认可每项成就。"
+        }
+      },
+      "testimonial": {
+        "quote": "当学习变得有意义时，学生才会更加投入。",
+        "author": "TíaJo Bank"
+      }
+    }
+  },
+  "final": {
+    "left": {
+      "title": {
+        "before": "将校园游戏化教育",
+        "highlight": "提升至全新高度"
+      },
+      "stats": {
+        "schools": { "number": "+500", "label": "潜在合作学校" },
+        "families": { "number": "+100,000", "label": "可触达家庭" },
+        "coins": { "number": "+10M", "label": "虚拟代币发行" },
+        "languages": { "number": "14", "label": "计划支持语言" }
+      }
+    },
+    "right": {
+      "title": "想要体验 TíaJo Bank 吗？",
+      "description": "立即申请演示，了解它如何完美契合您的学校的需求。",
+      "button": "申请演示"
+    }
   }
 }

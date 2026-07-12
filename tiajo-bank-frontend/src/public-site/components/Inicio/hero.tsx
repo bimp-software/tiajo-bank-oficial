@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
+import type { WithTAndLang } from "../../types/common";
+
 
 import HeroRanitas from "../../../shared/assets/images/hero-ranitas.webp";
 
 import "../../../shared/assets/styles/index.css";
 
 
-export default function Hero({ t, lang }) {
+export default function Hero({ t, lang }:WithTAndLang) {
 
 
     return (
