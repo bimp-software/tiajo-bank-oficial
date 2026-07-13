@@ -1,44 +1,44 @@
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import "../../shared/assets/styles/auth/student-login.css";
+import "../../shared/assets/styles/auth/guardian-login.css";
 
 import BackgroundImage from "../../shared/assets/images/auth/backgraund-login.webp";
 import LogoImage from "../../shared/assets/icons/logo-tiajobank.webp";
 import FrogImage from "../../shared/assets/images/auth/rana-otras-forma-de-acceso.webp";
 
-export default function StudentLoginPage() {
+export default function GuardianLoginPage() {
     const { t } = useTranslation("auth");
     const { lang = "es" } = useParams<{ lang: string }>();
 
     return (
-        <main className="student-login-page">
-            <div className="student-login-bg">
+        <main className="guardian-login-page">
+            <div className="guardian-login-bg">
                 <img
                     src={BackgroundImage}
                     alt=""
                 />
             </div>
 
-            <div className="student-login-shape student-shape-one"></div>
-            <div className="student-login-shape student-shape-two"></div>
+            <div className="guardian-login-shape guardian-shape-one"></div>
+            <div className="guardian-login-shape guardian-shape-two"></div>
 
-            <section className="student-login-wrapper">
-                <div className="student-login-card">
+            <section className="guardian-login-wrapper">
+                <div className="guardian-login-card">
                     <Link
                         to={`/${lang}/acceder/otro-acceso`}
-                        className="student-login-back"
+                        className="guardian-login-back"
                     >
                         <i className="bi bi-arrow-left-short"></i>
 
-                        {t("student_login.body.main_page.back")}
+                        {t("guardian_login.body.main_page.back")}
                     </Link>
 
-                    <div className="student-login-logo">
+                    <div className="guardian-login-logo">
                         <Link
                             to={`/${lang}`}
                             aria-label={t(
-                                "student_login.body.logo_link"
+                                "guardian_login.body.logo_link"
                             )}
                         >
                             <img
@@ -48,92 +48,92 @@ export default function StudentLoginPage() {
                         </Link>
                     </div>
 
-                    <div className="student-login-heading">
-                        <span className="student-login-badge">
-                            <i className="bi bi-mortarboard-fill"></i>
+                    <div className="guardian-login-heading">
+                        <span className="guardian-login-badge">
+                            <i className="bi bi-people-fill"></i>
 
                             {t(
-                                "student_login.body.main_page.badge"
+                                "guardian_login.body.main_page.badge"
                             )}
                         </span>
 
                         <h1>
                             {t(
-                                "student_login.body.main_page.title"
+                                "guardian_login.body.main_page.title"
                             )}
                         </h1>
 
                         <p>
                             {t(
-                                "student_login.body.main_page.description"
+                                "guardian_login.body.main_page.description"
                             )}
                         </p>
                     </div>
 
-                    <form className="student-login-form">
-                        <div className="student-form-group">
-                            <label htmlFor="institutionCode">
+                    <form className="guardian-login-form">
+                        <div className="guardian-form-group">
+                            <label htmlFor="guardianInstitution">
                                 {t(
-                                    "student_login.body.main_page.form.institution"
+                                    "guardian_login.body.main_page.form.institution"
                                 )}
                             </label>
 
-                            <div className="student-input-box">
+                            <div className="guardian-input-box">
                                 <i className="bi bi-building"></i>
 
                                 <input
-                                    id="institutionCode"
+                                    id="guardianInstitution"
                                     type="text"
                                     placeholder={t(
-                                        "student_login.body.main_page.form.placeholder_institution"
+                                        "guardian_login.body.main_page.form.placeholder_institution"
                                     )}
                                 />
                             </div>
                         </div>
 
-                        <div className="student-form-group">
-                            <label htmlFor="studentUser">
+                        <div className="guardian-form-group">
+                            <label htmlFor="guardianLogin">
                                 {t(
-                                    "student_login.body.main_page.form.username"
+                                    "guardian_login.body.main_page.form.username"
                                 )}
                             </label>
 
-                            <div className="student-input-box">
+                            <div className="guardian-input-box">
                                 <i className="bi bi-person"></i>
 
                                 <input
-                                    id="studentUser"
+                                    id="guardianLogin"
                                     type="text"
                                     placeholder={t(
-                                        "student_login.body.main_page.form.placeholder_username"
+                                        "guardian_login.body.main_page.form.placeholder_username"
                                     )}
                                 />
                             </div>
                         </div>
 
-                        <div className="student-form-group">
-                            <label htmlFor="studentPin">
+                        <div className="guardian-form-group">
+                            <label htmlFor="guardianPassword">
                                 {t(
-                                    "student_login.body.main_page.form.pin"
+                                    "guardian_login.body.main_page.form.password"
                                 )}
                             </label>
 
-                            <div className="student-input-box">
+                            <div className="guardian-input-box">
                                 <i className="bi bi-lock"></i>
 
                                 <input
-                                    id="studentPin"
+                                    id="guardianPassword"
                                     type="password"
                                     placeholder={t(
-                                        "student_login.body.main_page.form.placeholder_pin"
+                                        "guardian_login.body.main_page.form.placeholder_password"
                                     )}
                                 />
 
                                 <button
                                     type="button"
-                                    className="student-password-button"
+                                    className="guardian-password-button"
                                     aria-label={t(
-                                        "student_login.body.main_page.form.show_pin"
+                                        "guardian_login.body.main_page.form.show_password"
                                     )}
                                 >
                                     <i className="bi bi-eye"></i>
@@ -141,42 +141,42 @@ export default function StudentLoginPage() {
                             </div>
                         </div>
 
-                        <div className="student-login-options">
-                            <label className="student-remember">
+                        <div className="guardian-login-options">
+                            <label className="guardian-remember">
                                 <input type="checkbox" />
 
                                 <span>
                                     {t(
-                                        "student_login.body.main_page.form.remember"
+                                        "guardian_login.body.main_page.form.remember"
                                     )}
                                 </span>
                             </label>
 
                             <Link to="#">
                                 {t(
-                                    "student_login.body.main_page.form.forgot_pin"
+                                    "guardian_login.body.main_page.form.forgot_password"
                                 )}
                             </Link>
                         </div>
 
                         <button
                             type="button"
-                            className="student-login-button"
+                            className="guardian-login-button"
                         >
                             {t(
-                                "student_login.body.main_page.form.button"
+                                "guardian_login.body.main_page.form.button"
                             )}
 
                             <i className="bi bi-arrow-right"></i>
                         </button>
                     </form>
 
-                    <div className="student-login-divider">
+                    <div className="guardian-login-divider">
                         <span></span>
 
                         <p>
                             {t(
-                                "student_login.body.main_page.divider"
+                                "guardian_login.body.main_page.divider"
                             )}
                         </p>
 
@@ -184,91 +184,91 @@ export default function StudentLoginPage() {
                     </div>
 
                     <Link
-                        to={`/${lang}/acceder/codigo-qr`}
-                        className="student-login-qr"
+                        to="#"
+                        className="guardian-link-student"
                     >
-                        <div className="student-qr-icon">
-                            <i className="bi bi-qr-code-scan"></i>
+                        <div className="guardian-student-icon">
+                            <i className="bi bi-person-heart"></i>
                         </div>
 
-                        <div className="student-qr-content">
+                        <div className="guardian-student-content">
                             <strong>
                                 {t(
-                                    "student_login.body.main_page.qr.title"
+                                    "guardian_login.body.main_page.link_student.title"
                                 )}
                             </strong>
 
                             <small>
                                 {t(
-                                    "student_login.body.main_page.qr.description"
+                                    "guardian_login.body.main_page.link_student.description"
                                 )}
                             </small>
                         </div>
 
-                        <i className="bi bi-chevron-right student-qr-arrow"></i>
+                        <i className="bi bi-chevron-right guardian-student-arrow"></i>
                     </Link>
 
-                    <div className="student-login-help">
-                        <div className="student-help-icon">
+                    <div className="guardian-login-help">
+                        <div className="guardian-help-icon">
                             <i className="bi bi-question-circle-fill"></i>
                         </div>
 
                         <div>
                             <h3>
                                 {t(
-                                    "student_login.body.main_page.help.title"
+                                    "guardian_login.body.main_page.help.title"
                                 )}
                             </h3>
 
                             <p>
                                 {t(
-                                    "student_login.body.main_page.help.description"
+                                    "guardian_login.body.main_page.help.description"
                                 )}
                             </p>
                         </div>
                     </div>
 
-                    <div className="student-login-security">
+                    <div className="guardian-login-security">
                         <i className="bi bi-shield-check"></i>
 
                         <span>
                             {t(
-                                "student_login.body.main_page.security"
+                                "guardian_login.body.main_page.security"
                             )}
                         </span>
                     </div>
                 </div>
 
-                <aside className="student-login-visual">
-                    <div className="student-message">
+                <aside className="guardian-login-visual">
+                    <div className="guardian-message">
                         {t(
-                            "student_login.body.main_page.message.part_1"
+                            "guardian_login.body.main_page.message.part_1"
                         )}
 
                         <br />
 
                         <strong>
                             {t(
-                                "student_login.body.main_page.message.part_2"
+                                "guardian_login.body.main_page.message.part_2"
                             )}
                         </strong>
 
                         <br />
 
                         {t(
-                            "student_login.body.main_page.message.part_3"
+                            "guardian_login.body.main_page.message.part_3"
                         )}
 
-                        <i className="bi bi-stars"></i>
+                        <i className="bi bi-heart-fill"></i>
                     </div>
 
-                    <div className="student-frog-circle"></div>
+                    <div className="guardian-frog-circle"></div>
 
                     <img
                         src={FrogImage}
-                        className="student-login-frog"
+                        className="guardian-login-frog"
                         alt={t(
-                            "student_login.body.frog_alt"
+                            "guardian_login.body.frog_alt"
                         )}
                     />
                 </aside>

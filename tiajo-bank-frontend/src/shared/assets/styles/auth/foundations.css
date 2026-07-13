@@ -1,0 +1,723 @@
+.foundations-page {
+    width: 100%;
+    min-height: 100dvh;
+    height: 100dvh;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: .75rem 2rem;
+    background: #f4faf7;
+}
+
+.foundations-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.foundations-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foundations-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(244, 252, 248, .82);
+    backdrop-filter: blur(2px);
+}
+
+.foundations-shape {
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    opacity: .35;
+    pointer-events: none;
+}
+
+.foundations-shape-one {
+    width: 290px;
+    height: 290px;
+    top: -110px;
+    left: -90px;
+    background: #bbf7d0;
+}
+
+.foundations-shape-two {
+    width: 360px;
+    height: 360px;
+    right: -150px;
+    bottom: -160px;
+    background: #fde68a;
+}
+
+.foundations-wrapper {
+    width: min(1120px, 100%);
+    height: 100%;
+    max-height: calc(100dvh - 1.5rem);
+
+    position: relative;
+    z-index: 2;
+
+    display: grid;
+    grid-template-columns: minmax(0, 660px) minmax(300px, 390px);
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.foundations-card {
+    width: 100%;
+    max-height: calc(100dvh - 1.5rem);
+
+    padding: .9rem 1.7rem;
+    border: 1px solid rgba(255, 255, 255, .9);
+    border-radius: 28px;
+
+    background: rgba(255, 255, 255, .97);
+    box-shadow: 0 30px 70px rgba(21, 94, 61, .14);
+}
+
+.foundations-back {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    margin-bottom: .1rem;
+
+    color: #64748b;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 800;
+
+    transition: .2s ease;
+}
+
+.foundations-back i {
+    font-size: 1.1rem;
+}
+
+.foundations-back:hover {
+    color: #166534;
+}
+
+.foundations-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: .1rem;
+}
+
+.foundations-logo a {
+    display: inline-flex;
+}
+
+.foundations-logo img {
+    width: 132px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.foundations-heading {
+    text-align: center;
+    margin-bottom: .65rem;
+}
+
+.foundations-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+
+    padding: .3rem .75rem;
+    margin-bottom: .4rem;
+
+    border-radius: 999px;
+    background: #ecfdf3;
+    color: #15803d;
+
+    font-size: .72rem;
+    font-weight: 900;
+}
+
+.foundations-heading h1 {
+    margin: 0 0 .2rem;
+    color: #10251d;
+
+    font-size: clamp(1.55rem, 3vw, 1.9rem);
+    line-height: 1.08;
+    font-weight: 950;
+}
+
+.foundations-heading p {
+    max-width: 535px;
+    margin: 0 auto;
+
+    color: #64748b;
+    font-size: .8rem;
+    line-height: 1.35;
+}
+
+.foundations-form {
+    display: grid;
+    gap: .45rem;
+}
+
+.foundations-form-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .65rem;
+}
+
+.foundations-form-group {
+    display: grid;
+    gap: .22rem;
+}
+
+.foundations-form-group label {
+    color: #1f2937;
+    font-size: .75rem;
+    font-weight: 900;
+}
+
+.foundations-input-box {
+    min-height: 42px;
+
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+
+    padding: 0 .85rem;
+
+    border: 1px solid #dbe3df;
+    border-radius: 13px;
+    background: #fff;
+
+    transition: .2s ease;
+}
+
+.foundations-input-box:focus-within,
+.foundations-textarea-box:focus-within {
+    border-color: #22c55e;
+    box-shadow: 0 0 0 4px rgba(34, 197, 94, .1);
+}
+
+.foundations-input-box > i:first-child,
+.foundations-textarea-box > i {
+    flex: 0 0 auto;
+    color: #16a34a;
+    font-size: .95rem;
+}
+
+.foundations-input-box input,
+.foundations-input-box select {
+    width: 100%;
+    min-width: 0;
+    height: 40px;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+
+    color: #111827;
+    font-size: .82rem;
+    font-weight: 700;
+}
+
+.foundations-input-box input::placeholder,
+.foundations-textarea-box textarea::placeholder {
+    color: #94a3b8;
+    font-weight: 600;
+}
+
+.foundations-select-box select {
+    appearance: none;
+    cursor: default;
+}
+
+.foundations-select-box > i:last-child {
+    flex: 0 0 auto;
+    color: #64748b;
+    font-size: .85rem;
+}
+
+.foundations-textarea-box {
+    min-height: 70px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: .65rem;
+
+    padding: .7rem .85rem;
+
+    border: 1px solid #dbe3df;
+    border-radius: 13px;
+    background: #fff;
+
+    transition: .2s ease;
+}
+
+.foundations-textarea-box > i {
+    margin-top: .15rem;
+}
+
+.foundations-textarea-box textarea {
+    width: 100%;
+    min-height: 52px;
+
+    border: 0;
+    outline: 0;
+    resize: none;
+    background: transparent;
+
+    color: #111827;
+    font-family: inherit;
+    font-size: .82rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.foundations-check {
+    display: flex;
+    align-items: flex-start;
+    gap: .45rem;
+
+    color: #475569;
+    font-size: .68rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.foundations-check input {
+    width: 14px;
+    height: 14px;
+    margin-top: .05rem;
+    accent-color: #16a34a;
+}
+
+.foundations-button {
+    min-height: 43px;
+    margin-top: .05rem;
+
+    border: 0;
+    border-radius: 14px;
+
+    background: linear-gradient(
+        135deg,
+        #15803d 0%,
+        #22c55e 100%
+    );
+
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+
+    font-size: .86rem;
+    font-weight: 950;
+
+    box-shadow: 0 12px 24px rgba(22, 163, 74, .2);
+    cursor: default;
+}
+
+.foundations-button i {
+    font-size: .9rem;
+}
+
+.foundations-divider {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: .7rem;
+
+    margin: .5rem 0;
+}
+
+.foundations-divider span {
+    height: 1px;
+    background: #e2e8f0;
+}
+
+.foundations-divider p {
+    margin: 0;
+
+    color: #94a3b8;
+    font-size: .68rem;
+    font-weight: 750;
+}
+
+.foundations-impact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .55rem;
+}
+
+.foundations-impact-card {
+    min-height: 58px;
+    padding: .55rem;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    background: #fff;
+
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+}
+
+.foundations-impact-card > i {
+    flex: 0 0 auto;
+    color: #16a34a;
+    font-size: 1rem;
+}
+
+.foundations-impact-card strong {
+    display: block;
+    margin-bottom: .08rem;
+
+    color: #1f2937;
+    font-size: .68rem;
+    font-weight: 950;
+}
+
+.foundations-impact-card small {
+    display: block;
+
+    color: #64748b;
+    font-size: .58rem;
+    line-height: 1.25;
+}
+
+.foundations-help {
+    margin-top: .5rem;
+    padding: .55rem .75rem;
+
+    border-radius: 14px;
+    background: #f8fafc;
+
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+}
+
+.foundations-help-icon {
+    flex: 0 0 auto;
+
+    width: 34px;
+    height: 34px;
+
+    border-radius: 10px;
+    background: #fff7d6;
+    color: #d97706;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: .95rem;
+}
+
+.foundations-help h3 {
+    margin: 0 0 .08rem;
+
+    color: #1f2937;
+    font-size: .73rem;
+    font-weight: 900;
+}
+
+.foundations-help p {
+    margin: 0;
+
+    color: #64748b;
+    font-size: .64rem;
+    line-height: 1.3;
+}
+
+.foundations-visual {
+    position: relative;
+
+    min-height: 460px;
+    height: min(520px, calc(100dvh - 2rem));
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.foundations-frog-circle {
+    position: absolute;
+
+    width: 320px;
+    height: 320px;
+    bottom: 20px;
+
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .62);
+    border: 2px solid rgba(255, 255, 255, .95);
+
+    box-shadow: 0 25px 60px rgba(22, 163, 74, .12);
+}
+
+.foundations-frog {
+    position: relative;
+    z-index: 2;
+
+    width: min(340px, 100%);
+    max-height: 420px;
+
+    object-fit: contain;
+}
+
+.foundations-message {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: 3;
+
+    max-width: 280px;
+    padding: .85rem 1rem;
+
+    border-radius: 20px 20px 20px 5px;
+    background: #fff;
+    color: #334155;
+
+    box-shadow: 0 15px 35px rgba(15, 23, 42, .12);
+
+    font-size: .88rem;
+    font-weight: 750;
+    line-height: 1.4;
+}
+
+.foundations-message strong {
+    color: #15803d;
+    font-size: 1rem;
+}
+
+.foundations-message i {
+    margin-left: .3rem;
+    color: #ef4444;
+}
+
+@media (min-width: 931px) and (max-height: 760px) {
+    .foundations-page {
+        padding: .3rem 2rem;
+    }
+
+    .foundations-wrapper {
+        max-height: calc(100dvh - .6rem);
+    }
+
+    .foundations-card {
+        max-height: calc(100dvh - .6rem);
+        padding: .55rem 1.5rem;
+        border-radius: 22px;
+    }
+
+    .foundations-logo img {
+        width: 115px;
+        height: 42px;
+    }
+
+    .foundations-heading {
+        margin-bottom: .4rem;
+    }
+
+    .foundations-heading h1 {
+        font-size: 1.45rem;
+    }
+
+    .foundations-heading p {
+        font-size: .7rem;
+    }
+
+    .foundations-form {
+        gap: .3rem;
+    }
+
+    .foundations-input-box {
+        min-height: 37px;
+    }
+
+    .foundations-input-box input,
+    .foundations-input-box select {
+        height: 35px;
+        font-size: .76rem;
+    }
+
+    .foundations-textarea-box {
+        min-height: 58px;
+        padding: .5rem .75rem;
+    }
+
+    .foundations-textarea-box textarea {
+        min-height: 40px;
+        font-size: .76rem;
+    }
+
+    .foundations-button {
+        min-height: 39px;
+    }
+
+    .foundations-impact-card {
+        min-height: 48px;
+    }
+
+    .foundations-impact-card small {
+        display: none;
+    }
+
+    .foundations-help {
+        margin-top: .35rem;
+        padding: .4rem .65rem;
+    }
+
+    .foundations-visual {
+        min-height: 410px;
+        height: calc(100dvh - 1rem);
+    }
+
+    .foundations-frog-circle {
+        width: 290px;
+        height: 290px;
+    }
+
+    .foundations-frog {
+        width: min(310px, 100%);
+        max-height: 380px;
+    }
+}
+
+@media (max-width: 930px) {
+    .foundations-page {
+        height: auto;
+        min-height: 100dvh;
+
+        align-items: flex-start;
+
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        padding: 1rem;
+    }
+
+    .foundations-wrapper {
+        width: 100%;
+        height: auto;
+        max-height: none;
+
+        grid-template-columns: 1fr;
+    }
+
+    .foundations-card {
+        width: 100%;
+        max-width: 680px;
+        max-height: none;
+
+        margin: 0 auto;
+    }
+
+    .foundations-visual {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .foundations-page {
+        padding: .75rem;
+    }
+
+    .foundations-card {
+        padding: 1.1rem;
+        border-radius: 22px;
+    }
+
+    .foundations-logo img {
+        width: 125px;
+        height: 52px;
+    }
+
+    .foundations-heading {
+        margin-bottom: 1rem;
+    }
+
+    .foundations-heading h1 {
+        font-size: 1.65rem;
+    }
+
+    .foundations-heading p {
+        font-size: .82rem;
+    }
+
+    .foundations-form {
+        gap: .7rem;
+    }
+
+    .foundations-form-row {
+        grid-template-columns: 1fr;
+        gap: .7rem;
+    }
+
+    .foundations-input-box {
+        min-height: 50px;
+    }
+
+    .foundations-input-box input,
+    .foundations-input-box select {
+        height: 48px;
+        font-size: .9rem;
+    }
+
+    .foundations-textarea-box {
+        min-height: 105px;
+    }
+
+    .foundations-textarea-box textarea {
+        min-height: 85px;
+        font-size: .9rem;
+    }
+
+    .foundations-button {
+        min-height: 50px;
+    }
+
+    .foundations-divider {
+        margin: .85rem 0;
+    }
+
+    .foundations-impact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .foundations-impact-card {
+        min-height: 62px;
+        padding: .75rem;
+    }
+
+    .foundations-impact-card strong {
+        font-size: .82rem;
+    }
+
+    .foundations-impact-card small {
+        font-size: .7rem;
+    }
+
+    .foundations-help {
+        margin-top: .8rem;
+        padding: .75rem;
+    }
+
+    .foundations-help h3 {
+        font-size: .82rem;
+    }
+
+    .foundations-help p {
+        font-size: .72rem;
+    }
+}

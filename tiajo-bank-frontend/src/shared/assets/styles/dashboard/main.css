@@ -1,0 +1,287 @@
+:root {
+    --tj-sidebar: #255D50;
+    --tj-sidebar-dark: #1E4B41;
+    --tj-text: #F8FAFC;
+    --tj-muted: #D6E2DD;
+    --tj-primary: #FACC15;
+    --tj-border: rgba(255,255,255,.12);
+}
+
+/* ==========================================
+   SIDEBAR BASE
+========================================== */
+.sidebar-tiajo {
+    height: 100vh;
+    background: linear-gradient(
+        180deg,
+        var(--tj-sidebar),
+        var(--tj-sidebar-dark)
+    );
+
+    display: flex;
+    flex-direction: column;
+
+    padding: .95rem .85rem;
+    overflow: hidden;
+}
+
+/* ==========================================
+   LOGO
+========================================== */
+.sidebar-tiajo .sidebar-logo {
+    flex-shrink: 0;
+    text-align: center;
+
+    padding-bottom: 1rem;
+    margin-bottom: .85rem;
+
+    border-bottom: 1px solid var(--tj-border);
+}
+
+.sidebar-tiajo .sidebar-logo img {
+    width: 118px;
+    max-width: 100%;
+}
+
+/* ==========================================
+   MENU SCROLL
+========================================== */
+.sidebar-tiajo .sidebar-menu {
+    flex: 1;
+    min-height: 0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding-right: .2rem;
+}
+
+/* Scroll bonito */
+.sidebar-tiajo .sidebar-menu::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar-tiajo .sidebar-menu::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,.22);
+    border-radius: 999px;
+}
+
+/* ==========================================
+   TITULOS
+========================================== */
+.sidebar-tiajo .menu-title {
+    display: block;
+
+    margin: 1.1rem .55rem .45rem;
+
+    font-size: .68rem;
+    font-weight: 800;
+
+    letter-spacing: .08rem;
+    text-transform: uppercase;
+
+    color: rgba(248,250,252,.58) !important;
+}
+
+/* ==========================================
+   LINKS PRINCIPALES
+========================================== */
+.sidebar-tiajo > .sidebar-menu > .menu-link,
+.sidebar-tiajo .menu-dropdown summary {
+
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+
+    width: 100%;
+    min-height: 46px;
+
+    padding: .78rem .9rem;
+
+    border-radius: .85rem;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    font-size: .92rem;
+    font-weight: 700;
+
+    color: var(--tj-text) !important;
+
+    transition: all .18s ease;
+}
+
+.sidebar-tiajo .menu-link span,
+.sidebar-tiajo .menu-dropdown summary span {
+    color: var(--tj-text) !important;
+}
+
+.sidebar-tiajo .menu-link i,
+.sidebar-tiajo .menu-dropdown summary i {
+    color: var(--tj-muted) !important;
+    font-size: 1rem;
+}
+
+/* Hover */
+.sidebar-tiajo > .sidebar-menu > .menu-link:hover,
+.sidebar-tiajo .menu-dropdown summary:hover {
+    background: rgba(255,255,255,.10);
+}
+
+/* Activo */
+.sidebar-tiajo > .sidebar-menu > .menu-link.active {
+    background: rgba(250,204,21,.16);
+}
+
+.sidebar-tiajo > .sidebar-menu > .menu-link.active span {
+    color: #fff !important;
+}
+
+.sidebar-tiajo > .sidebar-menu > .menu-link.active i {
+    color: var(--tj-primary) !important;
+}
+
+/* ==========================================
+   DROPDOWN
+========================================== */
+.sidebar-tiajo .menu-dropdown {
+    margin: .15rem 0;
+}
+
+.sidebar-tiajo .menu-dropdown summary {
+    list-style: none;
+}
+
+.sidebar-tiajo .menu-dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+.sidebar-tiajo .menu-dropdown summary span {
+    flex: 1;
+}
+
+/* Flecha */
+.sidebar-tiajo .arrow {
+    font-size: .72rem !important;
+    opacity: .8;
+
+    transition: transform .2s ease;
+}
+
+.sidebar-tiajo .menu-dropdown[open] .arrow {
+    transform: rotate(90deg);
+}
+
+/* ==========================================
+   SUBMENU
+========================================== */
+.sidebar-tiajo .submenu {
+    margin-top: .25rem;
+    margin-bottom: .4rem;
+
+    margin-left: 1rem;
+    padding-left: .9rem;
+
+    border-left: 1px solid rgba(255,255,255,.12);
+}
+
+/* IMPORTANTE: arregla descuadre */
+.sidebar-tiajo .submenu a,
+.sidebar-tiajo .submenu .menu-link {
+
+    display: block;
+    width: 100%;
+
+    padding: .52rem .7rem;
+    margin: .08rem 0;
+
+    border-radius: .65rem;
+
+    text-decoration: none;
+
+    color: rgba(248,250,252,.82) !important;
+
+    font-size: .84rem;
+    font-weight: 600;
+
+    background: transparent;
+
+    transition: all .18s ease;
+}
+
+.sidebar-tiajo .submenu a:hover,
+.sidebar-tiajo .submenu .menu-link:hover {
+    background: rgba(255,255,255,.08);
+    color: #fff !important;
+}
+
+.sidebar-tiajo .submenu a.active,
+.sidebar-tiajo .submenu .menu-link.active {
+    background: rgba(250,204,21,.15);
+    color: var(--tj-primary) !important;
+}
+
+/* ==========================================
+   HELP CARD
+========================================== */
+.sidebar-tiajo .sidebar-help {
+    flex-shrink: 0;
+
+    margin-top: .9rem;
+
+    background: rgba(255,255,255,.08);
+    border: 1px solid var(--tj-border);
+
+    border-radius: 1rem;
+
+    padding: .95rem;
+
+    text-align: center;
+}
+
+.sidebar-tiajo .sidebar-help img {
+    width: 64px;
+}
+
+.sidebar-tiajo .sidebar-help h6 {
+    margin-top: .45rem;
+    margin-bottom: .25rem;
+
+    color: #fff !important;
+    font-weight: 800;
+}
+
+.sidebar-tiajo .sidebar-help p {
+    color: rgba(248,250,252,.72) !important;
+
+    font-size: .78rem;
+    line-height: 1.35;
+
+    margin-bottom: .8rem;
+}
+
+/* ==========================================
+   BOTON HELP
+========================================== */
+.sidebar-tiajo .btn-help {
+    display: block;
+    width: 100%;
+
+    padding: .68rem;
+
+    border-radius: .75rem;
+
+    background: #fff;
+    color: #255D50 !important;
+
+    text-decoration: none;
+    font-weight: 800;
+    font-size: .85rem;
+
+    transition: all .18s ease;
+}
+
+.sidebar-tiajo .btn-help:hover {
+    transform: translateY(-1px);
+    background: #f8fafc;
+}

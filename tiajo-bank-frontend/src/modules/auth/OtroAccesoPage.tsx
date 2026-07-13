@@ -55,7 +55,7 @@ export default function OtroAccesoPage() {
                 <div className="access-options-area">
                     <div className="access-options-grid">
                         <Link
-                            to="#"
+                            to={`/${lang}/acceder/estudiante`}
                             className="access-type-card"
                         >
                             <div className="access-type-img">
@@ -74,7 +74,7 @@ export default function OtroAccesoPage() {
                         </Link>
 
                         <Link
-                            to="#"
+                            to={`/${lang}/acceder/apoderado`}
                             className="access-type-card"
                         >
                             <div className="access-type-img">
@@ -100,7 +100,7 @@ export default function OtroAccesoPage() {
                         </Link>
 
                         <Link
-                            to="#"
+                            to={`/${lang}/acceder/comunidad-docente`}
                             className="access-type-card"
                         >
                             <div className="access-type-img">
@@ -126,7 +126,7 @@ export default function OtroAccesoPage() {
                         </Link>
 
                         <Link
-                            to="#"
+                            to={`/${lang}/acceder/fundaciones-asociaciones`}
                             className="access-type-card"
                         >
                             <div className="access-type-img">
@@ -152,7 +152,7 @@ export default function OtroAccesoPage() {
                         </Link>
 
                         <Link
-                            to="#"
+                            to={`/${lang}/acceder/instituciones`}
                             className="access-type-card"
                         >
                             <div className="access-type-img">
