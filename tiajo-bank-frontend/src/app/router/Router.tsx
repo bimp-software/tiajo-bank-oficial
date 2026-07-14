@@ -21,6 +21,8 @@ import InstitutionsPage from "../../modules/auth/InstitutionsPage";
 
 import Index from "../../modules/dashboard/pages/Index";
 import ActividadPage from "../../modules/dashboard/pages/educacion/ActividadPage";
+import MaterialEducativoPage from "../../modules/dashboard/pages/educacion/MaterialEducativoPage";
+import LaboratorioVirtualPage from "../../modules/dashboard/pages/educacion/LaboratorioVirtualPage";
 
 export default function Router(){
     return (
@@ -50,6 +52,8 @@ export default function Router(){
                 <Route index element={<Index />} />
                 <Route path="gestion-educativa">
                     <Route path="actividades" element={<ActividadPage />} />
+                    <Route path="material-educativo" element={<MaterialEducativoPage />} />
+                    <Route path="laboratorio-virtual" element={<LaboratorioVirtualPage />} />
                 </Route>
 
             </Route>

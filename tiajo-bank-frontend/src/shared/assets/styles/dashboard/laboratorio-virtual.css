@@ -1,0 +1,1004 @@
+.tj-lab-page {
+    --lab-dark: #071326;
+    --lab-dark-soft: #0d1b32;
+    --lab-primary: #255d50;
+    --lab-accent: #facc15;
+    --lab-purple: #6d35d8;
+    --lab-text: #172036;
+    --lab-muted: #68728a;
+    --lab-border: #e4e9f1;
+
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+/* Cabecera */
+
+.tj-lab-header {
+    display: grid;
+    grid-template-columns: minmax(250px, 1fr) minmax(260px, 420px) auto;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+    padding: 1rem 1.2rem;
+
+    color: #fff;
+
+    background:
+        radial-gradient(
+            circle at 85% 20%,
+            rgba(70, 94, 255, 0.18),
+            transparent 30%
+        ),
+        linear-gradient(135deg, #071326, #0c1930);
+
+    border-radius: 19px;
+
+    box-shadow:
+        0 18px 45px rgba(6, 16, 36, 0.2),
+        0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.tj-lab-title {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.tj-lab-title-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+
+    color: #7dd3fc;
+    font-size: 1.35rem;
+
+    background-color: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(125, 211, 252, 0.18);
+    border-radius: 15px;
+}
+
+.tj-lab-title h1 {
+    margin: 0 0 0.25rem;
+
+    color: #fff;
+    font-size: 1.35rem;
+    font-weight: 850;
+}
+
+.tj-lab-title p {
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.68rem;
+}
+
+.tj-lab-search {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    padding: 0 0.85rem;
+
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+}
+
+.tj-lab-search i {
+    color: #d6dded;
+}
+
+.tj-lab-search input {
+    width: 100%;
+    min-height: 44px;
+
+    color: #fff;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.tj-lab-search input::placeholder {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.7rem;
+}
+
+.tj-lab-player-stats {
+    display: flex;
+    gap: 0.55rem;
+}
+
+.tj-lab-player-stats > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    min-height: 48px;
+    padding: 0.55rem 0.75rem;
+
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+}
+
+.tj-lab-player-stats > div > span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 31px;
+    height: 31px;
+
+    border-radius: 10px;
+}
+
+.tj-lab-player-stats .coin {
+    color: #facc15;
+    background-color: rgba(250, 204, 21, 0.14);
+}
+
+.tj-lab-player-stats .badge-icon {
+    color: #a78bfa;
+    background-color: rgba(139, 92, 246, 0.15);
+}
+
+.tj-lab-player-stats .experiment-icon {
+    color: #60a5fa;
+    background-color: rgba(59, 130, 246, 0.15);
+}
+
+.tj-lab-player-stats strong,
+.tj-lab-player-stats small {
+    display: block;
+}
+
+.tj-lab-player-stats strong {
+    color: #fff;
+    font-size: 0.72rem;
+}
+
+.tj-lab-player-stats small {
+    color: rgba(255, 255, 255, 0.57);
+    font-size: 0.53rem;
+}
+
+/* Categorías */
+
+.tj-lab-categories {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.75rem;
+
+    margin-bottom: 1rem;
+}
+
+.tj-lab-category {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    min-height: 82px;
+    padding: 0.85rem;
+
+    color: #fff;
+    text-align: left;
+
+    border: 0;
+    border-radius: 15px;
+
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        outline 0.2s ease;
+}
+
+.tj-lab-category:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 25px rgba(15, 23, 42, 0.16);
+}
+
+.tj-lab-category.active {
+    outline: 3px solid rgba(250, 204, 21, 0.65);
+}
+
+.tj-lab-category.quimica {
+    background: linear-gradient(135deg, #2563eb, #1948a8);
+}
+
+.tj-lab-category.fisica {
+    background: linear-gradient(135deg, #5443c9, #392c91);
+}
+
+.tj-lab-category.ciencias {
+    background: linear-gradient(135deg, #15803d, #166534);
+}
+
+.tj-lab-category.economia {
+    background: linear-gradient(135deg, #b56712, #7c3f08);
+}
+
+.tj-lab-category.robotica {
+    background: linear-gradient(135deg, #147b85, #0f5c65);
+}
+
+.tj-lab-category.programacion {
+    background: linear-gradient(135deg, #3159b7, #243f89);
+}
+
+.tj-lab-category > span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+
+    font-size: 1.2rem;
+
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 12px;
+}
+
+.tj-lab-category > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.tj-lab-category strong {
+    font-size: 0.75rem;
+}
+
+.tj-lab-category small {
+    margin-top: 0.15rem;
+
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.55rem;
+    line-height: 1.35;
+}
+
+/* Paneles */
+
+.tj-lab-panel {
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+    background-color: #fff;
+    border: 1px solid var(--lab-border);
+    border-radius: 18px;
+
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.055);
+}
+
+.tj-lab-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    margin-bottom: 0.85rem;
+}
+
+.tj-lab-panel-header > div:first-child > span {
+    display: block;
+
+    color: #6d35d8;
+    font-size: 0.56rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.tj-lab-panel-header h2 {
+    margin: 0.15rem 0 0;
+
+    color: var(--lab-text);
+    font-size: 0.95rem;
+    font-weight: 800;
+}
+
+.tj-lab-panel-header button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+
+    color: #4932cf;
+    font-size: 0.62rem;
+    font-weight: 700;
+
+    background: none;
+    border: 0;
+}
+
+/* Experimentos */
+
+.tj-lab-experiments-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.7rem;
+}
+
+.tj-lab-experiment-card {
+    overflow: hidden;
+
+    background-color: #fff;
+    border: 1px solid var(--lab-border);
+    border-radius: 14px;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.tj-lab-experiment-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.12);
+}
+
+.tj-lab-experiment-image {
+    position: relative;
+    overflow: hidden;
+
+    height: 150px;
+}
+
+.tj-lab-experiment-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.tj-lab-experiment-card:hover img {
+    transform: scale(1.05);
+}
+
+.tj-lab-experiment-image > button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    color: #fff;
+
+    background-color: rgba(15, 23, 42, 0.45);
+    border: 0;
+    border-radius: 9px;
+}
+
+.tj-lab-experiment-category {
+    position: absolute;
+    top: 0.55rem;
+    left: 0.55rem;
+
+    padding: 0.25rem 0.5rem;
+
+    color: #fff;
+    font-size: 0.53rem;
+    font-weight: 800;
+
+    border-radius: 999px;
+}
+
+.tj-lab-experiment-category.quimica {
+    background-color: #2563eb;
+}
+
+.tj-lab-experiment-category.fisica {
+    background-color: #6d35d8;
+}
+
+.tj-lab-experiment-category.ciencias {
+    background-color: #16a34a;
+}
+
+.tj-lab-experiment-category.economia {
+    background-color: #f59e0b;
+}
+
+.tj-lab-experiment-category.robotica {
+    background-color: #0f9fac;
+}
+
+.tj-lab-experiment-category.programacion {
+    background-color: #3159b7;
+}
+
+.tj-lab-experiment-body {
+    padding: 0.75rem;
+}
+
+.tj-lab-experiment-body h3 {
+    margin: 0 0 0.3rem;
+
+    color: var(--lab-text);
+    font-size: 0.73rem;
+    font-weight: 800;
+}
+
+.tj-lab-experiment-body p {
+    min-height: 38px;
+    margin-bottom: 0.6rem;
+
+    color: var(--lab-muted);
+    font-size: 0.58rem;
+    line-height: 1.45;
+}
+
+.tj-lab-experiment-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.4rem;
+
+    padding-top: 0.55rem;
+
+    border-top: 1px solid #edf0f5;
+}
+
+.tj-lab-experiment-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+
+    color: var(--lab-muted);
+    font-size: 0.52rem;
+}
+
+.tj-lab-experiment-meta .bi-star-fill {
+    color: #f59e0b;
+}
+
+.tj-lab-empty {
+    padding: 3rem;
+    text-align: center;
+}
+
+.tj-lab-empty i {
+    color: #6d35d8;
+    font-size: 2rem;
+}
+
+.tj-lab-empty h3 {
+    margin-top: 0.75rem;
+
+    color: var(--lab-text);
+    font-size: 0.9rem;
+}
+
+.tj-lab-empty p {
+    color: var(--lab-muted);
+    font-size: 0.65rem;
+}
+
+/* Tabs */
+
+.tj-lab-tabs {
+    display: flex;
+    gap: 0.35rem;
+}
+
+.tj-lab-tabs button {
+    padding: 0.35rem 0.55rem;
+
+    color: #6b7280;
+    font-size: 0.58rem;
+    font-weight: 700;
+
+    border-bottom: 2px solid transparent;
+}
+
+.tj-lab-tabs button.active {
+    color: #5634d6;
+    border-bottom-color: #5634d6;
+}
+
+/* Mi laboratorio */
+
+.tj-my-lab-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.7rem;
+}
+
+.tj-my-lab-card {
+    overflow: hidden;
+
+    border: 1px solid var(--lab-border);
+    border-radius: 13px;
+}
+
+.tj-my-lab-cover {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 110px;
+
+    color: #fff;
+    font-size: 2rem;
+
+    background:
+        radial-gradient(
+            circle at 80% 10%,
+            rgba(250, 204, 21, 0.3),
+            transparent 25%
+        ),
+        linear-gradient(135deg, #18385d, #0a1d35);
+}
+
+.tj-my-lab-cover > span {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+
+    padding: 0.24rem 0.45rem;
+
+    color: #573a00;
+    font-size: 0.5rem;
+    font-weight: 800;
+
+    background-color: #facc15;
+    border-radius: 999px;
+}
+
+.tj-my-lab-cover > span.completed {
+    color: #fff;
+    background-color: #16a34a;
+}
+
+.tj-my-lab-content {
+    padding: 0.7rem;
+}
+
+.tj-my-lab-content > strong {
+    display: block;
+
+    color: var(--lab-text);
+    font-size: 0.67rem;
+}
+
+.tj-my-lab-content > small {
+    color: #5945c9;
+    font-size: 0.53rem;
+}
+
+.tj-my-lab-progress {
+    margin-top: 0.65rem;
+}
+
+.tj-my-lab-progress > span {
+    display: block;
+    margin-bottom: 0.3rem;
+
+    color: var(--lab-muted);
+    font-size: 0.53rem;
+}
+
+.tj-my-lab-progress .progress {
+    height: 6px;
+    background-color: #e9eaf1;
+    border-radius: 999px;
+}
+
+.tj-my-lab-progress .progress-bar {
+    background-color: #5133c6;
+    border-radius: 999px;
+}
+
+/* Desafíos */
+
+.tj-lab-challenges {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+}
+
+.tj-lab-challenges > div {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+
+    padding: 0.7rem;
+
+    background-color: #fafbfe;
+    border: 1px solid #e8ebf3;
+    border-radius: 12px;
+}
+
+.challenge-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+
+    border-radius: 11px;
+}
+
+.challenge-icon.fire {
+    color: #ef4444;
+    background-color: #fee2e2;
+}
+
+.challenge-icon.lightning {
+    color: #d97706;
+    background-color: #fef3c7;
+}
+
+.challenge-icon.robot {
+    color: #0f766e;
+    background-color: #ccfbf1;
+}
+
+.challenge-icon.code {
+    color: #2563eb;
+    background-color: #dbeafe;
+}
+
+.tj-lab-challenges > div > div {
+    flex: 1;
+}
+
+.tj-lab-challenges strong,
+.tj-lab-challenges small {
+    display: block;
+}
+
+.tj-lab-challenges strong {
+    color: var(--lab-text);
+    font-size: 0.62rem;
+}
+
+.tj-lab-challenges small {
+    margin-top: 0.12rem;
+
+    color: var(--lab-muted);
+    font-size: 0.5rem;
+}
+
+.tj-lab-challenges .progress {
+    height: 5px;
+    margin-top: 0.45rem;
+
+    background-color: #e7e9f1;
+    border-radius: 999px;
+}
+
+.tj-lab-challenges .progress-bar {
+    background-color: #5738d5;
+    border-radius: 999px;
+}
+
+.challenge-reward {
+    color: #5b38d4;
+    font-size: 0.55rem;
+    font-weight: 800;
+}
+
+/* En vivo */
+
+.tj-live-labs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.tj-live-image {
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 145px;
+
+    color: #fff;
+    border-radius: 13px;
+}
+
+.tj-live-image.chemistry {
+    background:
+        radial-gradient(
+            circle at 75% 20%,
+            rgba(56, 189, 248, 0.35),
+            transparent 30%
+        ),
+        linear-gradient(135deg, #263b52, #101f32);
+}
+
+.tj-live-image.astronomy {
+    background:
+        radial-gradient(
+            circle at 70% 30%,
+            rgba(250, 204, 21, 0.3),
+            transparent 25%
+        ),
+        linear-gradient(135deg, #0a1834, #091024);
+}
+
+.tj-live-image > i {
+    font-size: 2.5rem;
+    opacity: 0.75;
+}
+
+.tj-live-image > span:first-child {
+    position: absolute;
+    top: 0.55rem;
+    left: 0.55rem;
+
+    padding: 0.25rem 0.48rem;
+
+    color: #fff;
+    font-size: 0.48rem;
+    font-weight: 800;
+
+    background-color: #ef4444;
+    border-radius: 999px;
+}
+
+.tj-live-image > div {
+    position: absolute;
+    right: 0.65rem;
+    bottom: 0.6rem;
+    left: 0.65rem;
+}
+
+.tj-live-image strong,
+.tj-live-image small {
+    display: block;
+}
+
+.tj-live-image strong {
+    font-size: 0.64rem;
+}
+
+.tj-live-image small {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.52rem;
+}
+
+.tj-live-image .viewers {
+    position: absolute;
+    right: 0.55rem;
+    bottom: 0.55rem;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+
+    padding: 0.25rem 0.45rem;
+
+    color: #fff;
+    font-size: 0.48rem;
+
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 999px;
+}
+
+/* Herramientas */
+
+.tj-lab-tools-panel {
+    margin-top: 1rem;
+}
+
+.tj-lab-tools {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 0.5rem;
+}
+
+.tj-lab-tools button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    min-height: 60px;
+    padding: 0.65rem;
+
+    text-align: left;
+
+    background-color: #fbfcfe;
+    border: 1px solid #e8ebf2;
+    border-radius: 12px;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.tj-lab-tools button:hover {
+    transform: translateY(-2px);
+    border-color: rgba(83, 51, 198, 0.3);
+}
+
+.tj-lab-tools button > span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 34px;
+    height: 34px;
+
+    color: #2b65b8;
+    background-color: #e8f1ff;
+    border-radius: 10px;
+}
+
+.tj-lab-tools strong {
+    color: var(--lab-text);
+    font-size: 0.54rem;
+}
+
+/* Consejo */
+
+.tj-lab-tip {
+    position: fixed;
+    right: 1.2rem;
+    bottom: 1.2rem;
+    z-index: 1040;
+
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+
+    width: min(330px, calc(100vw - 2rem));
+    padding: 0.75rem;
+
+    background-color: #fff;
+    border: 1px solid var(--lab-border);
+    border-radius: 15px;
+
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.17);
+}
+
+.tj-lab-tip-avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+
+    color: #58a34f;
+    font-size: 1.65rem;
+
+    background-color: #ecf9e8;
+    border-radius: 14px;
+}
+
+.tj-lab-tip > div {
+    flex: 1;
+}
+
+.tj-lab-tip strong {
+    color: var(--lab-text);
+    font-size: 0.65rem;
+}
+
+.tj-lab-tip p {
+    margin: 0.2rem 0 0;
+
+    color: var(--lab-muted);
+    font-size: 0.53rem;
+    line-height: 1.45;
+}
+
+.tj-lab-tip > button {
+    align-self: flex-start;
+
+    color: #6b7280;
+    background: none;
+    border: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 1399.98px) {
+    .tj-lab-header {
+        grid-template-columns: 1fr 320px;
+    }
+
+    .tj-lab-player-stats {
+        grid-column: 1 / -1;
+        justify-content: flex-end;
+    }
+
+    .tj-lab-categories {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tj-lab-experiments-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tj-lab-tools {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 991.98px) {
+    .tj-lab-header {
+        grid-template-columns: 1fr;
+    }
+
+    .tj-lab-player-stats {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .tj-lab-categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tj-lab-experiments-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tj-my-lab-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tj-lab-tools {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .tj-lab-header {
+        padding: 0.9rem;
+    }
+
+    .tj-lab-title {
+        align-items: flex-start;
+    }
+
+    .tj-lab-player-stats {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .tj-lab-categories {
+        grid-template-columns: 1fr;
+    }
+
+    .tj-lab-experiments-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tj-my-lab-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tj-lab-tools {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tj-lab-tip {
+        right: 0.65rem;
+        bottom: 0.65rem;
+        left: 0.65rem;
+
+        width: auto;
+    }
+}

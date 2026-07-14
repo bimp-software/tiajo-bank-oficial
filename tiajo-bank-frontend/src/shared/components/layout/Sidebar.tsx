@@ -49,7 +49,7 @@ export default function Sidebar() {
                         </NavLink>
 
                         <NavLink
-                            to="material-educativo"
+                            to={`/${lang}/${accessCode}/dashboard/gestion-educativa/material-educativo`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }
@@ -58,7 +58,7 @@ export default function Sidebar() {
                         </NavLink>
 
                         <NavLink
-                            to="laboratorio-virtual"
+                            to={`/${lang}/${accessCode}/dashboard/gestion-educativa/laboratorio-virtual`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }

@@ -537,17 +537,7 @@ export default function ActividadPage() {
 
                                     <div className="tj-activity-card-footer">
                                         <div className="tj-activity-participants">
-                                            <span className="tj-mini-avatar">
-                                                JP
-                                            </span>
-
-                                            <span className="tj-mini-avatar">
-                                                MC
-                                            </span>
-
-                                            <span className="tj-mini-avatar">
-                                                AR
-                                            </span>
+                                            <i className="bi bi-people" />
 
                                             <span>
                                                 {actividad.participantes}{" "}

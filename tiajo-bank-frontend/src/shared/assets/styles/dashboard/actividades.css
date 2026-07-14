@@ -1,15 +1,21 @@
 /* =========================================================
    PÁGINA DE ACTIVIDADES
+   Rediseño minimalista: acentos reservados para significado
+   (estado), superficies planas, sombras suaves, una sola
+   paleta de marca reutilizada en toda la página.
 ========================================================= */
 
 .tj-activities-page {
     --activity-primary: #255d50;
     --activity-primary-dark: #173f37;
+    --activity-primary-soft: rgba(37, 93, 80, 0.08);
     --activity-accent: #facc15;
-    --activity-text: #1f2937;
-    --activity-muted: #6b7280;
-    --activity-border: #e5ebe8;
+    --activity-text: #172033;
+    --activity-muted: #7a887f;
+    --activity-border: #e5eae7;
     --activity-surface: #ffffff;
+    --activity-shadow: 0 12px 30px rgba(23, 32, 51, 0.05);
+    --activity-shadow-hover: 0 16px 34px rgba(23, 32, 51, 0.08);
 
     padding-bottom: 2rem;
 }
@@ -17,42 +23,21 @@
 /* Encabezado */
 
 .tj-activities-hero {
-    position: relative;
-    overflow: hidden;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
 
     margin-bottom: 1.5rem;
-    padding: 1.5rem 1.7rem;
+    padding: 1.6rem 1.8rem;
 
     color: #ffffff;
 
-    background:
-        radial-gradient(
-            circle at 90% 15%,
-            rgba(250, 204, 21, 0.3),
-            transparent 28%
-        ),
-        radial-gradient(
-            circle at 5% 100%,
-            rgba(74, 222, 128, 0.18),
-            transparent 35%
-        ),
-        linear-gradient(
-            135deg,
-            #255d50 0%,
-            #1c4b40 55%,
-            #12372f 100%
-        );
+    background: linear-gradient(120deg, #255d50 0%, #1c4b40 100%);
 
-    border-radius: 22px;
+    border-radius: 20px;
 
-    box-shadow:
-        0 22px 50px rgba(37, 93, 80, 0.15),
-        0 5px 15px rgba(15, 23, 42, 0.05);
+    box-shadow: var(--activity-shadow);
 }
 
 .tj-activities-eyebrow {
@@ -62,10 +47,10 @@
 
     margin-bottom: 0.55rem;
 
-    color: #fde68a;
+    color: var(--activity-accent);
     font-size: 0.68rem;
     font-weight: 800;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
@@ -73,15 +58,15 @@
     margin-bottom: 0.4rem;
 
     color: #ffffff;
-    font-size: clamp(1.6rem, 2.5vw, 2.25rem);
-    font-weight: 850;
+    font-size: clamp(1.5rem, 2.2vw, 2rem);
+    font-weight: 800;
 }
 
 .tj-activities-hero p {
-    max-width: 650px;
+    max-width: 620px;
     margin: 0;
 
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(255, 255, 255, 0.72);
     font-size: 0.85rem;
 }
 
@@ -98,34 +83,34 @@
     justify-content: center;
     gap: 0.5rem;
 
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 1.1rem;
 
     font-size: 0.78rem;
-    font-weight: 750;
-    border-radius: 12px;
+    font-weight: 700;
+    border-radius: 11px;
 }
 
 .tj-activities-primary-button {
-    color: #254000;
+    color: #1c2b0a;
     background-color: var(--activity-accent);
     border: 1px solid var(--activity-accent);
 }
 
 .tj-activities-primary-button:hover {
-    color: #254000;
-    background-color: #fde047;
-    border-color: #fde047;
+    color: #1c2b0a;
+    background-color: #eab90c;
+    border-color: #eab90c;
 }
 
 .tj-activities-secondary-button {
     color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.22);
 }
 
 .tj-activities-secondary-button:hover {
     color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 /* Resumen */
@@ -136,22 +121,20 @@
     gap: 0.9rem;
 
     height: 100%;
-    padding: 1rem;
+    padding: 1.1rem;
 
     background-color: var(--activity-surface);
     border: 1px solid var(--activity-border);
-    border-radius: 17px;
+    border-radius: 18px;
 
-    box-shadow: 0 7px 20px rgba(15, 23, 42, 0.045);
+    box-shadow: var(--activity-shadow);
 
-    transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .tj-activity-summary-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 15px 30px rgba(15, 23, 42, 0.075);
+    transform: translateY(-2px);
+    box-shadow: var(--activity-shadow-hover);
 }
 
 .tj-activity-summary-icon {
@@ -159,32 +142,32 @@
     align-items: center;
     justify-content: center;
 
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
     flex-shrink: 0;
 
-    font-size: 1.1rem;
-    border-radius: 15px;
+    font-size: 1.05rem;
+    border-radius: 14px;
 }
 
 .tj-activity-summary-icon.green {
-    color: #15803d;
-    background-color: #dcfce7;
+    color: #16834f;
+    background-color: #eaf7ef;
 }
 
 .tj-activity-summary-icon.blue {
-    color: #1d4ed8;
-    background-color: #dbeafe;
+    color: #2563eb;
+    background-color: #eaf0ff;
 }
 
 .tj-activity-summary-icon.yellow {
     color: #a16207;
-    background-color: #fef3c7;
+    background-color: #fff8db;
 }
 
 .tj-activity-summary-icon.purple {
-    color: #7e22ce;
-    background-color: #f3e8ff;
+    color: #6b5b95;
+    background-color: #efecf7;
 }
 
 .tj-activity-summary-card > div {
@@ -199,12 +182,12 @@
 
 .tj-activity-summary-card strong {
     color: var(--activity-text);
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     line-height: 1.2;
 }
 
 .tj-activity-summary-card span:last-child {
-    color: #929a97;
+    color: #98a19b;
     font-size: 0.62rem;
 }
 
@@ -216,13 +199,13 @@
     gap: 0.75rem;
 
     margin-bottom: 1rem;
-    padding: 0.85rem;
+    padding: 0.8rem;
 
     background-color: #ffffff;
     border: 1px solid var(--activity-border);
-    border-radius: 17px;
+    border-radius: 16px;
 
-    box-shadow: 0 5px 17px rgba(15, 23, 42, 0.04);
+    box-shadow: var(--activity-shadow);
 }
 
 .tj-activities-search {
@@ -237,11 +220,11 @@
 
     background-color: #f8faf9;
     border: 1px solid #e8eeeb;
-    border-radius: 12px;
+    border-radius: 11px;
 }
 
 .tj-activities-search i {
-    color: #89928f;
+    color: #97a09c;
 }
 
 .tj-activities-search input {
@@ -271,8 +254,8 @@
     color: #4b5563;
     font-size: 0.72rem;
 
-    border-color: #e5ebe8;
-    border-radius: 12px;
+    border-color: var(--activity-border);
+    border-radius: 11px;
     box-shadow: none;
 }
 
@@ -283,7 +266,7 @@
     padding: 0.25rem;
 
     background-color: #f2f6f4;
-    border-radius: 11px;
+    border-radius: 10px;
 }
 
 .tj-activities-view-buttons button {
@@ -297,13 +280,12 @@
     color: #78817e;
     background-color: transparent;
     border: 0;
-    border-radius: 9px;
+    border-radius: 8px;
 }
 
 .tj-activities-view-buttons button.active {
     color: #ffffff;
     background-color: var(--activity-primary);
-    box-shadow: 0 4px 10px rgba(37, 93, 80, 0.18);
 }
 
 /* Resultados */
@@ -358,20 +340,17 @@
 
     background-color: #ffffff;
     border: 1px solid var(--activity-border);
-    border-radius: 19px;
+    border-radius: 18px;
 
-    box-shadow: 0 7px 22px rgba(15, 23, 42, 0.045);
+    box-shadow: var(--activity-shadow);
 
-    transition:
-        transform 0.22s ease,
-        box-shadow 0.22s ease,
-        border-color 0.22s ease;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .tj-activity-card:hover {
-    transform: translateY(-4px);
-    border-color: rgba(37, 93, 80, 0.22);
-    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.09);
+    transform: translateY(-2px);
+    border-color: rgba(37, 93, 80, 0.2);
+    box-shadow: var(--activity-shadow-hover);
 }
 
 .tj-activity-card-top {
@@ -382,42 +361,23 @@
     margin-bottom: 0.8rem;
 }
 
+/* Un único tono de marca para el ícono de tipo: el color deja de
+   competir por atención y el estado (abajo) es lo único que
+   usa color para comunicar algo. */
 .tj-activity-type-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    width: 46px;
-    height: 46px;
+    width: 44px;
+    height: 44px;
     flex-shrink: 0;
 
-    font-size: 1.1rem;
-    border-radius: 15px;
-}
+    color: var(--activity-primary);
+    font-size: 1.05rem;
 
-.tj-activity-type-icon.guia {
-    color: #15803d;
-    background-color: #dcfce7;
-}
-
-.tj-activity-type-icon.juego {
-    color: #7e22ce;
-    background-color: #f3e8ff;
-}
-
-.tj-activity-type-icon.evaluacion {
-    color: #b91c1c;
-    background-color: #fee2e2;
-}
-
-.tj-activity-type-icon.proyecto {
-    color: #1d4ed8;
-    background-color: #dbeafe;
-}
-
-.tj-activity-type-icon.desafio {
-    color: #a16207;
-    background-color: #fef3c7;
+    background-color: var(--activity-primary-soft);
+    border-radius: 14px;
 }
 
 .tj-activity-options {
@@ -428,7 +388,7 @@
     width: 34px;
     height: 34px;
 
-    color: #7d8582;
+    color: #8b938f;
     background-color: transparent;
     border: 0;
     border-radius: 10px;
@@ -436,7 +396,7 @@
 
 .tj-activity-options:hover {
     color: var(--activity-primary);
-    background-color: rgba(37, 93, 80, 0.08);
+    background-color: var(--activity-primary-soft);
 }
 
 .tj-activity-card-tags {
@@ -455,38 +415,38 @@
     padding: 0.26rem 0.5rem;
 
     font-size: 0.62rem;
-    font-weight: 750;
+    font-weight: 700;
     border-radius: 999px;
 }
 
 .tj-activity-status i {
-    font-size: 0.42rem;
+    font-size: 0.4rem;
 }
 
 .tj-activity-status.publicada {
-    color: #15803d;
-    background-color: #dcfce7;
+    color: #16834f;
+    background-color: #eaf7ef;
 }
 
 .tj-activity-status.borrador {
-    color: #475569;
-    background-color: #e2e8f0;
+    color: #5b6460;
+    background-color: #eef1ef;
 }
 
 .tj-activity-status.programada {
-    color: #1d4ed8;
-    background-color: #dbeafe;
+    color: #2563eb;
+    background-color: #eaf0ff;
 }
 
 .tj-activity-status.archivada {
-    color: #7c2d12;
-    background-color: #ffedd5;
+    color: #a16207;
+    background-color: #fff8db;
 }
 
 .tj-activity-type-label {
     padding: 0.25rem 0.5rem;
 
-    color: #66716d;
+    color: #6c756f;
     font-size: 0.62rem;
     font-weight: 700;
 
@@ -498,8 +458,8 @@
     margin-bottom: 0.4rem;
 
     color: var(--activity-text);
-    font-size: 1rem;
-    font-weight: 800;
+    font-size: 0.98rem;
+    font-weight: 750;
 }
 
 .tj-activity-card > p {
@@ -557,7 +517,7 @@
 
 .tj-activity-progress .progress,
 .tj-table-progress .progress {
-    height: 7px;
+    height: 6px;
 
     background-color: #e8efec;
     border-radius: 999px;
@@ -565,13 +525,7 @@
 
 .tj-activity-progress .progress-bar,
 .tj-table-progress .progress-bar {
-    background:
-        linear-gradient(
-            90deg,
-            #255d50,
-            #35a572
-        );
-
+    background-color: var(--activity-primary);
     border-radius: 999px;
 }
 
@@ -589,35 +543,14 @@
 .tj-activity-participants {
     display: flex;
     align-items: center;
-}
-
-.tj-mini-avatar {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 25px;
-    height: 25px;
-    margin-left: -5px;
-
-    color: #ffffff;
-    font-size: 0.48rem;
-    font-weight: 800;
-
-    background-color: var(--activity-primary);
-    border: 2px solid #ffffff;
-    border-radius: 50%;
-}
-
-.tj-mini-avatar:first-child {
-    margin-left: 0;
-}
-
-.tj-activity-participants > span:last-child {
-    margin-left: 0.45rem;
+    gap: 0.4rem;
 
     color: var(--activity-muted);
-    font-size: 0.6rem;
+    font-size: 0.68rem;
+}
+
+.tj-activity-participants i {
+    color: #9aa39f;
 }
 
 .tj-activity-card-footer > small {
@@ -639,7 +572,7 @@
     border: 1px solid var(--activity-border);
     border-radius: 18px;
 
-    box-shadow: 0 7px 22px rgba(15, 23, 42, 0.045);
+    box-shadow: var(--activity-shadow);
 }
 
 .tj-activities-table-card table {
@@ -649,7 +582,7 @@
 .tj-activities-table-card thead th {
     padding: 0.85rem 1rem;
 
-    color: #69736f;
+    color: #6c756f;
     font-size: 0.63rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -724,8 +657,10 @@
     text-align: center;
 
     background-color: #ffffff;
-    border: 1px dashed rgba(37, 93, 80, 0.25);
-    border-radius: 20px;
+    border: 1px solid var(--activity-border);
+    border-radius: 18px;
+
+    box-shadow: var(--activity-shadow);
 }
 
 .tj-activities-empty > span {
@@ -733,21 +668,21 @@
     align-items: center;
     justify-content: center;
 
-    width: 70px;
-    height: 70px;
+    width: 64px;
+    height: 64px;
     margin-bottom: 1rem;
 
     color: var(--activity-primary);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 
-    background-color: rgba(37, 93, 80, 0.1);
-    border-radius: 22px;
+    background-color: var(--activity-primary-soft);
+    border-radius: 18px;
 }
 
 .tj-activities-empty h2 {
     color: var(--activity-text);
-    font-size: 1.15rem;
-    font-weight: 800;
+    font-size: 1.1rem;
+    font-weight: 750;
 }
 
 .tj-activities-empty p {
@@ -766,26 +701,16 @@
     overflow: hidden;
 
     border: 0;
-    border-radius: 22px;
+    border-radius: 20px;
 
-    box-shadow: 0 30px 80px rgba(15, 23, 42, 0.24);
+    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
 }
 
 .tj-create-activity-header {
     align-items: flex-start;
     padding: 1.35rem 1.5rem;
 
-    background:
-        radial-gradient(
-            circle at 90% 10%,
-            rgba(250, 204, 21, 0.25),
-            transparent 30%
-        ),
-        linear-gradient(
-            135deg,
-            #255d50,
-            #173f37
-        );
+    background: linear-gradient(120deg, #255d50, #173f37);
 
     border: 0;
 }
@@ -802,10 +727,10 @@
 
     margin-bottom: 0.35rem;
 
-    color: #fde68a;
+    color: var(--activity-accent);
     font-size: 0.63rem;
     font-weight: 800;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
@@ -813,8 +738,8 @@
     margin-bottom: 0.25rem;
 
     color: #ffffff;
-    font-size: 1.3rem;
-    font-weight: 850;
+    font-size: 1.25rem;
+    font-weight: 800;
 }
 
 .tj-create-activity-header p {
@@ -826,7 +751,7 @@
 
 .tj-create-activity-modal .modal-body {
     padding: 1.4rem;
-    background-color: #f5f8f7;
+    background-color: #f7f9f8;
 }
 
 .tj-create-activity-layout {
@@ -845,8 +770,8 @@
     padding: 1.1rem;
 
     background-color: #ffffff;
-    border: 1px solid #e5ebe8;
-    border-radius: 17px;
+    border: 1px solid var(--activity-border);
+    border-radius: 16px;
 }
 
 .tj-form-section-title {
@@ -867,7 +792,7 @@
     flex-shrink: 0;
 
     color: var(--activity-primary);
-    background-color: rgba(37, 93, 80, 0.1);
+    background-color: var(--activity-primary-soft);
     border-radius: 12px;
 }
 
@@ -876,7 +801,7 @@
 
     color: var(--activity-text);
     font-size: 0.85rem;
-    font-weight: 800;
+    font-weight: 750;
 }
 
 .tj-form-section-title p {
@@ -902,7 +827,7 @@
     font-size: 0.72rem;
 
     border-color: #dfe7e3;
-    border-radius: 11px;
+    border-radius: 10px;
     box-shadow: none;
 }
 
@@ -913,8 +838,8 @@
 .tj-form-section .form-control:focus,
 .tj-form-section .form-select:focus,
 .tj-gamification-box .form-control:focus {
-    border-color: rgba(37, 93, 80, 0.5);
-    box-shadow: 0 0 0 3px rgba(37, 93, 80, 0.1);
+    border-color: rgba(37, 93, 80, 0.45);
+    box-shadow: 0 0 0 3px rgba(37, 93, 80, 0.09);
 }
 
 /* Selector de tipo */
@@ -946,31 +871,26 @@
     text-align: center;
 
     background-color: #f8faf9;
-    border: 1px solid #e5ebe8;
-    border-radius: 13px;
+    border: 1px solid var(--activity-border);
+    border-radius: 12px;
 
-    transition:
-        border-color 0.2s ease,
-        background-color 0.2s ease,
-        transform 0.2s ease;
+    transition: border-color 0.18s ease, background-color 0.18s ease;
 }
 
 .tj-activity-type-selector label > span:hover {
-    transform: translateY(-2px);
     border-color: rgba(37, 93, 80, 0.25);
 }
 
 .tj-activity-type-selector input:checked + span {
-    background-color: rgba(37, 93, 80, 0.08);
+    background-color: var(--activity-primary-soft);
     border-color: var(--activity-primary);
-    box-shadow: 0 0 0 2px rgba(37, 93, 80, 0.08);
 }
 
 .tj-activity-type-selector i {
     margin-bottom: 0.35rem;
 
     color: var(--activity-primary);
-    font-size: 1.15rem;
+    font-size: 1.1rem;
 }
 
 .tj-activity-type-selector strong {
@@ -995,8 +915,8 @@
 .tj-gamification-box,
 .tj-ai-activity-box {
     background-color: #ffffff;
-    border: 1px solid #e5ebe8;
-    border-radius: 17px;
+    border: 1px solid var(--activity-border);
+    border-radius: 16px;
 }
 
 .tj-activity-preview-card {
@@ -1023,32 +943,22 @@
     align-items: center;
     justify-content: center;
 
-    min-height: 125px;
+    min-height: 120px;
 
     color: #ffffff;
 
-    background:
-        radial-gradient(
-            circle at 80% 15%,
-            rgba(250, 204, 21, 0.35),
-            transparent 28%
-        ),
-        linear-gradient(
-            135deg,
-            #255d50,
-            #173f37
-        );
+    background: linear-gradient(120deg, #255d50, #173f37);
 }
 
 .tj-preview-cover i {
     margin-bottom: 0.35rem;
-    color: #fde047;
-    font-size: 1.5rem;
+    color: var(--activity-accent);
+    font-size: 1.4rem;
 }
 
 .tj-preview-cover span {
     font-size: 0.75rem;
-    font-weight: 800;
+    font-weight: 750;
 }
 
 .tj-preview-content {
@@ -1060,7 +970,7 @@
 
     color: var(--activity-text);
     font-size: 0.82rem;
-    font-weight: 800;
+    font-weight: 750;
 }
 
 .tj-preview-content p {
@@ -1112,8 +1022,8 @@
     width: 38px;
     height: 38px;
 
-    color: #7e22ce;
-    background-color: #f3e8ff;
+    color: var(--activity-primary);
+    background-color: var(--activity-primary-soft);
     border-radius: 12px;
 }
 
@@ -1159,15 +1069,7 @@
 
     padding: 0.9rem;
 
-    background:
-        linear-gradient(
-            135deg,
-            rgba(37, 93, 80, 0.08),
-            rgba(250, 204, 21, 0.1)
-        );
-
-    border-style: dashed;
-    border-color: rgba(37, 93, 80, 0.28);
+    background-color: #f8faf9;
 }
 
 .tj-ai-activity-box > span {
@@ -1181,7 +1083,8 @@
 
     color: var(--activity-primary);
     background-color: #ffffff;
-    border-radius: 13px;
+    border: 1px solid var(--activity-border);
+    border-radius: 12px;
 }
 
 .tj-ai-activity-box strong {
@@ -1225,7 +1128,7 @@
     padding: 0.65rem 0.9rem;
 
     font-size: 0.7rem;
-    font-weight: 750;
+    font-weight: 700;
     border-radius: 10px;
 }
 
@@ -1237,7 +1140,7 @@
 
 .tj-modal-draft {
     color: var(--activity-primary);
-    background-color: rgba(37, 93, 80, 0.08);
+    background-color: var(--activity-primary-soft);
     border: 1px solid rgba(37, 93, 80, 0.18);
 }
 
