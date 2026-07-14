@@ -1,9 +1,13 @@
-import { NavLink } from "react-router-dom";
+import { NavLink,useParams } from "react-router-dom";
 
 import Logo from "../../assets/icons/logo-tiajobank.webp";
 import RanitaAyuda from "../../assets/images/ranita-logout.webp";
 
 export default function Sidebar() {
+
+
+    const { lang, accessCode } = useParams();
+
     return (
         <aside
             className="app-sidebar bg-body-secondary shadow sidebar-tiajo"
@@ -36,7 +40,7 @@ export default function Sidebar() {
 
                     <div className="submenu">
                         <NavLink
-                            to="actividades"
+                            to={`/${lang}/${accessCode}/dashboard/gestion-educativa/actividades`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }

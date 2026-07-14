@@ -20,6 +20,7 @@ import FoundationsPage from "../../modules/auth/FoundationsPage";
 import InstitutionsPage from "../../modules/auth/InstitutionsPage";
 
 import Index from "../../modules/dashboard/pages/Index";
+import ActividadPage from "../../modules/dashboard/pages/educacion/ActividadPage";
 
 export default function Router(){
     return (
@@ -47,6 +48,10 @@ export default function Router(){
 
             <Route path="/:lang/:accessCode/dashboard" element={<LayoutDashboard />}>
                 <Route index element={<Index />} />
+                <Route path="gestion-educativa">
+                    <Route path="actividades" element={<ActividadPage />} />
+                </Route>
+
             </Route>
 
             <Route path="*" element={<Navigate to="/es" replace />} />

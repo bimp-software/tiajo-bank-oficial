@@ -1,5 +1,13 @@
-import { Outlet, useParams } from "react-router-dom";
-import { useEffect } from "react";
+import {
+    Outlet,
+    useNavigate,
+    useParams,
+} from "react-router-dom";
+
+import {
+    useCallback,
+    useEffect,
+} from "react";
 
 import i18n from "../app/i18n";
 
@@ -11,15 +19,10 @@ import "../shared/assets/js/dashboard/adminlte.min.js";
 import "../shared/assets/styles/bootstrap-icons.min.css";
 
 /* Estilos del dashboard */
-import "../shared/assets/styles/dashboard/dashboard.css";
 import "../shared/assets/styles/dashboard/main.css";
 import "../shared/assets/styles/dashboard/navbar.css";
 import "../shared/assets/styles/dashboard/footer.css";
 import "../shared/assets/styles/dashboard/logout.css";
-
-/* SweetAlert */
-import "../shared/assets/styles/sweetalert2.min.css";
-import "../shared/assets/js/sweetalert2.min.js";
 
 /* Componentes compartidos */
 import Navbar from "../shared/components/layout/Navbar";
@@ -28,8 +31,15 @@ import Breadcrumbs from "../shared/components/layout/Breadcrumbs";
 import Footer from "../shared/components/layout/Footer";
 import ModalCerrarSesion from "../shared/components/modals/ModalCerrarSesion";
 
+/* Hooks */
+import useSessionTimeout from "../app/hooks/useSessionTimeout";
+
 export default function LayoutDashboard() {
-    const { lang = "es" } = useParams();
+    const navigate = useNavigate();
+
+    const { lang = "es" } = useParams<{
+        lang: string;
+    }>();
 
     useEffect(() => {
         const bodyClasses = [
@@ -47,12 +57,25 @@ export default function LayoutDashboard() {
         };
     }, [lang]);
 
+    const handleSessionLogout = useCallback(
+        async (): Promise<void> => {
+            navigate(`/${lang}/acceder`, {
+                replace: true,
+            });
+        },
+        [lang, navigate],
+    );
+
+    useSessionTimeout({
+        inactivityMinutes: 15,
+        warningSeconds: 60,
+        onLogout: handleSessionLogout,
+    });
+
     return (
         <div className="app-wrapper">
             <Navbar />
-
             <Sidebar />
-
             <main className="app-main">
                 <div className="app-content-header">
                     <div className="container-fluid">

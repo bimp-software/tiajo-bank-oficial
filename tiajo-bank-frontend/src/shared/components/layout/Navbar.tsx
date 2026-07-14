@@ -1,3 +1,12 @@
+import {
+    useLocation,
+    useNavigate,
+    useParams,
+} from "react-router-dom";
+
+import { useTranslation } from "react-i18next";
+
+import { LANG } from "../../../app/config/lang";
 import Logo from "../../assets/icons/users/logo-administrador.png";
 
 type UsuarioGamificado = {
@@ -27,6 +36,32 @@ const usuario: UsuarioGamificado = {
 };
 
 export default function Navbar() {
+    const { t, i18n } = useTranslation("navbar");
+
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const { lang = "es" } = useParams<{
+        lang: string;
+    }>();
+
+    const currentLanguage =
+        LANG.find((language) => language.code === lang) ?? LANG[0];
+
+    const changeLanguage = async (code: string) => {
+        const segments = location.pathname.split("/");
+
+        segments[1] = code;
+
+        const newPath = segments.join("/") || `/${code}`;
+
+        await i18n.changeLanguage(code);
+
+        navigate(`${newPath}${location.search}${location.hash}`, {
+            replace: true,
+        });
+    };
+
     const porcentajeExperiencia = Math.min(
         Math.round(
             (usuario.experienciaActual /
@@ -334,6 +369,83 @@ export default function Navbar() {
                             </li>
                         </ul>
                     </li>
+
+                    {/* IDIOMA */}
+                    <li className="nav-item dropdown">
+                        <button
+                            type="button"
+                            className="nav-link btn btn-link position-relative"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            aria-label={t("idioma")}
+                        >
+                            <i className="bi bi-globe-americas fs-5" />
+
+                            <span className="d-none d-lg-inline dashboard-language-current">
+                                {currentLanguage.flag}
+                                <span>{currentLanguage.label}</span>
+                            </span>
+                        </button>
+
+                        <ul className="dropdown-menu dropdown-menu-end shadow border-0 rounded-4 p-2 navbar-dropdown-list" style={{minWidth:300}}>
+                            <li className="dashboard-language-header">
+                                <span className="dashboard-language-header-icon">
+                                    <i className="bi bi-translate" />
+                                </span>
+
+                                <div>
+                                    <strong className="d-block">
+                                        {t("idioma")}
+                                    </strong>
+
+                                    <small className="text-muted">
+                                        Selecciona el idioma de la plataforma
+                                    </small>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr className="dropdown-divider my-1" />
+                            </li>
+
+                            {LANG.map((language) => {
+                                const isActive = language.code === currentLanguage.code;
+
+                                return (
+                                    <li key={language.code}>
+                                        <button
+                                            type="button"
+                                            className={`dropdown-item dashboard-language-option ${
+                                                isActive ? "active" : ""
+                                            }`}
+                                            onClick={() => changeLanguage(language.code)}
+                                        >
+                                            <span className="dashboard-language-flag">
+                                                {language.flag}
+                                            </span>
+
+                                            <span className="flex-grow-1 text-start">
+                                                <strong className="d-block">
+                                                    {language.label}
+                                                </strong>
+
+                                                <small>
+                                                    {language.code.toUpperCase()}
+                                                </small>
+                                            </span>
+
+                                            {isActive && (
+                                                <span className="dashboard-language-check">
+                                                    <i className="bi bi-check-lg" />
+                                                </span>
+                                            )}
+                                        </button>
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                    </li>
+
 
                     {/* PANTALLA COMPLETA */}
                     <li className="nav-item d-none d-md-block">

@@ -577,3 +577,179 @@
         padding: 0.65rem 0.2rem;
     }
 }
+
+/* =========================================================
+   IDIOMA DEL DASHBOARD
+========================================================= */
+
+.dashboard-language-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    min-height: 42px;
+    padding: 0.4rem 0.65rem !important;
+
+    color: #374151 !important;
+    background-color: transparent;
+    border: 0;
+    border-radius: 12px;
+
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.dashboard-language-button:hover,
+.dashboard-language-button:focus {
+    color: #255d50 !important;
+    background-color: rgba(37, 93, 80, 0.08);
+    transform: translateY(-1px);
+}
+
+.dashboard-language-current {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.dashboard-language-menu {
+    min-width: 280px;
+    padding: 0.55rem;
+
+    border: 1px solid rgba(37, 93, 80, 0.1) !important;
+
+    box-shadow:
+        0 20px 50px rgba(15, 23, 42, 0.15),
+        0 5px 15px rgba(15, 23, 42, 0.06) !important;
+}
+
+.dashboard-language-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    padding: 0.7rem;
+}
+
+.dashboard-language-header-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+
+    color: #255d50;
+    font-size: 1rem;
+
+    background-color: rgba(37, 93, 80, 0.1);
+    border-radius: 12px;
+}
+
+.dashboard-language-header strong {
+    color: #25302d;
+    font-size: 0.85rem;
+}
+
+.dashboard-language-header small {
+    font-size: 0.68rem;
+}
+
+.dashboard-language-option {
+    display: flex !important;
+    align-items: center;
+    gap: 0.75rem;
+
+    margin: 0.15rem 0;
+    padding: 0.7rem !important;
+
+    color: #26332f;
+    white-space: normal !important;
+
+    border-radius: 12px !important;
+
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.dashboard-language-option:hover {
+    color: #255d50;
+    background-color: rgba(37, 93, 80, 0.07);
+    transform: translateX(2px);
+}
+
+.dashboard-language-option.active {
+    color: #255d50 !important;
+    background-color: rgba(37, 93, 80, 0.12) !important;
+}
+
+.dashboard-language-flag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 39px;
+    height: 39px;
+    flex-shrink: 0;
+
+    font-size: 1.35rem;
+
+    background-color: #ffffff;
+    border: 1px solid #e5ebe8;
+    border-radius: 11px;
+
+    box-shadow: 0 3px 9px rgba(15, 23, 42, 0.05);
+}
+
+.dashboard-language-option strong {
+    color: inherit;
+    font-size: 0.82rem;
+}
+
+.dashboard-language-option small {
+    color: #89918f;
+    font-size: 0.67rem;
+    text-transform: uppercase;
+}
+
+.dashboard-language-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+
+    color: #ffffff;
+
+    background-color: #255d50;
+    border-radius: 50%;
+}
+
+@media (max-width: 575.98px) {
+    .dashboard-language-button {
+        padding-right: 0.4rem !important;
+        padding-left: 0.4rem !important;
+    }
+
+    .dashboard-language-menu {
+        position: fixed !important;
+        top: 65px !important;
+        right: 0.5rem !important;
+        left: 0.5rem !important;
+
+        width: auto !important;
+        min-width: 0 !important;
+
+        transform: none !important;
+    }
+}
