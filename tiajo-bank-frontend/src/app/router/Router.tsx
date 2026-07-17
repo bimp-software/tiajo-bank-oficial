@@ -23,6 +23,11 @@ import Index from "../../modules/dashboard/pages/Index";
 import ActividadPage from "../../modules/dashboard/pages/educacion/ActividadPage";
 import MaterialEducativoPage from "../../modules/dashboard/pages/educacion/MaterialEducativoPage";
 import LaboratorioVirtualPage from "../../modules/dashboard/pages/educacion/LaboratorioVirtualPage";
+import EvaluacionesPage from "../../modules/dashboard/pages/educacion/EvaluacionesPage";
+import InsigniasPage from "../../modules/dashboard/pages/gamificacion/InsigniasPage";
+import LigasTemporadasPage from "../../modules/dashboard/pages/gamificacion/LigasTemporadasPage";
+import MiRanitaPage from "../../modules/dashboard/pages/gamificacion/MiRanitaPage";
+import MundoVirtualPage from "../../modules/dashboard/pages/gamificacion/mundo-virtual/MundoVirtualPage";
 
 export default function Router(){
     return (
@@ -48,12 +53,22 @@ export default function Router(){
                 <Route path="instituciones" element={<InstitutionsPage/>} />
             </Route>
 
-            <Route path="/:lang/:accessCode/dashboard" element={<LayoutDashboard />}>
+            <Route path="/:lang/:accessCode/" element={<LayoutDashboard />}>
                 <Route index element={<Index />} />
+                <Route path="dashboard" element={<Index />} />
+
                 <Route path="gestion-educativa">
                     <Route path="actividades" element={<ActividadPage />} />
                     <Route path="material-educativo" element={<MaterialEducativoPage />} />
                     <Route path="laboratorio-virtual" element={<LaboratorioVirtualPage />} />
+                    <Route path="evaluaciones" element={<EvaluacionesPage />} />
+                </Route>
+
+                <Route path="experiencia-estudiantil">
+                    <Route path="insignias" element={<InsigniasPage />} />
+                    <Route path="ligas-temporadas" element={<LigasTemporadasPage />} />
+                    <Route path="mi-ranita" element={<MiRanitaPage />} />
+                    <Route path="mundo-virtual" element={<MundoVirtualPage />} />
                 </Route>
 
             </Route>

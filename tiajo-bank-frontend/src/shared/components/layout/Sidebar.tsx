@@ -19,7 +19,7 @@ export default function Sidebar() {
 
             <nav className="sidebar-menu">
                 <NavLink
-                    to="inicio"
+                    to={`/${lang}/${accessCode}/dashboard`}
                     end
                     className={({ isActive }) =>
                         `menu-link ${isActive ? "active" : ""}`
@@ -40,7 +40,7 @@ export default function Sidebar() {
 
                     <div className="submenu">
                         <NavLink
-                            to={`/${lang}/${accessCode}/dashboard/gestion-educativa/actividades`}
+                            to={`/${lang}/${accessCode}/gestion-educativa/actividades`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }
@@ -49,7 +49,7 @@ export default function Sidebar() {
                         </NavLink>
 
                         <NavLink
-                            to={`/${lang}/${accessCode}/dashboard/gestion-educativa/material-educativo`}
+                            to={`/${lang}/${accessCode}/gestion-educativa/material-educativo`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }
@@ -58,7 +58,7 @@ export default function Sidebar() {
                         </NavLink>
 
                         <NavLink
-                            to={`/${lang}/${accessCode}/dashboard/gestion-educativa/laboratorio-virtual`}
+                            to={`/${lang}/${accessCode}/gestion-educativa/laboratorio-virtual`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }
@@ -67,7 +67,7 @@ export default function Sidebar() {
                         </NavLink>
 
                         <NavLink
-                            to="evaluaciones"
+                            to={`/${lang}/${accessCode}/gestion-educativa/evaluaciones`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }
@@ -88,7 +88,7 @@ export default function Sidebar() {
 
                     <div className="submenu">
                         <NavLink
-                            to="insignias"
+                            to={`/${lang}/${accessCode}/experiencia-estudiantil/insignias`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }
@@ -97,7 +97,7 @@ export default function Sidebar() {
                         </NavLink>
 
                         <NavLink
-                            to="ligas-temporadas"
+                            to={`/${lang}/${accessCode}/experiencia-estudiantil/ligas-temporadas`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }
@@ -106,7 +106,7 @@ export default function Sidebar() {
                         </NavLink>
 
                         <NavLink
-                            to="mi-ranita"
+                            to={`/${lang}/${accessCode}/experiencia-estudiantil/mi-ranita`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }
@@ -115,7 +115,7 @@ export default function Sidebar() {
                         </NavLink>
 
                         <NavLink
-                            to="mundo-virtual"
+                            to={`/${lang}/${accessCode}/experiencia-estudiantil/mundo-virtual`}
                             className={({ isActive }) =>
                                 isActive ? "active" : ""
                             }

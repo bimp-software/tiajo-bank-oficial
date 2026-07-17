@@ -11,15 +11,28 @@ type CategoriaLaboratorio =
     | "robotica"
     | "programacion";
 
+type Nivel = 0 | 1 | 2 | 3;
+
 type Experimento = {
     id: number;
     titulo: string;
     descripcion: string;
     categoria: Exclude<CategoriaLaboratorio, "todos">;
     duracion: string;
-    nivel: number;
+    nivel: 1 | 2 | 3;
     imagen: string;
     destacado?: boolean;
+};
+
+type Desafio = {
+    id: string;
+    titulo: string;
+    descripcion: string;
+    actual: number;
+    total: number;
+    recompensa: number;
+    icono: string;
+    clase: "fire" | "lightning" | "robot" | "code" | "magnet" | "leaf";
 };
 
 const categorias = [
@@ -66,6 +79,16 @@ const categorias = [
         clase: "programacion",
     },
 ] as const;
+
+const nivelFiltros: { id: Nivel; nombre: string }[] = [
+    { id: 0, nombre: "Todos los niveles" },
+    { id: 1, nombre: "Principiante" },
+    { id: 2, nombre: "Intermedio" },
+    { id: 3, nombre: "Avanzado" },
+];
+
+const nivelNombre = (nivel: number) =>
+    nivel === 1 ? "Principiante" : nivel === 2 ? "Intermedio" : "Avanzado";
 
 const experimentos: Experimento[] = [
     {
@@ -134,6 +157,66 @@ const experimentos: Experimento[] = [
             "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
         destacado: true,
     },
+    {
+        id: 7,
+        titulo: "Electrólisis del agua",
+        descripcion: "Separa el agua en hidrógeno y oxígeno con corriente eléctrica.",
+        categoria: "quimica",
+        duracion: "10 min",
+        nivel: 1,
+        imagen:
+            "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+        id: 8,
+        titulo: "Ondas y frecuencias",
+        descripcion: "Manipula amplitud y frecuencia para entender el sonido.",
+        categoria: "fisica",
+        duracion: "25 min",
+        nivel: 3,
+        imagen:
+            "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+        id: 9,
+        titulo: "Fotosíntesis interactiva",
+        descripcion: "Descubre cómo las plantas transforman luz en energía.",
+        categoria: "ciencias",
+        duracion: "12 min",
+        nivel: 1,
+        imagen:
+            "https://images.unsplash.com/photo-1502252430442-aac78f397426?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+        id: 10,
+        titulo: "Presupuesto personal",
+        descripcion: "Organiza ingresos y gastos para cumplir una meta de ahorro.",
+        categoria: "economia",
+        duracion: "10 min",
+        nivel: 1,
+        imagen:
+            "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+        id: 11,
+        titulo: "Sensores y actuadores",
+        descripcion: "Conecta sensores a un circuito y observa su respuesta.",
+        categoria: "robotica",
+        duracion: "18 min",
+        nivel: 2,
+        imagen:
+            "https://images.unsplash.com/photo-1561144257-e32e8efc6c4f?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+        id: 12,
+        titulo: "Estructuras de datos",
+        descripcion: "Visualiza pilas, colas y listas mientras programas.",
+        categoria: "programacion",
+        duracion: "30 min",
+        nivel: 3,
+        imagen:
+            "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80",
+    },
 ];
 
 const misExperimentos = [
@@ -163,17 +246,116 @@ const misExperimentos = [
     },
 ];
 
+const desafiosIniciales: Desafio[] = [
+    {
+        id: "semanal",
+        titulo: "Desafío semanal",
+        descripcion: "Crea un puente que soporte 1 kg de peso",
+        actual: 3,
+        total: 5,
+        recompensa: 150,
+        icono: "bi-fire",
+        clase: "fire",
+    },
+    {
+        id: "quimica",
+        titulo: "Desafío de química",
+        descripcion: "Realiza 5 reacciones diferentes",
+        actual: 2,
+        total: 5,
+        recompensa: 100,
+        icono: "bi-lightning-charge-fill",
+        clase: "lightning",
+    },
+    {
+        id: "robotica",
+        titulo: "Desafío de robótica",
+        descripcion: "Programa un robot para evitar obstáculos",
+        actual: 1,
+        total: 3,
+        recompensa: 120,
+        icono: "bi-robot",
+        clase: "robot",
+    },
+    {
+        id: "programacion",
+        titulo: "Desafío de programación",
+        descripcion: "Completa un juego sin errores",
+        actual: 0,
+        total: 1,
+        recompensa: 150,
+        icono: "bi-code-square",
+        clase: "code",
+    },
+    {
+        id: "fisica",
+        titulo: "Desafío de física",
+        descripcion: "Completa 3 experimentos de física",
+        actual: 2,
+        total: 3,
+        recompensa: 130,
+        icono: "bi-magnet-fill",
+        clase: "magnet",
+    },
+    {
+        id: "ciencias",
+        titulo: "Desafío de ciencias",
+        descripcion: "Documenta un ecosistema completo",
+        actual: 1,
+        total: 1,
+        recompensa: 200,
+        icono: "bi-leaf-fill",
+        clase: "leaf",
+    },
+];
+
+const herramientas = [
+    { id: "tabla", icono: "bi-grid-3x3-gap-fill", nombre: "Tabla periódica" },
+    { id: "calculadora", icono: "bi-calculator-fill", nombre: "Calculadora científica" },
+    { id: "cronometro", icono: "bi-stopwatch-fill", nombre: "Cronómetro" },
+    { id: "cuaderno", icono: "bi-journal-bookmark-fill", nombre: "Cuaderno de notas" },
+    { id: "reglas", icono: "bi-rulers", nombre: "Reglas y unidades" },
+    { id: "camara", icono: "bi-camera-fill", nombre: "Cámara 3D" },
+    { id: "graficos", icono: "bi-bar-chart-fill", nombre: "Gráficos" },
+    { id: "biblioteca", icono: "bi-bookshelf", nombre: "Biblioteca" },
+    { id: "exportar", icono: "bi-file-earmark-arrow-down", nombre: "Exportar datos" },
+] as const;
+
 export default function LaboratorioVirtualPage() {
     const [categoriaSeleccionada, setCategoriaSeleccionada] =
         useState<CategoriaLaboratorio>("todos");
 
+    const [nivelSeleccionado, setNivelSeleccionado] = useState<Nivel>(0);
+
     const [busqueda, setBusqueda] = useState("");
+
+    const [mostrarTodos, setMostrarTodos] = useState(false);
+
+    const [guardados, setGuardados] = useState<Set<number>>(new Set());
+
+    const [pestanaLaboratorio, setPestanaLaboratorio] = useState<
+        "mis" | "guardados"
+    >("mis");
+
+    const [mostrarTodosDesafios, setMostrarTodosDesafios] = useState(false);
+
+    const [reclamados, setReclamados] = useState<Set<string>>(new Set());
+
+    const [herramientasActivas, setHerramientasActivas] = useState<Set<string>>(
+        new Set(),
+    );
+
+    const [mostrarConsejo, setMostrarConsejo] = useState(true);
 
     const experimentosFiltrados = useMemo(() => {
         return experimentos.filter((experimento) => {
             const coincideCategoria =
                 categoriaSeleccionada === "todos" ||
                 experimento.categoria === categoriaSeleccionada;
+
+            const coincideNivel =
+                nivelSeleccionado === 0 ||
+                experimento.nivel === nivelSeleccionado;
 
             const coincideBusqueda =
                 experimento.titulo
@@ -183,9 +365,57 @@ export default function LaboratorioVirtualPage() {
                     .toLowerCase()
                     .includes(busqueda.toLowerCase());
 
-            return coincideCategoria && coincideBusqueda;
+            const coincideDestacado = mostrarTodos || experimento.destacado;
+
+            return (
+                coincideCategoria &&
+                coincideNivel &&
+                coincideBusqueda &&
+                coincideDestacado
+            );
         });
-    }, [categoriaSeleccionada, busqueda]);
+    }, [categoriaSeleccionada, nivelSeleccionado, busqueda, mostrarTodos]);
+
+    const experimentosGuardados = useMemo(
+        () => experimentos.filter((experimento) => guardados.has(experimento.id)),
+        [guardados],
+    );
+
+    const desafiosVisibles = mostrarTodosDesafios
+        ? desafiosIniciales
+        : desafiosIniciales.slice(0, 4);
+
+    const alternarGuardado = (id: number) => {
+        setGuardados((anterior) => {
+            const siguiente = new Set(anterior);
+            if (siguiente.has(id)) {
+                siguiente.delete(id);
+            } else {
+                siguiente.add(id);
+            }
+            return siguiente;
+        });
+    };
+
+    const reclamarRecompensa = (id: string) => {
+        setReclamados((anterior) => {
+            const siguiente = new Set(anterior);
+            siguiente.add(id);
+            return siguiente;
+        });
+    };
+
+    const alternarHerramienta = (id: string) => {
+        setHerramientasActivas((anterior) => {
+            const siguiente = new Set(anterior);
+            if (siguiente.has(id)) {
+                siguiente.delete(id);
+            } else {
+                siguiente.add(id);
+            }
+            return siguiente;
+        });
+    };
 
     return (
         <div className="tj-lab-page">
@@ -290,88 +520,142 @@ export default function LaboratorioVirtualPage() {
                 })}
             </section>
 
+            {/* FILTRO POR NIVEL */}
+            <section className="tj-lab-level-filters">
+                {nivelFiltros.map((nivel) => (
+                    <button
+                        key={nivel.id}
+                        type="button"
+                        className={
+                            nivelSeleccionado === nivel.id ? "active" : ""
+                        }
+                        onClick={() => setNivelSeleccionado(nivel.id)}
+                    >
+                        {nivel.nombre}
+                    </button>
+                ))}
+            </section>
+
             {/* DESTACADOS */}
             <section className="tj-lab-panel">
                 <header className="tj-lab-panel-header">
                     <div>
                         <span>Explora y aprende</span>
-                        <h2>Experimentos destacados</h2>
+                        <h2>
+                            {mostrarTodos
+                                ? "Todos los experimentos"
+                                : "Experimentos destacados"}
+                        </h2>
                     </div>
 
-                    <button type="button">
-                        Ver todos
-                        <i className="bi bi-arrow-right" />
+                    <button
+                        type="button"
+                        onClick={() => setMostrarTodos((anterior) => !anterior)}
+                    >
+                        {mostrarTodos ? "Ver destacados" : "Ver todos"}
+                        <i
+                            className={`bi ${
+                                mostrarTodos
+                                    ? "bi-arrow-return-left"
+                                    : "bi-arrow-right"
+                            }`}
+                        />
                     </button>
                 </header>
 
                 {experimentosFiltrados.length > 0 ? (
                     <div className="tj-lab-experiments-grid">
-                        {experimentosFiltrados.map((experimento) => (
-                            <article
-                                className="tj-lab-experiment-card"
-                                key={experimento.id}
-                            >
-                                <div className="tj-lab-experiment-image">
-                                    <img
-                                        src={experimento.imagen}
-                                        alt={experimento.titulo}
-                                    />
+                        {experimentosFiltrados.map((experimento) => {
+                            const estaGuardado = guardados.has(experimento.id);
 
-                                    <span
-                                        className={`tj-lab-experiment-category ${experimento.categoria}`}
-                                    >
-                                        {categorias.find(
-                                            (categoria) =>
-                                                categoria.id ===
-                                                experimento.categoria,
-                                        )?.nombre}
-                                    </span>
+                            return (
+                                <article
+                                    className="tj-lab-experiment-card"
+                                    key={experimento.id}
+                                >
+                                    <div className="tj-lab-experiment-image">
+                                        <img
+                                            src={experimento.imagen}
+                                            alt={experimento.titulo}
+                                        />
 
-                                    <button
-                                        type="button"
-                                        aria-label="Más opciones"
-                                    >
-                                        <i className="bi bi-three-dots-vertical" />
-                                    </button>
-                                </div>
-
-                                <div className="tj-lab-experiment-body">
-                                    <h3>{experimento.titulo}</h3>
-
-                                    <p>{experimento.descripcion}</p>
-
-                                    <div className="tj-lab-experiment-meta">
-                                        <span>
-                                            <i className="bi bi-clock" />
-                                            {experimento.duracion}
+                                        <span
+                                            className={`tj-lab-experiment-category ${experimento.categoria}`}
+                                        >
+                                            {categorias.find(
+                                                (categoria) =>
+                                                    categoria.id ===
+                                                    experimento.categoria,
+                                            )?.nombre}
                                         </span>
 
-                                        <span>
-                                            Nivel
-                                            {[1, 2, 3].map((nivel) => (
-                                                <i
-                                                    key={nivel}
-                                                    className={`bi ${
-                                                        nivel <=
-                                                        experimento.nivel
-                                                            ? "bi-star-fill"
-                                                            : "bi-star"
-                                                    }`}
-                                                />
-                                            ))}
-                                        </span>
+                                        <button
+                                            type="button"
+                                            className={`tj-lab-save-btn ${
+                                                estaGuardado ? "active" : ""
+                                            }`}
+                                            aria-pressed={estaGuardado}
+                                            aria-label={
+                                                estaGuardado
+                                                    ? "Quitar de guardados"
+                                                    : "Guardar experimento"
+                                            }
+                                            onClick={() =>
+                                                alternarGuardado(experimento.id)
+                                            }
+                                        >
+                                            <i
+                                                className={`bi ${
+                                                    estaGuardado
+                                                        ? "bi-bookmark-fill"
+                                                        : "bi-bookmark"
+                                                }`}
+                                            />
+                                        </button>
                                     </div>
-                                </div>
-                            </article>
-                        ))}
+
+                                    <div className="tj-lab-experiment-body">
+                                        <h3>{experimento.titulo}</h3>
+
+                                        <p>{experimento.descripcion}</p>
+
+                                        <div className="tj-lab-experiment-meta">
+                                            <span>
+                                                <i className="bi bi-clock" />
+                                                {experimento.duracion}
+                                            </span>
+
+                                            <span
+                                                title={nivelNombre(
+                                                    experimento.nivel,
+                                                )}
+                                            >
+                                                Nivel
+                                                {[1, 2, 3].map((nivel) => (
+                                                    <i
+                                                        key={nivel}
+                                                        className={`bi ${
+                                                            nivel <=
+                                                            experimento.nivel
+                                                                ? "bi-star-fill"
+                                                                : "bi-star"
+                                                        }`}
+                                                    />
+                                                ))}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+                            );
+                        })}
                     </div>
                 ) : (
                     <div className="tj-lab-empty">
                         <i className="bi bi-search" />
                         <h3>No encontramos experimentos</h3>
                         <p>
-                            Cambia la categoría o utiliza otro término de
-                            búsqueda.
+                            Cambia la categoría, el nivel o utiliza otro
+                            término de búsqueda.
                         </p>
                     </div>
                 )}
@@ -389,65 +673,166 @@ export default function LaboratorioVirtualPage() {
                             </div>
 
                             <div className="tj-lab-tabs">
-                                <button type="button" className="active">
+                                <button
+                                    type="button"
+                                    className={
+                                        pestanaLaboratorio === "mis"
+                                            ? "active"
+                                            : ""
+                                    }
+                                    onClick={() =>
+                                        setPestanaLaboratorio("mis")
+                                    }
+                                >
                                     Mis experimentos
                                 </button>
 
-                                <button type="button">
+                                <button
+                                    type="button"
+                                    className={
+                                        pestanaLaboratorio === "guardados"
+                                            ? "active"
+                                            : ""
+                                    }
+                                    onClick={() =>
+                                        setPestanaLaboratorio("guardados")
+                                    }
+                                >
                                     Guardados
+                                    {experimentosGuardados.length > 0 && (
+                                        <span className="tj-lab-tab-count">
+                                            {experimentosGuardados.length}
+                                        </span>
+                                    )}
                                 </button>
                             </div>
                         </header>
 
-                        <div className="tj-my-lab-grid">
-                            {misExperimentos.map((experimento) => (
-                                <div
-                                    className="tj-my-lab-card"
-                                    key={experimento.titulo}
-                                >
-                                    <div className="tj-my-lab-cover">
-                                        <i
-                                            className={`bi ${experimento.icono}`}
-                                        />
+                        {pestanaLaboratorio === "mis" ? (
+                            <div className="tj-my-lab-grid">
+                                {misExperimentos.map((experimento) => (
+                                    <div
+                                        className="tj-my-lab-card"
+                                        key={experimento.titulo}
+                                    >
+                                        <div className="tj-my-lab-cover">
+                                            <i
+                                                className={`bi ${experimento.icono}`}
+                                            />
 
-                                        {experimento.progreso === 100 ? (
-                                            <span className="completed">
-                                                Completado
-                                            </span>
-                                        ) : (
-                                            <span>En progreso</span>
-                                        )}
-                                    </div>
+                                            {experimento.progreso === 100 ? (
+                                                <span className="completed">
+                                                    Completado
+                                                </span>
+                                            ) : (
+                                                <span>En progreso</span>
+                                            )}
+                                        </div>
 
-                                    <div className="tj-my-lab-content">
-                                        <strong>
-                                            {experimento.titulo}
-                                        </strong>
+                                        <div className="tj-my-lab-content">
+                                            <strong>
+                                                {experimento.titulo}
+                                            </strong>
 
-                                        <small>
-                                            {experimento.categoria}
-                                        </small>
+                                            <small>
+                                                {experimento.categoria}
+                                            </small>
 
-                                        <div className="tj-my-lab-progress">
-                                            <span>
-                                                {experimento.progreso === 100
-                                                    ? "Completado"
-                                                    : `${experimento.progreso}% completado`}
-                                            </span>
+                                            <div className="tj-my-lab-progress">
+                                                <span>
+                                                    {experimento.progreso ===
+                                                    100
+                                                        ? "Completado"
+                                                        : `${experimento.progreso}% completado`}
+                                                </span>
 
-                                            <div className="progress">
-                                                <div
-                                                    className="progress-bar"
-                                                    style={{
-                                                        width: `${experimento.progreso}%`,
-                                                    }}
-                                                />
+                                                <div className="progress">
+                                                    <div
+                                                        className="progress-bar"
+                                                        style={{
+                                                            width: `${experimento.progreso}%`,
+                                                        }}
+                                                    />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            ))}
-                        </div>
+                                ))}
+                            </div>
+                        ) : experimentosGuardados.length > 0 ? (
+                            <div className="tj-my-lab-grid">
+                                {experimentosGuardados.map((experimento) => (
+                                    <div
+                                        className="tj-my-lab-card saved"
+                                        key={experimento.id}
+                                    >
+                                        <div className="tj-my-lab-cover saved-cover">
+                                            <img
+                                                src={experimento.imagen}
+                                                alt={experimento.titulo}
+                                            />
+
+                                            <button
+                                                type="button"
+                                                aria-label="Quitar de guardados"
+                                                onClick={() =>
+                                                    alternarGuardado(
+                                                        experimento.id,
+                                                    )
+                                                }
+                                            >
+                                                <i className="bi bi-bookmark-fill" />
+                                            </button>
+                                        </div>
+
+                                        <div className="tj-my-lab-content">
+                                            <strong>
+                                                {experimento.titulo}
+                                            </strong>
+
+                                            <small>
+                                                {categorias.find(
+                                                    (categoria) =>
+                                                        categoria.id ===
+                                                        experimento.categoria,
+                                                )?.nombre}
+                                            </small>
+
+                                            <div className="tj-lab-experiment-meta saved-meta">
+                                                <span>
+                                                    <i className="bi bi-clock" />
+                                                    {experimento.duracion}
+                                                </span>
+
+                                                <span>
+                                                    Nivel
+                                                    {[1, 2, 3].map((nivel) => (
+                                                        <i
+                                                            key={nivel}
+                                                            className={`bi ${
+                                                                nivel <=
+                                                                experimento.nivel
+                                                                    ? "bi-star-fill"
+                                                                    : "bi-star"
+                                                            }`}
+                                                        />
+                                                    ))}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <div className="tj-lab-empty tj-lab-empty-compact">
+                                <i className="bi bi-bookmark-heart" />
+                                <h3>Aún no tienes experimentos guardados</h3>
+                                <p>
+                                    Toca el ícono de marcador en cualquier
+                                    experimento para guardarlo aquí.
+                                </p>
+                            </div>
+                        )}
                     </article>
                 </div>
 
@@ -460,105 +845,79 @@ export default function LaboratorioVirtualPage() {
                                 <h2>Desafíos del laboratorio</h2>
                             </div>
 
-                            <button type="button">Ver todos</button>
+                            <button
+                                type="button"
+                                onClick={() =>
+                                    setMostrarTodosDesafios(
+                                        (anterior) => !anterior,
+                                    )
+                                }
+                            >
+                                {mostrarTodosDesafios
+                                    ? "Ver menos"
+                                    : "Ver todos"}
+                            </button>
                         </header>
 
                         <div className="tj-lab-challenges">
-                            <div>
-                                <span className="challenge-icon fire">
-                                    <i className="bi bi-fire" />
-                                </span>
+                            {desafiosVisibles.map((desafio) => {
+                                const porcentaje = Math.min(
+                                    100,
+                                    (desafio.actual / desafio.total) * 100,
+                                );
+                                const completado =
+                                    desafio.actual >= desafio.total;
+                                const reclamado = reclamados.has(desafio.id);
 
-                                <div>
-                                    <strong>Desafío semanal</strong>
-                                    <small>
-                                        Crea un puente que soporte 1 kg
-                                    </small>
+                                return (
+                                    <div key={desafio.id}>
+                                        <span
+                                            className={`challenge-icon ${desafio.clase}`}
+                                        >
+                                            <i className={`bi ${desafio.icono}`} />
+                                        </span>
 
-                                    <div className="progress">
-                                        <div
-                                            className="progress-bar"
-                                            style={{ width: "60%" }}
-                                        />
+                                        <div>
+                                            <strong>{desafio.titulo}</strong>
+                                            <small>
+                                                {desafio.descripcion}
+                                            </small>
+
+                                            <div className="progress">
+                                                <div
+                                                    className="progress-bar"
+                                                    style={{
+                                                        width: `${porcentaje}%`,
+                                                    }}
+                                                />
+                                            </div>
+                                        </div>
+
+                                        {completado && !reclamado ? (
+                                            <button
+                                                type="button"
+                                                className="challenge-claim-btn"
+                                                onClick={() =>
+                                                    reclamarRecompensa(
+                                                        desafio.id,
+                                                    )
+                                                }
+                                            >
+                                                Reclamar +{desafio.recompensa}
+                                            </button>
+                                        ) : reclamado ? (
+                                            <span className="challenge-claimed">
+                                                <i className="bi bi-check-circle-fill" />
+                                                Reclamado
+                                            </span>
+                                        ) : (
+                                            <span className="challenge-reward">
+                                                +{desafio.recompensa}
+                                            </span>
+                                        )}
                                     </div>
-                                </div>
-
-                                <span className="challenge-reward">
-                                    +150
-                                </span>
-                            </div>
-
-                            <div>
-                                <span className="challenge-icon lightning">
-                                    <i className="bi bi-lightning-charge-fill" />
-                                </span>
-
-                                <div>
-                                    <strong>Desafío de química</strong>
-                                    <small>
-                                        Realiza 5 reacciones diferentes
-                                    </small>
-
-                                    <div className="progress">
-                                        <div
-                                            className="progress-bar"
-                                            style={{ width: "40%" }}
-                                        />
-                                    </div>
-                                </div>
-
-                                <span className="challenge-reward">
-                                    +100
-                                </span>
-                            </div>
-
-                            <div>
-                                <span className="challenge-icon robot">
-                                    <i className="bi bi-robot" />
-                                </span>
-
-                                <div>
-                                    <strong>Desafío de robótica</strong>
-                                    <small>
-                                        Programa un robot sin colisiones
-                                    </small>
-
-                                    <div className="progress">
-                                        <div
-                                            className="progress-bar"
-                                            style={{ width: "33%" }}
-                                        />
-                                    </div>
-                                </div>
-
-                                <span className="challenge-reward">
-                                    +120
-                                </span>
-                            </div>
-
-                            <div>
-                                <span className="challenge-icon code">
-                                    <i className="bi bi-code-square" />
-                                </span>
-
-                                <div>
-                                    <strong>Desafío de programación</strong>
-                                    <small>
-                                        Completa un juego sin errores
-                                    </small>
-
-                                    <div className="progress">
-                                        <div
-                                            className="progress-bar"
-                                            style={{ width: "10%" }}
-                                        />
-                                    </div>
-                                </div>
-
-                                <span className="challenge-reward">
-                                    +150
-                                </span>
-                            </div>
+                                );
+                            })}
                         </div>
                     </article>
                 </div>
@@ -631,47 +990,57 @@ export default function LaboratorioVirtualPage() {
                 </header>
 
                 <div className="tj-lab-tools">
-                    {[
-                        ["bi-grid-3x3-gap-fill", "Tabla periódica"],
-                        ["bi-calculator-fill", "Calculadora científica"],
-                        ["bi-stopwatch-fill", "Cronómetro"],
-                        ["bi-journal-bookmark-fill", "Cuaderno de notas"],
-                        ["bi-rulers", "Reglas y unidades"],
-                        ["bi-camera-fill", "Cámara 3D"],
-                        ["bi-bar-chart-fill", "Gráficos"],
-                        ["bi-bookshelf", "Biblioteca"],
-                        ["bi-file-earmark-arrow-down", "Exportar datos"],
-                    ].map(([icono, nombre]) => (
-                        <button type="button" key={nombre}>
-                            <span>
-                                <i className={`bi ${icono}`} />
-                            </span>
+                    {herramientas.map((herramienta) => {
+                        const activa = herramientasActivas.has(
+                            herramienta.id,
+                        );
 
-                            <strong>{nombre}</strong>
-                        </button>
-                    ))}
+                        return (
+                            <button
+                                type="button"
+                                key={herramienta.id}
+                                className={activa ? "active" : ""}
+                                aria-pressed={activa}
+                                onClick={() =>
+                                    alternarHerramienta(herramienta.id)
+                                }
+                            >
+                                <span>
+                                    <i className={`bi ${herramienta.icono}`} />
+                                </span>
+
+                                <strong>{herramienta.nombre}</strong>
+                            </button>
+                        );
+                    })}
                 </div>
             </section>
 
             {/* CONSEJO */}
-            <aside className="tj-lab-tip">
-                <span className="tj-lab-tip-avatar">
-                    <i className="bi bi-emoji-smile-fill" />
-                </span>
+            {mostrarConsejo && (
+                <aside className="tj-lab-tip">
+                    <span className="tj-lab-tip-avatar">
+                        <i className="bi bi-emoji-smile-fill" />
+                    </span>
 
-                <div>
-                    <strong>Consejo del profe TíaJo</strong>
+                    <div>
+                        <strong>Consejo del profe TíaJo</strong>
 
-                    <p>
-                        No tengas miedo de equivocarte. Cada experimento es una
-                        oportunidad para descubrir algo nuevo.
-                    </p>
-                </div>
+                        <p>
+                            No tengas miedo de equivocarte. Cada experimento
+                            es una oportunidad para descubrir algo nuevo.
+                        </p>
+                    </div>
 
-                <button type="button" aria-label="Cerrar consejo">
-                    <i className="bi bi-x-lg" />
-                </button>
-            </aside>
+                    <button
+                        type="button"
+                        aria-label="Cerrar consejo"
+                        onClick={() => setMostrarConsejo(false)}
+                    >
+                        <i className="bi bi-x-lg" />
+                    </button>
+                </aside>
+            )}
         </div>
     );
 }

@@ -1,0 +1,44 @@
+{
+    "tagline": "Plataforma educativa que transforma la convivencia escolar mediante gamificación, economía simbólica y participación activa.",
+    "social": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "tiktok": "TikTok",
+        "youtube": "YouTube"
+    },
+    "platform": {
+        "title": "Plataforma",
+        "que_es": "¿Qué es?",
+        "funcionalidades": "Funcionalidades",
+        "planes": "Planes",
+        "seguridad": "Seguridad"
+    },
+    "resources": {
+        "title": "Recursos",
+        "blog": "Blog",
+        "guias": "Guías",
+        "faq": "Preguntas frecuentes",
+        "ayuda": "Ayuda"
+    },
+    "company": {
+        "title": "Empresa",
+        "nosotros": "Nosotros",
+        "contacto": "Contacto",
+        "trabajo": "Trabajo",
+        "politicas": "Políticas"
+    },
+    "newsletter": {
+        "title": "Novedades de TíaJo Bank",
+        "description": "Recibe noticias, recursos y actualizaciones del proyecto.",
+        "email_label": "Correo electrónico",
+        "placeholder": "Tu correo",
+        "button": "Enviar"
+    },
+    "copyright": "© 2026 TíaJo Bank. Todos los derechos reservados.",
+    "legal": {
+        "terminos": "Términos",
+        "privacidad": "Privacidad",
+        "cookies": "Cookies",
+        "soporte": "Soporte"
+    }
+}

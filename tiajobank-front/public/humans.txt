@@ -1,0 +1,12 @@
+TíaJo Bank
+
+Developed by Bimp Software SpA
+
+CEO:
+Benjamin Patricio Caceres Ramirez
+
+Designer:
+Benjamin Patricio Caceres Ramirez
+
+Version:
+3.0.0

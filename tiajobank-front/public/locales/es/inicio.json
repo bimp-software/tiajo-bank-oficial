@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "title": {
+      "before": "Aprende jugando,",
+      "highlight": "crece con propósito",
+      "after": "y transforma tu curso."
+    },
+    "description": "TíaJo Bank convierte la convivencia escolar en una experiencia gamificada con monedas, metas, roles, recompensas y participación activa.",
+    "buttons": {
+      "features": "Conocer funcionalidades",
+      "video": "Ver video"
+    },
+    "imageAlt": "Personajes de TíaJo Bank",
+    "pills": {
+      "gamification": "Gamificación educativa",
+      "coexistence": "Convivencia positiva",
+      "economy": "Economía simbólica",
+      "community": "Comunidad escolar"
+    }
+  },
+  "methodology": {
+    "title": {
+      "before": "Una metodología con",
+      "highlight": "huella educativa"
+    },
+    "cards": {
+      "motivation": {
+        "title": "Motivación real",
+        "description": "Los estudiantes avanzan mediante metas, recompensas y logros visibles."
+      },
+      "progress": {
+        "title": "Progreso medible",
+        "description": "Permite observar avances en responsabilidad, participación y hábitos."
+      },
+      "coexistence": {
+        "title": "Convivencia positiva",
+        "description": "Refuerza buenas acciones, colaboración y autorregulación en el aula."
+      },
+      "participation": {
+        "title": "Participación",
+        "description": "Integra estudiantes, docentes, familias y equipos de apoyo."
+      }
+    }
+  },
+  "process": {
+    "title": {
+      "before": "¿Cómo",
+      "highlight": "funciona?"
+    },
+    "steps": {
+      "earn": {
+        "alt": "Monedas educativas",
+        "title": "Ganan monedas",
+        "description": "Los estudiantes reciben monedas por responsabilidad, esfuerzo y participación."
+      },
+      "save": {
+        "alt": "Ahorro escolar",
+        "title": "Ahorran y deciden",
+        "description": "Aprenden a administrar sus recursos simbólicos y tomar decisiones."
+      },
+      "redeem": {
+        "alt": "Recompensas",
+        "title": "Canjean recompensas",
+        "description": "Acceden a beneficios, desafíos, premios y experiencias dentro del curso."
+      },
+      "celebrate": {
+        "alt": "Logros",
+        "title": "Celebran logros",
+        "description": "El progreso se vuelve visible y refuerza la autoestima académica."
+      }
+    }
+  },
+  "platform": {
+    "left": {
+      "title": {
+        "before": "Una plataforma para",
+        "highlight": "toda la comunidad"
+      },
+      "features": {
+        "teachers": "Panel para docentes y directivos.",
+        "management": "Gestión de estudiantes, cursos y monedas.",
+        "roles": "Roles y permisos por tipo de usuario.",
+        "reports": "Reportes de participación y progreso.",
+        "access": "Acceso para apoderados y estudiantes.",
+        "multilang": "Diseño multilenguaje y accesible."
+      },
+      "button": "Explorar plataforma",
+      "img_alt": "Aplicación TíaJo Bank"
+    },
+    "right": {
+      "title": "Una comunidad que aprende junta",
+      "roles": {
+        "students": {
+          "title": "Estudiantes",
+          "description": "Participan, cumplen metas y visualizan sus avances."
+        },
+        "teachers": {
+          "title": "Docentes",
+          "description": "Gestionan incentivos, cursos y dinámicas de aula."
+        },
+        "guardians": {
+          "title": "Apoderados",
+          "description": "Acompañan el proceso y reconocen los logros."
+        }
+      },
+      "testimonial": {
+        "quote": "Cuando el aprendizaje tiene sentido, los estudiantes se involucran más.",
+        "author": "TíaJo Bank"
+      }
+    }
+  },
+  "final": {
+    "left": {
+      "title": {
+        "before": "Lleva la gamificación escolar",
+        "highlight": "a otro nivel"
+      },
+      "stats": {
+        "schools": { "number": "+500", "label": "Colegios potenciales" },
+        "families": { "number": "+100.000", "label": "Familias alcanzables" },
+        "coins": { "number": "+10M", "label": "Monedas simbólicas" },
+        "languages": { "number": "14", "label": "Idiomas proyectados" }
+      }
+    },
+    "right": {
+      "title": "¿Quieres probar TíaJo Bank?",
+      "description": "Solicita una demo y descubre cómo puede adaptarse a tu colegio.",
+      "button": "Solicitar demo"
+    }
+  }
+}
