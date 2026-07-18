@@ -1,17 +1,13 @@
-import { Outlet,useParams } from "react-router-dom"
-import { useEffect } from "react"
-import i18n from "../app/i18n"
+import { Outlet } from "react-router-dom"
+import Navbar from "./components/public/Navbar"
+import Footer from "./components/public/Footer"
 
 export default function PublicLayout() {
-    const { lang = "es" } = useParams();
-
-    useEffect(() => {
-        i18n.changeLanguage(lang);
-    },[lang]);
-
     return (
         <>
-            <Outlet/>
+            <Navbar />
+            <Outlet />
+            <Footer />
         </>
     );
 }

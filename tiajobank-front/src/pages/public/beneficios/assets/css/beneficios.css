@@ -1,0 +1,464 @@
+/* ======================================================
+   BENEFITS PAGE
+====================================================== */
+
+.benefits-page {
+    background: #fffdf8;
+    color: #061f16;
+}
+
+
+/* ======================================================
+   HERO BENEFICIOS
+====================================================== */
+
+.benefits-hero {
+    padding: 4rem 0 2.5rem;
+}
+
+.benefits-hero-grid {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: center;
+    gap: 3rem;
+}
+
+.benefits-hero-content h1 {
+    font-size: clamp(2.8rem, 5vw, 4.7rem);
+    line-height: 1.12;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    color: #072b1c;
+    margin-bottom: 2rem;
+}
+
+.benefits-hero-content h1 span {
+    color: #7c3aed;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 10px;
+}
+
+.benefits-hero-content p {
+    max-width: 620px;
+    font-size: 1.12rem;
+    line-height: 1.8;
+    color: #061933;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.benefits-hero-image {
+    width: 100%;
+    min-height: 520px;
+    border-radius: 48px;
+    overflow: hidden;
+    background: #eef7ff;
+}
+
+.benefits-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* MINI CARDS */
+
+.benefits-mini-grid {
+    max-width: 520px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: #ffffff;
+    border: 1px solid #e9edf2;
+    border-radius: 22px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, .08);
+    overflow: hidden;
+}
+
+.benefits-mini-grid article {
+    padding: 1.1rem .8rem;
+    text-align: center;
+    border-right: 1px solid #eef2f7;
+}
+
+.benefits-mini-grid article:last-child {
+    border-right: 0;
+}
+
+.mini-img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin: 0 auto .7rem;
+    background: #f5f7fb;
+}
+
+.mini-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.benefits-mini-grid h3 {
+    font-size: .82rem;
+    line-height: 1.45;
+    font-weight: 900;
+    color: #061933;
+    margin: 0;
+}
+
+
+/* ======================================================
+   SECCIÓN BENEFICIOS POR INTEGRANTE (CORREGIDO)
+====================================================== */
+
+.benefits-for {
+    padding: 2.5rem 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.section-heading h2 {
+    font-size: clamp(2rem, 3vw, 2.8rem);
+    font-weight: 900;
+    color: #072b1c;
+    margin-bottom: .8rem;
+}
+
+.section-heading h2 span {
+    color: #7c3aed;
+}
+
+.section-heading p {
+    max-width: 760px;
+    margin: 0 auto;
+    color: #061933;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+.benefits-for-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.7rem;
+}
+
+/* Tarjeta base flexible */
+.member-card {
+    border: 1px solid #dbe4ef;
+    border-radius: 24px;
+    padding: 2.5rem 2rem 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    position: relative;
+    overflow: hidden;
+}
+
+.member-card.student {
+    background: linear-gradient(135deg, #f5fff4 0%, #effaf0 100%);
+}
+
+.member-card.teacher {
+    background: linear-gradient(135deg, #f4f9ff 0%, #edf6ff 100%);
+}
+
+.member-card.parents {
+    background: linear-gradient(135deg, #fff7fb 0%, #f7efff 100%);
+}
+
+.member-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, .75);
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+}
+
+.member-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.member-card h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #061933;
+    margin-bottom: 1.4rem;
+}
+
+.member-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.member-card li {
+    position: relative;
+    padding-left: 1.8rem;
+    margin-bottom: 1rem;
+    color: #061933;
+    font-size: .98rem;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.member-card li::before {
+    content: "✓";
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: .2rem;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: .72rem;
+    font-weight: 900;
+}
+
+.member-card.student li::before { background: #16a34a; }
+.member-card.teacher li::before { background: #2563eb; }
+.member-card.parents li::before { background: #7c3aed; }
+
+/* Contenedor flexible de dos columnas (Texto | Imagen) */
+.card-body-wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    height: 100%;
+    margin-top: 1rem;
+}
+
+.card-text-content {
+    flex: 1;
+}
+
+/* Espacio controlado y proporcional para la ilustración */
+.member-image {
+    flex: 0 0 150px;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: -0.5rem;
+}
+
+.member-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+
+/* ======================================================
+   BENEFICIOS QUE IMPULSAN
+====================================================== */
+
+.benefits-boost {
+    padding: 2.5rem 0;
+}
+
+.boost-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.boost-card {
+    background: #fff;
+    border: 1px solid #e9edf2;
+    border-radius: 20px;
+    padding: 2rem 1.2rem;
+    text-align: center;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, .05);
+}
+
+.boost-img {
+    width: 86px;
+    height: 86px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background: #f5f7fb;
+}
+
+.boost-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.boost-card h3 {
+    font-size: 1.15rem;
+    line-height: 1.25;
+    font-weight: 900;
+    color: #061933;
+    margin-bottom: .8rem;
+}
+
+.boost-card p {
+    font-size: .88rem;
+    line-height: 1.7;
+    color: #061933;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+/* ======================================================
+   CTA FINAL
+====================================================== */
+
+.benefits-cta-section {
+    padding: 1rem 0 4rem;
+}
+
+.benefits-cta {
+    min-height: 170px;
+    background: linear-gradient(135deg, #f0fff4 0%, #f8fff6 100%);
+    border: 1px solid #cfe9d7;
+    border-radius: 24px;
+    display: grid;
+    grid-template-columns: 250px 1fr auto;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 3rem;
+    overflow: hidden;
+}
+
+.cta-image {
+    height: 180px;
+    align-self: end;
+}
+
+.cta-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cta-content h2 {
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    line-height: 1.15;
+    font-weight: 900;
+    color: #072b1c;
+    margin-bottom: .7rem;
+}
+
+.cta-content p {
+    color: #061933;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 600;
+    margin: 0;
+}
+
+.btn-benefits-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #006b36;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem 1.7rem;
+    font-weight: 900;
+    text-decoration: none;
+    box-shadow: 0 10px 24px rgba(0, 107, 54, .22);
+}
+
+.btn-benefits-cta:hover {
+    background: #00572d;
+    color: #fff;
+}
+
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width: 1350px) {
+    .member-image {
+        flex: 0 0 120px;
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .benefits-hero-grid,
+    .benefits-for-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .boost-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .benefits-hero-image {
+        min-height: 420px;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-body-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .member-image {
+        flex: 0 0 140px;
+        max-width: 140px;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .benefits-hero {
+        padding: 2.5rem 0 1.5rem;
+    }
+
+    .benefits-mini-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .benefits-mini-grid article:nth-child(2) {
+        border-right: 0;
+    }
+
+    .boost-grid,
+    .benefits-cta {
+        grid-template-columns: 1fr;
+    }
+
+    .benefits-cta {
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    .cta-image {
+        height: 100%;
+        left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .benefits-mini-grid,
+    .boost-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .benefits-hero-image {
+        min-height: 300px;
+        border-radius: 28px;
+    }
+
+    .member-card {
+        padding: 1.4rem;
+    }
+}

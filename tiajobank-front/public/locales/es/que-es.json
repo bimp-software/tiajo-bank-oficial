@@ -1,0 +1,76 @@
+{
+  "body": {
+    "hero": {
+      "titulo_1": "TiaJo Bank es la plataforma educativa que convierte el",
+      "titulo_2": "aprendizaje",
+      "titulo_3": "en una aventura inolvidable.",
+      "descripcion": "Un ecosistema completo diseñado para estudiantes, docentes, apoderados e instituciones educativas, que combina gamificación, bienestar emocional, convivencia escolar y educación financiera.",
+      "btn_funciones": "Ver funciones",
+      "btn_video": "Ver video"
+    },
+    "beneficios": {
+      "titulo": "Beneficios de la plataforma",
+      "descripcion": "Descubre todo lo que TiaJo Bank ofrece para transformar la experiencia educativa de tu comunidad escolar.",
+      "card_1": {
+        "titulo": "Gamificación en el aula",
+        "descripcion": "Transforma las actividades diarias y tareas en misiones interactivas que motivan a los estudiantes a superarse constantemente."
+      },
+      "card_2": {
+        "titulo": "Bienestar emocional",
+        "descripcion": "Herramientas diseñadas para monitorear, comprender y apoyar el estado socioemocional de los alumnos en un ambiente seguro."
+      },
+      "card_3": {
+        "titulo": "Educación financiera",
+        "descripcion": "Aprender el valor del ahorro, la planificación y la gestión de recursos de manera práctica a través de una economía escolar simulada."
+      },
+      "card_4": {
+        "titulo": "Convivencia escolar",
+        "descripcion": "Fomenta la colaboración, el respeto mutuo y la resolución positiva de conflictos fortaleciendo los lazos del grupo."
+      },
+      "card_5": {
+        "titulo": "Ecosistema integral",
+        "descripcion": "Conecta de manera fluida y transparente a estudiantes, docentes, apoderados y directivos en un solo lugar."
+      }
+    },
+    "funciona": {
+      "titulo": "¿Cómo funciona?",
+      "descripcion": "Un proceso sencillo y motivador paso a paso que introduce la economía escolar y el bienestar en el aula.",
+      "step_1_titulo": "Gana monedas virtuales",
+      "step_1_desc": "Los estudiantes reciben monedas virtuales al cumplir metas académicas, demostrar buena convivencia o registrar su estado emocional.",
+      "step_2_titulo": "Gestiona y ahorra",
+      "step_2_desc": "A través de su cuenta digital, aprenden a administrar sus ingresos, planificar gastos y entender el valor del ahorro a largo plazo.",
+      "step_3_titulo": "Canjea recompensas",
+      "step_3_desc": "Las monedas acumuladas se pueden utilizar en la tienda del colegio para obtener beneficios educativos o incentivos definidos por los docentes.",
+      "step_4_titulo": "Suma experiencia",
+      "step_4_desc": "Cada acción positiva les permite subir de nivel, desbloquear insignias y fortalecer su crecimiento personal y académico."
+    },
+    "comunidad": {
+      "titulo_1": "Impacto en toda la",
+      "titulo_2": "comunidad escolar",
+      "estudiantes": {
+        "titulo": "Estudiantes",
+        "item_1": "Aumento inmediato de la motivación en el aula.",
+        "item_2": "Desarrollo práctico de hábitos financieros saludables.",
+        "item_3": "Espacio seguro para registrar y entender sus emociones.",
+        "item_4": "Reconocimiento a través de insignias y niveles.",
+        "item_5": "Mejora en la convivencia y el compañerismo."
+      },
+      "docentes": {
+        "titulo": "Docentes",
+        "item_1": "Reducción del tiempo en la gestión de la conducta.",
+        "item_2": "Visualización clara del estado emocional del aula.",
+        "item_3": "Automatización de recompensas y metas.",
+        "item_4": "Herramientas lúdicas alineadas al currículum.",
+        "item_5": "Reportes en tiempo real sobre el progreso del grupo."
+      },
+      "apoderados": {
+        "titulo": "Apoderados",
+        "item_1": "Mayor visibilidad del bienestar emocional de sus hijos.",
+        "item_2": "Participación activa en el progreso educativo.",
+        "item_3": "Acceso a recomendaciones y tips de apoyo en el hogar.",
+        "item_4": "Comunicación clara y directa con la institución.",
+        "item_5": "Fomento de la educación financiera desde casa."
+      }
+    }
+  }
+}
