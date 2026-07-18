@@ -7,11 +7,13 @@ const QueEsPage = lazy(() => import("../../../pages/public/que-es/QueEsPage"))
 const BeneficiosPage = lazy(() => import("../../../pages/public/beneficios/BeneficiosPage"))
 const FuncionalidadesPage = lazy(() => import("../../../pages/public/funcionalidades/FuncionalidadesPage"))
 const PlanesPage = lazy(() => import("../../../pages/public/planes/PlanesPage"))
+const RecursosPage = lazy(() => import("../../../pages/public/recursos/RecursosPage"))
 
 export const publicRoutes: RouteObject[] = [
     { index: true, element: <InicioPage /> },   
     { path: "que-es", element: <QueEsPage/> },
     { path: "beneficios", element: <BeneficiosPage/> },
     { path: "funcionalidades", element: <FuncionalidadesPage/> },
-    { path: "planes", element: <PlanesPage/> }
+    { path: "planes", element: <PlanesPage/> },
+    { path: "recursos", element: <RecursosPage/> },
 ];

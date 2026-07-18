@@ -3,6 +3,8 @@ import { Navigate, Route, Routes } from "react-router-dom"
 import LangGuard from "./LangGuard"
 import { publicRoutes } from "./routes/publicRoutes"
 
+import { PageLoader } from "../../shared/components/feedback/PageLoader"
+
 const LayoutPublic = lazy(() => import("../../layouts/PublicLayout"));
 
 function renderRoutes(routes: typeof publicRoutes): React.ReactNode {
@@ -19,7 +21,7 @@ function renderRoutes(routes: typeof publicRoutes): React.ReactNode {
 
 export default function Router() {
     return (
-        <Suspense fallback={<div>Cargando...</div>}>
+        <Suspense fallback={<PageLoader />}>
             <Routes>
                 <Route path="/" element={<Navigate to="/es" replace />} />
 

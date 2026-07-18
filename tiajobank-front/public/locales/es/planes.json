@@ -1,0 +1,92 @@
+{
+    "hero": {
+        "titulo_1": "Planes diseñados para cada comunidad",
+        "titulo_2": "educativa",
+        "descripcion": "Elige el plan que mejor se adapte a tu institución y potencia el aprendizaje financiero de tus estudiantes.",
+        "feature_seguro": "Seguro y confiable",
+        "feature_soporte": "Soporte educativo especializado",
+        "feature_actualizaciones": "Actualizaciones constantes"
+    },
+    "seccion": {
+        "kicker": "Opciones flexibles",
+        "titulo": "Elige tu plan",
+        "subtitulo": "Todos los planes incluyen acceso a nuestra plataforma web y móvil.",
+        "mensual": "Mensual",
+        "anual": "Anual",
+        "ahorro": "Ahorra 20%"
+    },
+    "planes": {
+        "basico": {
+            "nombre": "Básico",
+            "descripcion": "Ideal para docentes que quieren comenzar.",
+            "helper": "Siempre gratis para un curso.",
+            "boton": "Comenzar gratis",
+            "features": [
+                "Hasta 30 estudiantes",
+                "1 curso",
+                "Actividades básicas",
+                "Reportes básicos",
+                "Soporte por correo"
+            ]
+        },
+        "pro": {
+            "nombre": "Pro",
+            "descripcion": "Para escuelas que quieren llevar el aprendizaje al siguiente nivel.",
+            "helper": "14 días gratis, sin compromiso.",
+            "boton": "Probar Pro",
+            "label": "MÁS ELEGIDO",
+            "facturado_anual": "Facturado anualmente",
+            "facturado_mensual": "Facturado mensualmente",
+            "por_mes": "por mes",
+            "features": [
+                "Hasta 300 estudiantes",
+                "Hasta 10 cursos",
+                "Todas las actividades y juegos",
+                "Reportes avanzados",
+                "Soporte prioritario",
+                "Capacitación para docentes",
+                "Integración con Google Classroom"
+            ]
+        },
+        "institucion": {
+            "nombre": "Institución",
+            "descripcion": "Para colegios y redes educativas que buscan impacto a gran escala.",
+            "precio_custom": "Cotiza con nosotros",
+            "helper": "Plan personalizado según tus necesidades.",
+            "boton": "Contactar ventas",
+            "features": [
+                "Estudiantes ilimitados",
+                "Cursos ilimitados",
+                "Todas las funcionalidades Pro",
+                "Reportes personalizados",
+                "Administrador institucional",
+                "Capacitación personalizada",
+                "Integraciones avanzadas",
+                "Soporte dedicado"
+            ]
+        }
+    },
+    "comparacion": {
+        "kicker": "Compara en detalle",
+        "titulo": "¿Qué incluye cada plan?",
+        "header_funcionalidad": "Funcionalidades",
+        "filas": {
+            "actividades": "Actividades educativas",
+            "juegos": "Juegos financieros",
+            "reportes": "Reportes y analíticas",
+            "cursos": "Número de cursos",
+            "estudiantes": "Número de estudiantes",
+            "soporte": "Soporte",
+            "capacitacion": "Capacitación",
+            "integraciones": "Integraciones"
+        }
+    },
+    "ayuda": {
+        "kicker": "Te orientamos",
+        "titulo": "¿No estás seguro de qué plan elegir?",
+        "descripcion": "Nuestro equipo te ayuda a encontrar la mejor opción para tu institución.",
+        "boton": "Hablar con asesor",
+        "garantia_titulo": "Garantía TíaJo",
+        "garantia_descripcion": "Prueba la plataforma durante 14 días sin riesgo."
+    }
+}

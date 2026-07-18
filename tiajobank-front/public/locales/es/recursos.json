@@ -1,0 +1,105 @@
+{
+    "hero": {
+        "badge": "Biblioteca de recursos",
+        "titulo_1": "Recursos que inspiran,",
+        "titulo_2": "herramientas que transforman",
+        "descripcion": "Explora, descarga y utiliza materiales educativos diseñados para enseñar educación financiera de forma práctica, divertida y significativa.",
+        "buscar_placeholder": "Busca recursos por tema, curso o palabra clave...",
+        "busquedas_populares": "Búsquedas populares:",
+        "tags": [
+            "Ahorro",
+            "Presupuesto",
+            "Emprendimiento",
+            "Juegos",
+            "Primaria"
+        ]
+    },
+    "categorias": {
+        "titulo": "Explora por categoría",
+        "recursos_label": "recursos",
+        "items": {
+            "ahorro": {
+                "nombre": "Ahorro e inversión",
+                "descripcion": "Recursos para aprender a ahorrar e invertir."
+            },
+            "presupuesto": {
+                "nombre": "Presupuesto",
+                "descripcion": "Materiales para planificar y administrar dinero."
+            },
+            "emprendimiento": {
+                "nombre": "Emprendimiento",
+                "descripcion": "Ideas y herramientas para futuros emprendedores."
+            },
+            "consumo": {
+                "nombre": "Consumo responsable",
+                "descripcion": "Aprende a tomar decisiones inteligentes."
+            },
+            "convivencia": {
+                "nombre": "Convivencia financiera",
+                "descripcion": "Recursos para conversar y decidir en familia."
+            },
+            "juegos": {
+                "nombre": "Juegos educativos",
+                "descripcion": "Aprender jugando también es posible."
+            }
+        }
+    },
+    "destacados": {
+        "titulo": "Recursos destacados",
+        "ver_todos": "Ver todos los recursos",
+        "descargar": "Descargar",
+        "items": {
+            "camino-ahorro": {
+                "titulo": "El camino del ahorro",
+                "descripcion": "Juego de mesa para aprender ahorro, metas y decisiones."
+            },
+            "guia-docente": {
+                "titulo": "Guía docente: Finanzas para la vida",
+                "descripcion": "Planificación completa para enseñar educación financiera."
+            },
+            "tarro-metas": {
+                "titulo": "Mi tarro de metas",
+                "descripcion": "Actividad para identificar metas de corto, mediano y largo plazo."
+            },
+            "presupuesto-personal": {
+                "titulo": "Presupuesto personal",
+                "descripcion": "Plantilla editable para crear un presupuesto personal."
+            },
+            "interes-simple": {
+                "titulo": "Presentación: ¿Qué es el interés?",
+                "descripcion": "Presentación lista para clases sobre interés simple."
+            }
+        }
+    },
+    "formatos": {
+        "titulo": "Recursos en diferentes formatos",
+        "ver_recursos": "Ver recursos",
+        "items": {
+            "guias": {
+                "nombre": "Guías y documentos",
+                "descripcion": "Material descargable en PDF listo para imprimir."
+            },
+            "presentaciones": {
+                "nombre": "Presentaciones",
+                "descripcion": "Presentaciones editables para tus clases."
+            },
+            "juegos": {
+                "nombre": "Juegos y actividades",
+                "descripcion": "Actividades interactivas y dinámicas."
+            },
+            "videos": {
+                "nombre": "Videos educativos",
+                "descripcion": "Videos cortos para explicar conceptos clave."
+            },
+            "hojas": {
+                "nombre": "Hojas de trabajo",
+                "descripcion": "Actividades prácticas para el aula."
+            }
+        }
+    },
+    "compartir": {
+        "titulo": "¿Tienes un recurso para compartir?",
+        "descripcion": "Si eres docente y tienes un material que puede ayudar a otros, súbelo a nuestra biblioteca.",
+        "boton": "Compartir recurso"
+    }
+}

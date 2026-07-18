@@ -1,74 +1,74 @@
 {
-  "beneficios": {
-    "hero": {
-      "titulo_1": "Beneficios que transforman la",
-      "titulo_2": "experiencia educativa",
-      "descripcion": "Descubre cómo nuestra plataforma potencia el crecimiento académico y el bienestar emocional de toda la comunidad escolar.",
-      "mini_1": "Bienestar Emocional",
-      "mini_2": "Educación Financiera",
-      "mini_3": "Entorno Seguro",
-      "mini_4": "Comunidad Activa"
-    },
-    "integrantes": {
-      "titulo": "Un impacto positivo para cada integrante",
-      "descripcion": "Diseñamos herramientas específicas para cubrir las necesidades de alumnos, profesores y familias.",
-      "estudiantes": {
-        "titulo": "Estudiantes",
-        "item_1": "Aprendizaje interactivo y lúdico adaptado a su ritmo.",
-        "item_2": "Herramientas para reconocer y gestionar sus emociones.",
-        "item_3": "Desarrollo de habilidades para la vida y finanzas prácticas.",
-        "item_4": "Refuerzo positivo que incentiva la constancia y el logro.",
-        "item_5": "Espacio seguro de interacción con sus pares y docentes."
-      },
-      "docentes": {
-        "titulo": "Docentes",
-        "item_1": "Monitoreo en tiempo real del clima emocional del aula.",
-        "item_2": "Recursos didácticos listos para implementar en clases.",
-        "item_3": "Optimización de tiempos en planificación y reportería.",
-        "item_4": "Detección temprana de casos que requieran apoyo formativo.",
-        "item_5": "Fortalecimiento del vínculo pedagógico con los alumnos."
-      },
-      "apoderados": {
-        "titulo": "Apoderados",
-        "item_1": "Visibilidad clara del avance académico y emocional.",
-        "item_2": "Participación activa en el proceso formativo del hogar.",
-        "item_3": "Canales de comunicación directos y constructivos.",
-        "item_4": "Herramientas de apoyo para la crianza y el desarrollo integral.",
-        "item_5": "Tranquilidad al saber que sus hijos están en un entorno seguro."
-      }
-    },
-    "cambio": {
-      "titulo_1": "Beneficios que impulsan el",
-      "titulo_2": "cambio integral",
-      "card_1": {
-        "titulo": "Formación Integral",
-        "desc": "Unimos el currículum académico tradicional con el crecimiento socioemocional."
-      },
-      "card_2": {
-        "titulo": "Clima Escolar Positivo",
-        "desc": "Fomentamos la empatía, disminuyendo la ansiedad y los conflictos en el aula."
-      },
-      "card_3": {
-        "titulo": "Hábitos Saludables",
-        "desc": "Incentivamos la toma de decisiones responsables y la planificación financiera desde temprana edad."
-      },
-      "card_4": {
-        "titulo": "Vínculo Familia-Escuela",
-        "desc": "Creamos puentes de colaboración sólidos entre el hogar y el establecimiento educativo."
-      },
-      "card_5": {
-        "titulo": "Gamificación Educativa",
-        "desc": "Transformamos el aprendizaje en una experiencia atractiva, dinámica y motivadora."
-      },
-      "card_6": {
-        "titulo": "Privacidad y Seguridad",
-        "desc": "Garantizamos el resguardo absoluto de la información y el bienestar de los menores."
-      }
-    },
-    "cta": {
-      "titulo": "¿Quieres llevar estos beneficios a tu institución?",
-      "descripcion": "Agenda una demostración con nuestro equipo y conoce cómo podemos transformar juntos tu comunidad educativa.",
-      "btn": "Contáctanos hoy"
+    "beneficios": {
+        "hero": {
+            "titulo_1": "Beneficios que transforman la",
+            "titulo_2": "experiencia educativa",
+            "descripcion": "Descubre cómo nuestra plataforma potencia el crecimiento académico y el bienestar emocional de toda la comunidad escolar.",
+            "mini_1": "Bienestar Emocional",
+            "mini_2": "Educación Financiera",
+            "mini_3": "Entorno Seguro",
+            "mini_4": "Comunidad Activa"
+        },
+        "integrantes": {
+            "titulo": "Un impacto positivo para cada integrante",
+            "descripcion": "Diseñamos herramientas específicas para cubrir las necesidades de alumnos, profesores y familias.",
+            "estudiantes": {
+                "titulo": "Estudiantes",
+                "item_1": "Aprendizaje interactivo y lúdico adaptado a su ritmo.",
+                "item_2": "Herramientas para reconocer y gestionar sus emociones.",
+                "item_3": "Desarrollo de habilidades para la vida y finanzas prácticas.",
+                "item_4": "Refuerzo positivo que incentiva la constancia y el logro.",
+                "item_5": "Espacio seguro de interacción con sus pares y docentes."
+            },
+            "docentes": {
+                "titulo": "Docentes",
+                "item_1": "Monitoreo en tiempo real del clima emocional del aula.",
+                "item_2": "Recursos didácticos listos para implementar en clases.",
+                "item_3": "Optimización de tiempos en planificación y reportería.",
+                "item_4": "Detección temprana de casos que requieran apoyo formativo.",
+                "item_5": "Fortalecimiento del vínculo pedagógico con los alumnos."
+            },
+            "apoderados": {
+                "titulo": "Apoderados",
+                "item_1": "Visibilidad clara del avance académico y emocional.",
+                "item_2": "Participación activa en el proceso formativo del hogar.",
+                "item_3": "Canales de comunicación directos y constructivos.",
+                "item_4": "Herramientas de apoyo para la crianza y el desarrollo integral.",
+                "item_5": "Tranquilidad al saber que sus hijos están en un entorno seguro."
+            }
+        },
+        "cambio": {
+            "titulo_1": "Beneficios que impulsan el",
+            "titulo_2": "cambio integral",
+            "card_1": {
+                "titulo": "Formación Integral",
+                "desc": "Unimos el currículum académico tradicional con el crecimiento socioemocional."
+            },
+            "card_2": {
+                "titulo": "Clima Escolar Positivo",
+                "desc": "Fomentamos la empatía, disminuyendo la ansiedad y los conflictos en el aula."
+            },
+            "card_3": {
+                "titulo": "Hábitos Saludables",
+                "desc": "Incentivamos la toma de decisiones responsables y la planificación financiera desde temprana edad."
+            },
+            "card_4": {
+                "titulo": "Vínculo Familia-Escuela",
+                "desc": "Creamos puentes de colaboración sólidos entre el hogar y el establecimiento educativo."
+            },
+            "card_5": {
+                "titulo": "Gamificación Educativa",
+                "desc": "Transformamos el aprendizaje en una experiencia atractiva, dinámica y motivadora."
+            },
+            "card_6": {
+                "titulo": "Privacidad y Seguridad",
+                "desc": "Garantizamos el resguardo absoluto de la información y el bienestar de los menores."
+            }
+        },
+        "cta": {
+            "titulo": "¿Quieres llevar estos beneficios a tu institución?",
+            "descripcion": "Agenda una demostración con nuestro equipo y conoce cómo podemos transformar juntos tu comunidad educativa.",
+            "btn": "Contáctanos hoy"
+        }
     }
-  }
 }

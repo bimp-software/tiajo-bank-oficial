@@ -1,0 +1,138 @@
+/* src/shared/components/accessibility/accessibility.css */
+
+:root {
+    --a11y-font-scale: 1;
+}
+
+html {
+    font-size: calc(100% * var(--a11y-font-scale));
+}
+
+/* Alto contraste */
+html.a11y-high-contrast {
+    filter: contrast(1.35);
+}
+
+html.a11y-high-contrast body {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+/* Escala de grises */
+html.a11y-grayscale {
+    filter: grayscale(1);
+}
+
+/* Subrayar enlaces */
+html.a11y-underline-links a {
+    text-decoration: underline !important;
+}
+
+/* Fuente para dislexia (usa una fuente de espaciado amplio como fallback) */
+html.a11y-dyslexia-font body {
+    font-family: "Comic Sans MS", "Verdana", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.7;
+}
+
+/* Reducir animaciones — aplica a motion/CSS transitions globalmente */
+html.a11y-reduce-motion *,
+html.a11y-reduce-motion *::before,
+html.a11y-reduce-motion *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+}
+
+/* Cursor grande */
+html.a11y-big-cursor,
+html.a11y-big-cursor * {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'><path d='M2 2 L2 34 L12 26 L18 38 L24 35 L18 23 L30 23 Z' fill='black' stroke='white' stroke-width='2'/></svg>") 2 2, auto !important;
+}
+
+/* WIDGET */
+
+.a11y-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.a11y-toggle-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #009640;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.a11y-panel {
+    position: absolute;
+    bottom: 68px;
+    right: 0;
+    width: 280px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    padding: 1rem;
+    color: #061933;
+}
+
+.a11y-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+}
+
+.a11y-panel-header button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.a11y-group {
+    margin-bottom: 0.8rem;
+}
+
+.a11y-btn-row {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+.a11y-btn-row button {
+    flex: 1;
+    border: 1px solid #dfe6ee;
+    border-radius: 8px;
+    padding: 0.4rem;
+    background: #f8fafc;
+    cursor: pointer;
+}
+
+.a11y-switch {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.4rem 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.a11y-reset-btn {
+    width: 100%;
+    margin-top: 0.6rem;
+    border: 1px solid #dfe6ee;
+    border-radius: 8px;
+    padding: 0.5rem;
+    background: #fff5f5;
+    color: #b91c1c;
+    cursor: pointer;
+    font-weight: 700;
+}

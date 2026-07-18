@@ -2,6 +2,9 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import { BrowserRouter } from "react-router-dom"
 
+import { AccessibilityProvider } from "./shared/components/accessibility/AccessibilityProvider"
+import { AccessibilityWidget } from "./shared/components/accessibility/AccessibilityWidget"
+
 import App from "./App"
 import "./app/i18n"
 
@@ -20,7 +23,10 @@ if(!rootElement){
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <BrowserRouter>
-      <App/>
+      <AccessibilityProvider>
+        <App/>
+        <AccessibilityWidget/>
+      </AccessibilityProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
