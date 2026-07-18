@@ -1,3 +1,0 @@
-<CrudPage>
-    
-</CrudPage>
