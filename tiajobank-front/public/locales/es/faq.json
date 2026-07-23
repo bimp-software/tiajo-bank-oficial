@@ -1,0 +1,116 @@
+{
+    "hero": {
+        "badge": "Centro de preguntas",
+        "title": "Preguntas",
+        "highlight": "Frecuentes",
+        "subtitle": "Resolvemos tus dudas para que aproveches TíaJo Bank al máximo.",
+        "description": "Encuentra respuestas a las preguntas más comunes de docentes, estudiantes, apoderados y administradores.",
+        "searchPlaceholder": "Buscar una pregunta...",
+        "searchButton": "Buscar",
+        "imageAlt": "Pepe resolviendo preguntas frecuentes"
+    },
+    "categories": {
+        "teachers": {
+            "title": "Para docentes",
+            "text": "Dudas sobre uso en el aula."
+        },
+        "students": {
+            "title": "Para estudiantes",
+            "text": "Todo sobre Tiajitos, misiones y recompensas."
+        },
+        "families": {
+            "title": "Para apoderados",
+            "text": "Acompaña a tus hijos en su crecimiento."
+        },
+        "administrators": {
+            "title": "Para administradores",
+            "text": "Gestión, configuración y seguimiento."
+        }
+    },
+    "accordion": {
+        "eyebrow": "Respuestas rápidas",
+        "title": "Preguntas frecuentes",
+        "filters": {
+            "all": "Todas",
+            "teachers": "Docentes",
+            "students": "Estudiantes",
+            "families": "Apoderados",
+            "administrators": "Administradores",
+            "general": "General"
+        },
+        "items": {
+            "what": {
+                "question": "¿Qué es TíaJo Bank?",
+                "answer": "TíaJo Bank es una plataforma educativa basada en gamificación que ayuda a motivar el aprendizaje, fortalecer la convivencia y desarrollar habilidades para la vida mediante misiones, recompensas y herramientas de seguimiento."
+            },
+            "coins": {
+                "question": "¿Cómo funcionan los Tiajitos?",
+                "answer": "Los Tiajitos son una moneda simbólica que reconoce esfuerzo, participación, responsabilidad, colaboración y cumplimiento de desafíos."
+            },
+            "store": {
+                "question": "¿Qué puedo comprar en la Tienda?",
+                "answer": "La tienda puede incluir privilegios, experiencias, reconocimientos y productos definidos por cada curso o institución."
+            },
+            "earn": {
+                "question": "¿Cómo puede mi hijo o hija ganar Tiajitos?",
+                "answer": "Puede ganarlos al completar misiones, participar, demostrar responsabilidad, colaborar y alcanzar metas."
+            },
+            "safe": {
+                "question": "¿Es seguro usar TíaJo Bank?",
+                "answer": "La plataforma considera controles de acceso, permisos por rol y medidas de protección de datos."
+            },
+            "progress": {
+                "question": "¿Puedo ver el progreso de mi curso o colegio?",
+                "answer": "Los perfiles autorizados pueden revisar reportes, avances, participación y resultados según su rol."
+            },
+            "mobile": {
+                "question": "¿TíaJo Bank tiene aplicación móvil?",
+                "answer": "La plataforma puede utilizarse desde dispositivos compatibles y contempla experiencias móviles para la comunidad educativa."
+            },
+            "help": {
+                "question": "¿Qué hago si tengo un problema o necesito ayuda?",
+                "answer": "Puedes comunicarte con soporte o ingresar al centro de ayuda con una descripción clara del problema."
+            },
+            "plans": {
+                "question": "¿Qué planes y precios tienen?",
+                "answer": "Los planes varían según el tamaño y las necesidades de cada institución. Revisa la página de planes o solicita una propuesta."
+            },
+            "ages": {
+                "question": "¿Desde qué edades se puede usar TíaJo Bank?",
+                "answer": "La experiencia puede adaptarse a distintos niveles educativos según la edad y necesidades de los estudiantes."
+            }
+        }
+    },
+    "sidebar": {
+        "help": {
+            "eyebrow": "Estamos para ayudarte",
+            "title": "¿No encontraste lo que buscabas?",
+            "description": "Contáctanos y te responderemos lo antes posible.",
+            "imageAlt": "Pepe del equipo de soporte",
+            "helpCenter": "Ir al centro de ayuda",
+            "contact": "Contáctanos"
+        },
+        "topics": {
+            "title": "Temas más consultados",
+            "items": {
+                "coins": "Tiajitos y recompensas",
+                "missions": "Misiones y desafíos",
+                "store": "Tienda y productos",
+                "account": "Configuración de cuenta",
+                "reports": "Reportes y seguimiento"
+            }
+        },
+        "tip": {
+            "eyebrow": "Consejo TíaJo",
+            "title": "Aprende paso a paso",
+            "description": "Explora nuestras guías y tutoriales para aprovechar todas las herramientas.",
+            "action": "Ir a Guías"
+        }
+    },
+    "cta": {
+        "title": "Únete a miles de escuelas que están transformando la educación",
+        "description": "Aprende, crece y transforma tu mundo con TíaJo Bank.",
+        "button": "¡Comienza ahora!",
+        "imageAlt": "Pepe invita a comenzar con TíaJo Bank"
+    }
+}

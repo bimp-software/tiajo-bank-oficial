@@ -1,0 +1,134 @@
+{
+    "hero": {
+        "badge": "Centro de ayuda",
+        "title": "¿Cómo podemos",
+        "highlight": "ayudarte hoy?",
+        "description": "Encuentra respuestas, guías y recursos para resolver tus dudas y aprovechar todas las herramientas de TíaJo Bank.",
+        "searchPlaceholder": "Buscar en el centro de ayuda...",
+        "searchLabel": "Buscar ayuda",
+        "searchButton": "Buscar",
+        "quickLabel": "Búsquedas frecuentes:",
+        "quick": {
+            "account": "Configurar cuenta",
+            "coins": "Tiajitos",
+            "reports": "Reportes"
+        },
+        "imageAlt": "Pepe brinda ayuda a la comunidad educativa",
+        "status": {
+            "title": "Todos los sistemas operativos",
+            "text": "La plataforma funciona con normalidad."
+        }
+    },
+    "categories": {
+        "eyebrow": "Explora por tema",
+        "title": "Encuentra la ayuda que necesitas",
+        "description": "Selecciona una categoría para acceder rápidamente a artículos y soluciones.",
+        "items": {
+            "start": {
+                "title": "Primeros pasos",
+                "text": "Aprende a comenzar y configurar tu experiencia."
+            },
+            "account": {
+                "title": "Cuenta y acceso",
+                "text": "Inicio de sesión, perfiles, contraseñas y permisos."
+            },
+            "classroom": {
+                "title": "Gestión del aula",
+                "text": "Cursos, estudiantes, misiones y seguimiento."
+            },
+            "coins": {
+                "title": "Tiajitos y tienda",
+                "text": "Recompensas, saldos, movimientos y productos."
+            },
+            "reports": {
+                "title": "Reportes y resultados",
+                "text": "Datos, avances, indicadores y exportaciones."
+            },
+            "security": {
+                "title": "Seguridad y privacidad",
+                "text": "Protección de datos, acceso seguro y permisos."
+            }
+        }
+    },
+    "popular": {
+        "eyebrow": "Artículos más consultados",
+        "title": "Soluciones rápidas",
+        "description": "Respuestas sencillas a las dudas más frecuentes de nuestra comunidad.",
+        "items": {
+            "createAccount": {
+                "title": "Cómo crear y activar una cuenta",
+                "text": "Conoce los pasos para ingresar por primera vez.",
+                "time": "3 min"
+            },
+            "configureClass": {
+                "title": "Cómo configurar un curso",
+                "text": "Agrega estudiantes, asigna roles y prepara tu aula.",
+                "time": "5 min"
+            },
+            "assignCoins": {
+                "title": "Cómo entregar Tiajitos",
+                "text": "Reconoce el esfuerzo de forma rápida y segura.",
+                "time": "4 min"
+            },
+            "viewReports": {
+                "title": "Cómo revisar reportes",
+                "text": "Consulta avances, participación y resultados.",
+                "time": "6 min"
+            },
+            "recoverPassword": {
+                "title": "Cómo recuperar la contraseña",
+                "text": "Restablece el acceso a tu cuenta paso a paso.",
+                "time": "2 min"
+            },
+            "contactSupport": {
+                "title": "Cómo contactar al soporte",
+                "text": "Conoce los canales disponibles para recibir ayuda.",
+                "time": "2 min"
+            }
+        }
+    },
+    "guides": {
+        "eyebrow": "Guías y tutoriales",
+        "title": "Aprende paso a paso",
+        "description": "Explora materiales visuales y descargables para dominar cada herramienta de TíaJo Bank.",
+        "points": {
+            "steps": "Instrucciones claras y ordenadas.",
+            "visual": "Ejemplos visuales y casos prácticos.",
+            "downloadable": "Recursos listos para descargar."
+        },
+        "button": "Explorar las guías",
+        "imageAlt": "Pepe presenta las guías del centro de ayuda",
+        "card": {
+            "title": "Guías descargables",
+            "text": "Material práctico para docentes y equipos."
+        }
+    },
+    "contact": {
+        "eyebrow": "Soporte personalizado",
+        "title": "¿Aún necesitas ayuda?",
+        "description": "Nuestro equipo está disponible para acompañarte mediante distintos canales.",
+        "items": {
+            "chat": {
+                "title": "Chat de soporte",
+                "text": "Conversa con nuestro equipo durante el horario de atención.",
+                "button": "Iniciar chat"
+            },
+            "email": {
+                "title": "Correo electrónico",
+                "text": "Escríbenos y responderemos tu solicitud lo antes posible.",
+                "button": "Enviar correo"
+            },
+            "meeting": {
+                "title": "Agendar orientación",
+                "text": "Reserva una instancia para resolver dudas de implementación.",
+                "button": "Agendar reunión"
+            }
+        }
+    },
+    "cta": {
+        "title": "Estamos aquí para acompañarte",
+        "description": "Cuéntanos qué necesitas y encontraremos juntos la mejor solución.",
+        "button": "Contactar al equipo",
+        "imageAlt": "Pepe invita a contactar al equipo de TíaJo Bank"
+    }
+}

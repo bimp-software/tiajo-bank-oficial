@@ -1,0 +1,209 @@
+{
+    "hero": {
+        "badge": "Conoce nuestra historia",
+        "title": "Todo comenzó dentro de",
+        "highlight": "una sala de clases",
+        "description": "TíaJo Bank nació de una experiencia educativa real: observar, escuchar, probar nuevas estrategias y descubrir que aprender puede sentirse como una aventura que cada estudiante desea vivir.",
+        "question": "¿Cómo lograr que los niños quieran aprender, participar y superarse todos los días?",
+        "primaryButton": "Descubrir nuestra historia",
+        "secondaryButton": "Ver una demostración",
+        "imageAlt": "Tía Jo y Pepe representando el origen de TíaJo Bank",
+        "trust": {
+            "classroom": "Nacido en el aula",
+            "students": "Pensado para estudiantes reales",
+            "purpose": "Tecnología con propósito"
+        },
+        "floating": {
+            "ideaTitle": "Una idea educativa",
+            "ideaText": "que comenzó con una pregunta",
+            "impactTitle": "Un aprendizaje distinto",
+            "impactText": "más motivador y significativo"
+        }
+    },
+    "origin": {
+        "eyebrow": "Nuestro origen",
+        "title": "La historia comenzó observando lo que ocurría cada día",
+        "description": "La profesora Joselyn Cáceres, conocida por sus estudiantes como la Tía Jo, comenzó a buscar nuevas formas de motivar a un curso diverso, con distintas necesidades, ritmos de aprendizaje y realidades familiares.",
+        "quote": "No quería que mis estudiantes aprendieran solo para obtener una nota. Quería que sintieran orgullo por sus avances, que se atrevieran a participar y que comprendieran que cada esfuerzo cuenta.",
+        "author": "Joselyn Cáceres Ramírez",
+        "role": "Docente y creadora de la metodología TíaJo Bank",
+        "cardTitle": "Una metodología construida desde la experiencia",
+        "cardText": "Cada estrategia fue creada, probada y mejorada en una sala de clases real. La metodología creció a partir de la observación pedagógica y de las respuestas de los propios estudiantes.",
+        "details": {
+            "observation": "Observar necesidades reales",
+            "experimentation": "Experimentar con nuevas estrategias",
+            "improvement": "Mejorar a partir de la evidencia"
+        }
+    },
+    "problem": {
+        "eyebrow": "El desafío",
+        "title": "Había algo que necesitaba cambiar",
+        "description": "Muchos estudiantes cumplían las actividades, pero no siempre se sentían protagonistas de su aprendizaje. La pregunta no era cómo exigir más, sino cómo ayudarles a encontrar sentido, confianza y motivación.",
+        "items": {
+            "motivation": {
+                "title": "Baja motivación",
+                "text": "Algunos estudiantes asociaban aprender con obligación, cansancio o miedo a equivocarse."
+            },
+            "meaning": {
+                "title": "Aprendizajes poco significativos",
+                "text": "Los contenidos podían olvidarse cuando no se conectaban con experiencias cercanas y desafiantes."
+            },
+            "participation": {
+                "title": "Participación desigual",
+                "text": "No todos se atrevían a hablar, liderar, colaborar o mostrar lo que eran capaces de hacer."
+            },
+            "technology": {
+                "title": "Tecnología sin propósito",
+                "text": "Las herramientas digitales necesitaban estar al servicio del aprendizaje y no ser solo un complemento."
+            }
+        },
+        "bridgeTitle": "Entonces comenzó la búsqueda de una respuesta distinta",
+        "bridgeText": "Una propuesta capaz de unir motivación, responsabilidad, emociones, juego, colaboración y aprendizaje."
+    },
+    "birth": {
+        "eyebrow": "El nacimiento de TíaJo Bank",
+        "title": "Una pequeña idea comenzó a transformarse",
+        "description": "La economía escolar fue el primer paso. Los estudiantes recibían dinero simbólico por su esfuerzo, responsabilidad, participación y colaboración. Pero muy pronto quedó claro que no se trataba solo de recompensas.",
+        "highlightTitle": "TíaJo Bank",
+        "highlightText": "Economía escolar, gamificación y aprendizaje con sentido.",
+        "steps": {
+            "observation": {
+                "phase": "El punto de partida",
+                "title": "Observar y escuchar",
+                "text": "La metodología comenzó comprendiendo qué motivaba a los estudiantes, qué les costaba y qué necesitaban para sentirse capaces."
+            },
+            "economy": {
+                "phase": "La primera estrategia",
+                "title": "La economía escolar",
+                "text": "Se incorporaron monedas simbólicas para reconocer esfuerzo, responsabilidad, colaboración, participación y cumplimiento de acuerdos."
+            },
+            "gamification": {
+                "phase": "La experiencia",
+                "title": "El aprendizaje se convirtió en una misión",
+                "text": "Aparecieron desafíos, roles, personajes, historias, recompensas, paneles y metas visibles que transformaron la dinámica de la clase."
+            },
+            "methodology": {
+                "phase": "La consolidación",
+                "title": "Nació una metodología completa",
+                "text": "La propuesta incorporó una ruta de aprendizaje, roles de aula, momentos de reflexión y estrategias para acompañar el progreso."
+            },
+            "platform": {
+                "phase": "La evolución digital",
+                "title": "La experiencia llegó a la tecnología",
+                "text": "TíaJo Bank comenzó a convertirse en una plataforma que permite gestionar la economía escolar, los avances, las experiencias y la comunicación."
+            }
+        }
+    },
+    "evolution": {
+        "eyebrow": "Una historia en evolución",
+        "title": "Cada necesidad abrió una nueva posibilidad",
+        "description": "La metodología fue creciendo paso a paso. Cada nuevo recurso respondió a una necesidad real observada en el aula.",
+        "items": {
+            "economy": {
+                "title": "Economía escolar",
+                "text": "Reconocer el esfuerzo y promover la responsabilidad mediante una experiencia simbólica y significativa."
+            },
+            "roles": {
+                "title": "Roles de aula",
+                "text": "Dar responsabilidades reales a los estudiantes para fortalecer autonomía, liderazgo y colaboración."
+            },
+            "route": {
+                "title": "Ruta de aprendizaje",
+                "text": "Hacer visible el proceso: prepararse, descubrir, intentar, lograr, compartir y reflexionar."
+            },
+            "panels": {
+                "title": "Paneles interactivos",
+                "text": "Organizar metas, emociones, avances, roles y acuerdos mediante recursos visuales y manipulables."
+            },
+            "radio": {
+                "title": "Radio escolar",
+                "text": "Fortalecer comunicación, creatividad, expresión oral y participación en proyectos con impacto real."
+            },
+            "digital": {
+                "title": "Plataforma y aplicación",
+                "text": "Llevar la metodología a un entorno digital accesible para docentes, estudiantes, familias y colegios."
+            },
+            "ai": {
+                "title": "Inteligencia artificial educativa",
+                "text": "Apoyar la planificación, el acompañamiento y la toma de decisiones sin reemplazar el vínculo humano."
+            },
+            "virtual": {
+                "title": "Mundo virtual",
+                "text": "Explorar nuevas experiencias inmersivas donde aprender, crear y colaborar sea parte de una aventura."
+            }
+        }
+    },
+    "methodology": {
+        "eyebrow": "Más que una plataforma",
+        "title": "Una metodología que acompaña todo el proceso de aprender",
+        "description": "TíaJo Bank busca que cada estudiante entienda dónde está, qué está haciendo, qué necesita mejorar y por qué su participación importa.",
+        "pillars": {
+            "emotional": "Bienestar socioemocional",
+            "gamification": "Gamificación con propósito",
+            "inclusion": "Inclusión y accesibilidad",
+            "progress": "Progreso visible"
+        },
+        "routeBadge": "La ruta de aprendizaje",
+        "routeTitle": "Seis pasos para avanzar con sentido",
+        "route": {
+            "prepare": "Me preparo",
+            "discover": "Descubro",
+            "try": "Lo intento",
+            "achieve": "Lo logro",
+            "share": "Lo comparto",
+            "reflect": "Reflexiono"
+        },
+        "routeNote": "La ruta ayuda a que el estudiante reconozca su proceso y no valore únicamente el resultado final."
+    },
+    "values": {
+        "eyebrow": "Lo que nos guía",
+        "title": "Nuestros valores están presentes en cada decisión",
+        "description": "La tecnología cambia, pero nuestro propósito se mantiene: crear experiencias educativas más humanas, motivadoras e inclusivas.",
+        "items": {
+            "innovation": {
+                "title": "Innovación",
+                "text": "Creemos que siempre existe una mejor forma de enseñar, acompañar y aprender."
+            },
+            "commitment": {
+                "title": "Compromiso",
+                "text": "Cada estudiante merece oportunidades reales para descubrir lo que puede lograr."
+            },
+            "inclusion": {
+                "title": "Inclusión",
+                "text": "Diseñamos pensando en la diversidad de ritmos, necesidades, contextos y formas de aprender."
+            },
+            "purpose": {
+                "title": "Tecnología con propósito",
+                "text": "La tecnología debe simplificar, acompañar y enriquecer la experiencia educativa."
+            }
+        }
+    },
+    "future": {
+        "eyebrow": "El camino continúa",
+        "title": "Nuestro sueño es que esta experiencia llegue mucho más lejos",
+        "description": "Queremos que cualquier comunidad educativa pueda transformar la manera en que sus estudiantes viven el aprendizaje, sin perder la identidad, la cercanía ni el sentido humano de enseñar.",
+        "imageAlt": "Pepe imaginando el futuro de TíaJo Bank",
+        "goals": {
+            "latam": {
+                "title": "Crecer desde Chile hacia Latinoamérica",
+                "text": "Acompañar colegios que buscan innovar con identidad y propósito."
+            },
+            "world": {
+                "title": "Construir una experiencia global",
+                "text": "Adaptar la plataforma a distintos idiomas, culturas y contextos educativos."
+            },
+            "technology": {
+                "title": "Seguir creando tecnología educativa",
+                "text": "Integrar inteligencia artificial, experiencias inmersivas y nuevas herramientas."
+            }
+        }
+    },
+    "cta": {
+        "eyebrow": "Sé parte del próximo capítulo",
+        "title": "Esta historia recién está comenzando",
+        "description": "TíaJo Bank nació en una sala de clases, creció junto a estudiantes reales y hoy avanza con el sueño de ayudar a muchas más comunidades educativas.",
+        "primaryButton": "Solicitar una demostración",
+        "secondaryButton": "Conocer la plataforma",
+        "imageAlt": "Pepe invitando a conocer TíaJo Bank"
+    }
+}

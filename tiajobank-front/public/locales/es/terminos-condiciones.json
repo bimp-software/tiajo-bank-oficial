@@ -1,0 +1,106 @@
+{
+    "hero": {
+        "badge": "Condiciones de uso",
+        "title": "Términos y",
+        "highlight": "condiciones",
+        "description": "Estos términos regulan el acceso y uso de TíaJo Bank. Al utilizar nuestra plataforma, aceptas cumplir estas condiciones y utilizar el servicio de manera responsable.",
+        "note": "Te recomendamos leer cuidadosamente este documento antes de crear una cuenta o utilizar cualquiera de nuestras herramientas.",
+        "imageAlt": "Pepe presenta los términos y condiciones de TíaJo Bank"
+    },
+    "index": {
+        "title": "En esta página",
+        "download": "Descargar términos",
+        "updated": "Versión actualizada: 15 de mayo de 2024"
+    },
+    "sections": {
+        "acceptance": {
+            "title": "Aceptación de los términos",
+            "text": "Al acceder, registrarte o utilizar TíaJo Bank, declaras haber leído, comprendido y aceptado estos términos y condiciones."
+        },
+        "service": {
+            "title": "Descripción y uso del servicio",
+            "text": "TíaJo Bank ofrece herramientas educativas, de gamificación, comunicación y seguimiento destinadas a comunidades educativas."
+        },
+        "registration": {
+            "title": "Registro y cuentas de usuario",
+            "text": "Las personas usuarias deben entregar información correcta, mantener sus credenciales seguras y actualizar sus datos cuando corresponda."
+        },
+        "responsibilities": {
+            "title": "Responsabilidades del usuario",
+            "text": "Cada usuario debe utilizar la plataforma de manera respetuosa, legal y conforme a las reglas de su institución educativa."
+        },
+        "intellectualProperty": {
+            "title": "Propiedad intelectual",
+            "text": "Los contenidos, diseños, marcas, códigos y materiales de TíaJo Bank están protegidos por las normas de propiedad intelectual aplicables."
+        },
+        "userContent": {
+            "title": "Contenido generado por usuarios",
+            "text": "Los usuarios son responsables del contenido que publican y garantizan que cuentan con los derechos necesarios para compartirlo."
+        },
+        "payments": {
+            "title": "Pagos, planes y suscripciones",
+            "text": "Los planes, precios, medios de pago, renovaciones y condiciones comerciales se informan antes de contratar un servicio."
+        },
+        "suspension": {
+            "title": "Suspensión o cierre de cuentas",
+            "text": "Podemos suspender o cerrar cuentas cuando exista incumplimiento de estos términos, riesgo de seguridad o uso indebido."
+        },
+        "liability": {
+            "title": "Limitación de responsabilidad",
+            "text": "TíaJo Bank procura mantener el servicio disponible y seguro, pero no garantiza la ausencia total de interrupciones o errores externos."
+        },
+        "changes": {
+            "title": "Modificaciones de los términos",
+            "text": "Podemos actualizar estos términos y comunicaremos los cambios relevantes mediante la plataforma o nuestros canales oficiales."
+        },
+        "law": {
+            "title": "Legislación aplicable",
+            "text": "Estos términos se interpretan conforme a la legislación aplicable y a las obligaciones vigentes en materia educativa y digital."
+        },
+        "contact": {
+            "title": "Contacto",
+            "text": "Puedes comunicarte con nuestro equipo para realizar consultas relacionadas con estos términos y condiciones."
+        }
+    },
+    "acceptance": {
+        "eyebrow": "Antes de comenzar",
+        "title": "Tu aceptación es importante",
+        "description": "Al utilizar TíaJo Bank confirmas que:",
+        "items": {
+            "read": "Has leído estos términos y condiciones.",
+            "understand": "Comprendes las reglas de uso de la plataforma.",
+            "agree": "Aceptas cumplir las condiciones descritas.",
+            "responsibility": "Utilizarás el servicio de manera responsable."
+        }
+    },
+    "responsibility": {
+        "title": "Uso responsable y seguro",
+        "description": "Queremos que cada integrante de la comunidad disfrute una experiencia educativa respetuosa, segura y positiva."
+    },
+    "support": {
+        "eyebrow": "Estamos para orientarte",
+        "title": "¿Tienes preguntas?",
+        "description": "Nuestro equipo puede ayudarte a comprender estas condiciones.",
+        "items": {
+            "help": {
+                "title": "Centro de ayuda",
+                "text": "Revisa respuestas, recursos y preguntas frecuentes."
+            },
+            "contact": {
+                "title": "Contáctanos",
+                "text": "Escríbenos y nuestro equipo responderá tu consulta."
+            },
+            "chat": {
+                "title": "Chat en vivo",
+                "text": "Disponible dentro de la plataforma."
+            }
+        },
+        "button": "Ir al Centro de ayuda"
+    },
+    "cta": {
+        "title": "Gracias por ser parte de TíaJo Bank",
+        "description": "Construimos una comunidad educativa basada en confianza, respeto y responsabilidad.",
+        "button": "¡Comienza ahora!",
+        "imageAlt": "Pepe invita a utilizar TíaJo Bank"
+    }
+}

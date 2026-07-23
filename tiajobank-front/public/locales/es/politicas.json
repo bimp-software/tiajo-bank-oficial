@@ -1,0 +1,96 @@
+{
+    "hero": {
+        "badge": "Transparencia y confianza",
+        "title": "Políticas de",
+        "highlight": "TíaJo Bank",
+        "description": "Nuestro compromiso es garantizar una plataforma segura, confiable y transparente para todos los integrantes de nuestra comunidad.",
+        "imageAlt": "Pepe presenta las políticas de TíaJo Bank"
+    },
+    "cards": {
+        "title": "Nuestras políticas",
+        "description": "Conoce las normas, compromisos y condiciones que protegen a nuestra comunidad.",
+        "action": "Ver más",
+        "items": {
+            "privacidad": {
+                "title": "Política de privacidad",
+                "text": "Explica cómo recopilamos, usamos, protegemos y compartimos la información personal."
+            },
+            "seguridad": {
+                "title": "Política de seguridad",
+                "text": "Describe las medidas implementadas para proteger la información y la plataforma."
+            },
+            "terminos": {
+                "title": "Términos de uso",
+                "text": "Establece las reglas y condiciones para utilizar TíaJo Bank."
+            },
+            "uso-aceptable": {
+                "title": "Política de uso aceptable",
+                "text": "Define comportamientos permitidos y no permitidos dentro de la comunidad."
+            },
+            "proteccion-de-menores": {
+                "title": "Política de protección de menores",
+                "text": "Expone nuestro compromiso con la seguridad y bienestar de niñas, niños y adolescentes."
+            },
+            "cookies": {
+                "title": "Política de cookies",
+                "text": "Explica el uso de cookies y tecnologías similares para mejorar la navegación."
+            },
+            "compras-y-reembolsos": {
+                "title": "Política de compras y reembolsos",
+                "text": "Informa sobre compras, suscripciones, pagos y procesos de reembolso."
+            },
+            "intelectual": {
+                "title": "Política de propiedad intelectual",
+                "text": "Protege contenidos, marcas, derechos de autor y creaciones de la plataforma."
+            },
+            "comunicaciones": {
+                "title": "Política de comunicaciones",
+                "text": "Detalla cómo nos comunicamos con usuarios y gestionamos preferencias."
+            }
+        }
+    },
+    "commitment": {
+        "eyebrow": "Nuestro compromiso",
+        "title": "Una plataforma ética y confiable",
+        "description": "Trabajamos cada día para brindar una experiencia educativa segura y transparente.",
+        "items": {
+            "transparency": "Transparencia en nuestras acciones",
+            "privacy": "Respeto por tu privacidad",
+            "security": "Seguridad de la información",
+            "fairness": "Experiencias justas para todos"
+        },
+        "imageAlt": "Pepe representa el compromiso de TíaJo Bank"
+    },
+    "support": {
+        "eyebrow": "Estamos para ayudarte",
+        "title": "¿Tienes dudas sobre nuestras políticas?",
+        "description": "Nuestro equipo está disponible para orientarte.",
+        "items": {
+            "email": {
+                "title": "Correo electrónico",
+                "text": "hola@tiajobank.com"
+            },
+            "chat": {
+                "title": "Chat en vivo",
+                "text": "Disponible dentro de la plataforma"
+            },
+            "help": {
+                "title": "Centro de ayuda",
+                "text": "Encuentra respuestas y recursos"
+            }
+        },
+        "button": "Ir al Centro de ayuda"
+    },
+    "notice": {
+        "text": "Estas políticas pueden actualizarse periódicamente. Te recomendamos revisarlas regularmente para mantenerte informado sobre cómo protegemos tus datos y garantizamos una experiencia confiable."
+    },
+    "cta": {
+        "title": {
+            "before": "Tu confianza es nuestra ",
+            "highlight": "prioridad"
+        },
+        "description": "Cada política está diseñada para protegerte y brindarte la mejor experiencia educativa.",
+        "button": "¡Comienza ahora!",
+        "imageAlt": "Pepe invita a confiar en TíaJo Bank"
+    }
+}

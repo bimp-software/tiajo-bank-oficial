@@ -1,0 +1,122 @@
+{
+    "hero": {
+        "badge": "Comunicación segura y respetuosa",
+        "title": "Política de",
+        "highlight": "comunicaciones",
+        "description": "Esta política establece las reglas para las comunicaciones realizadas mediante TíaJo Bank entre instituciones, docentes, estudiantes y familias.",
+        "note": "Toda comunicación debe tener una finalidad legítima, respetar la privacidad de las personas y contribuir a una convivencia educativa segura.",
+        "imageAlt": "Pepe presenta la política de comunicaciones de TíaJo Bank"
+    },
+    "index": {
+        "title": "En esta página",
+        "download": "Descargar política",
+        "updated": "Versión actualizada: 15 de mayo de 2024"
+    },
+    "sections": {
+        "purpose": {
+            "title": "Objetivo de la política",
+            "text": "Establecer criterios para que las comunicaciones dentro de TíaJo Bank sean seguras, claras, respetuosas y adecuadas al contexto educativo."
+        },
+        "scope": {
+            "title": "Alcance",
+            "text": "Esta política se aplica a mensajes, avisos, notificaciones, comentarios, publicaciones, correos y demás comunicaciones habilitadas."
+        },
+        "channels": {
+            "title": "Canales autorizados",
+            "text": "Las comunicaciones deben realizarse mediante los canales habilitados por la plataforma y conforme a los permisos definidos por cada institución."
+        },
+        "institutional": {
+            "title": "Comunicaciones institucionales",
+            "text": "Los avisos institucionales deben ser pertinentes, verificables, comprensibles y emitidos por personas autorizadas."
+        },
+        "educational": {
+            "title": "Comunicaciones educativas",
+            "text": "Los mensajes relacionados con clases, actividades, evaluaciones o acompañamiento deben mantener un lenguaje apropiado y una finalidad pedagógica."
+        },
+        "minors": {
+            "title": "Comunicaciones con menores",
+            "text": "Las comunicaciones con menores deben ser transparentes, apropiadas para su edad, vinculadas a fines educativos y sujetas a supervisión institucional."
+        },
+        "families": {
+            "title": "Comunicaciones con familias",
+            "text": "La información dirigida a familias debe resguardar los datos personales y evitar exponer públicamente situaciones privadas de estudiantes."
+        },
+        "consent": {
+            "title": "Consentimiento y preferencias",
+            "text": "Las personas pueden gestionar determinadas preferencias de notificación, sin perjuicio de las comunicaciones esenciales para prestar el servicio."
+        },
+        "content": {
+            "title": "Contenido permitido",
+            "text": "El contenido debe ser respetuoso, relevante, veraz y compatible con los principios de convivencia y seguridad de la comunidad educativa."
+        },
+        "prohibited": {
+            "title": "Contenido prohibido",
+            "text": "Se prohíben el acoso, amenazas, discriminación, suplantación, contenido sexual, exposición de datos sensibles, spam y comunicaciones engañosas."
+        },
+        "moderation": {
+            "title": "Moderación",
+            "text": "TíaJo Bank y las instituciones pueden revisar, limitar o retirar comunicaciones que incumplan las reglas o representen un riesgo."
+        },
+        "notifications": {
+            "title": "Notificaciones",
+            "text": "Las notificaciones pueden utilizarse para informar actividades, cambios, alertas, recordatorios o asuntos importantes relacionados con el servicio."
+        },
+        "records": {
+            "title": "Conservación de registros",
+            "text": "Ciertas comunicaciones pueden conservarse durante el tiempo necesario para fines operativos, de seguridad, auditoría o cumplimiento."
+        },
+        "reports": {
+            "title": "Reporte de comunicaciones",
+            "text": "Las personas usuarias pueden reportar mensajes o contenidos que consideren inapropiados, riesgosos o contrarios a esta política."
+        },
+        "changes": {
+            "title": "Cambios a esta política",
+            "text": "Podemos actualizar esta política para reflejar nuevas funciones, riesgos, obligaciones legales o necesidades de la comunidad."
+        },
+        "contact": {
+            "title": "Contacto",
+            "text": "Puedes comunicarte con nuestro equipo para realizar consultas o informar problemas relacionados con las comunicaciones."
+        }
+    },
+    "principles": {
+        "eyebrow": "Principios de comunicación",
+        "title": "Comunicarnos mejor",
+        "description": "Promovemos comunicaciones basadas en:",
+        "items": {
+            "respect": "Respeto y trato digno.",
+            "purpose": "Finalidad educativa o institucional.",
+            "privacy": "Protección de datos y privacidad.",
+            "safety": "Seguridad y bienestar de la comunidad."
+        }
+    },
+    "warning": {
+        "title": "Piensa antes de enviar",
+        "description": "No compartas datos personales, imágenes, antecedentes privados o contenido sensible sin autorización y sin verificar el destinatario."
+    },
+    "reporting": {
+        "eyebrow": "Canales de ayuda",
+        "title": "¿Recibiste una comunicación inapropiada?",
+        "description": "Reporta la situación sin reenviar ni difundir públicamente el contenido.",
+        "items": {
+            "report": {
+                "title": "Reporta el mensaje",
+                "text": "Identifica el contenido y explica por qué genera preocupación."
+            },
+            "institution": {
+                "title": "Informa a la institución",
+                "text": "Comunícate con el establecimiento o responsable correspondiente."
+            },
+            "contact": {
+                "title": "Contacta a TíaJo Bank",
+                "text": "Nuestro equipo revisará los antecedentes disponibles."
+            }
+        },
+        "button": "Contactar al equipo"
+    },
+    "cta": {
+        "title": "Una buena comunicación fortalece la comunidad",
+        "description": "Construyamos espacios digitales claros, respetuosos y seguros para todos.",
+        "button": "Contactar al equipo",
+        "imageAlt": "Pepe invita a mantener comunicaciones seguras y respetuosas"
+    }
+}

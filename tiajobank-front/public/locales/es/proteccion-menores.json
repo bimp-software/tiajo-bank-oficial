@@ -1,0 +1,122 @@
+{
+    "hero": {
+        "badge": "Seguridad y bienestar",
+        "title": "Política de protección",
+        "highlight": "de menores",
+        "description": "Esta política establece los principios y medidas que orientan la protección de niños, niñas y adolescentes que utilizan TíaJo Bank.",
+        "note": "La seguridad, dignidad, privacidad y bienestar de los menores son una prioridad en el diseño y uso de nuestra plataforma.",
+        "imageAlt": "Pepe representa la protección y seguridad de menores en TíaJo Bank"
+    },
+    "index": {
+        "title": "En esta página",
+        "download": "Descargar política",
+        "updated": "Versión actualizada: 15 de mayo de 2024"
+    },
+    "sections": {
+        "purpose": {
+            "title": "Objetivo de la política",
+            "text": "Nuestro objetivo es establecer estándares de prevención, cuidado, actuación y respuesta para proteger a los menores que usan la plataforma."
+        },
+        "scope": {
+            "title": "Alcance",
+            "text": "Esta política se aplica a estudiantes, docentes, familias, administradores, instituciones, proveedores y personas con acceso autorizado."
+        },
+        "bestInterest": {
+            "title": "Interés superior del menor",
+            "text": "Las decisiones relacionadas con menores deben considerar prioritariamente su seguridad, bienestar, dignidad y desarrollo integral."
+        },
+        "safeEnvironment": {
+            "title": "Entorno digital seguro",
+            "text": "TíaJo Bank promueve espacios digitales adecuados para el aprendizaje, la convivencia, la participación y la comunicación respetuosa."
+        },
+        "accounts": {
+            "title": "Cuentas y acceso de menores",
+            "text": "El acceso de menores debe ser autorizado y gestionado de acuerdo con las reglas de la institución educativa y sus responsables."
+        },
+        "data": {
+            "title": "Datos personales y privacidad",
+            "text": "Los datos de menores deben tratarse con especial cuidado, limitando su uso a fines educativos, operativos y de seguridad autorizados."
+        },
+        "communications": {
+            "title": "Comunicaciones con menores",
+            "text": "Las comunicaciones deben ser apropiadas, transparentes, respetuosas y vinculadas a finalidades educativas o institucionales."
+        },
+        "content": {
+            "title": "Imágenes y contenido de menores",
+            "text": "No deben publicarse imágenes, datos o contenidos de menores sin las autorizaciones correspondientes y sin resguardar su dignidad."
+        },
+        "prohibitedConduct": {
+            "title": "Conductas prohibidas",
+            "text": "Se prohíben el acoso, grooming, explotación, amenazas, discriminación, contacto inapropiado, suplantación y cualquier forma de abuso."
+        },
+        "moderation": {
+            "title": "Supervisión y moderación",
+            "text": "La plataforma y las instituciones pueden aplicar controles, revisiones y medidas de moderación para prevenir riesgos y proteger a los usuarios."
+        },
+        "reporting": {
+            "title": "Reporte de situaciones de riesgo",
+            "text": "Cualquier sospecha o situación que pueda afectar a un menor debe informarse de forma inmediata mediante los canales definidos."
+        },
+        "response": {
+            "title": "Respuesta ante incidentes",
+            "text": "Los reportes se revisan con prioridad y pueden dar lugar a medidas de protección, bloqueo, suspensión, preservación de antecedentes o derivación."
+        },
+        "families": {
+            "title": "Participación de familias e instituciones",
+            "text": "Las familias y comunidades educativas cumplen un rol fundamental en la supervisión, orientación y acompañamiento del uso digital."
+        },
+        "training": {
+            "title": "Prevención y formación",
+            "text": "Promovemos la educación digital, la prevención del abuso, el cuidado de datos y el reconocimiento temprano de situaciones de riesgo."
+        },
+        "changes": {
+            "title": "Actualizaciones de la política",
+            "text": "Esta política puede modificarse para responder a nuevas funciones, riesgos, obligaciones legales o buenas prácticas de protección."
+        },
+        "contact": {
+            "title": "Contacto",
+            "text": "Puedes comunicarte con TíaJo Bank para realizar consultas o reportar situaciones relacionadas con la seguridad de menores."
+        }
+    },
+    "commitments": {
+        "eyebrow": "Nuestros compromisos",
+        "title": "Protección en cada decisión",
+        "description": "Trabajamos para fortalecer:",
+        "items": {
+            "safety": "La seguridad y el bienestar de los menores.",
+            "privacy": "La privacidad y protección de sus datos.",
+            "respect": "El trato digno, respetuoso y no discriminatorio.",
+            "response": "La actuación oportuna frente a situaciones de riesgo."
+        }
+    },
+    "alert": {
+        "title": "Actuar ante una situación de riesgo",
+        "description": "Cuando exista peligro inmediato o una posible vulneración de derechos, se debe contactar a la institución responsable y a los organismos competentes."
+    },
+    "reporting": {
+        "eyebrow": "Canales de apoyo",
+        "title": "¿Necesitas reportar una situación?",
+        "description": "Entrega la información disponible de forma clara y evita exponer públicamente datos sensibles del menor.",
+        "items": {
+            "report": {
+                "title": "Reportar en la plataforma",
+                "text": "Informa contenidos, mensajes o comportamientos preocupantes."
+            },
+            "school": {
+                "title": "Contactar a la institución",
+                "text": "Comunícate con el establecimiento o responsable correspondiente."
+            },
+            "contact": {
+                "title": "Contactar a TíaJo Bank",
+                "text": "Nuestro equipo revisará el reporte con prioridad."
+            }
+        },
+        "button": "Contactar al equipo"
+    },
+    "cta": {
+        "title": "La protección de los menores es responsabilidad de todos",
+        "description": "Construyamos una experiencia digital segura, respetuosa y adecuada para cada comunidad educativa.",
+        "button": "Conocer nuestra seguridad",
+        "imageAlt": "Pepe invita a conocer las medidas de seguridad de TíaJo Bank"
+    }
+}

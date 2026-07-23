@@ -1,0 +1,144 @@
+{
+    "hero": {
+        "badge": "Contáctanos",
+        "title": "Estamos aquí",
+        "highlight": "para ayudarte",
+        "description": "¿Tienes dudas, sugerencias o necesitas apoyo? Nuestro equipo estará encantado de atenderte.",
+        "imageAlt": "Pepe atiende consultas desde un computador",
+        "speech": {
+            "title": "¡Hola!",
+            "text": "¿En qué podemos ayudarte?"
+        },
+        "benefits": {
+            "fast": {
+                "title": "Respuesta rápida",
+                "text": "Te respondemos lo antes posible."
+            },
+            "close": {
+                "title": "Atención cercana",
+                "text": "Nos importa tu experiencia."
+            },
+            "safe": {
+                "title": "Soporte confiable",
+                "text": "Ayuda segura y profesional."
+            },
+            "everyone": {
+                "title": "Para todos",
+                "text": "Docentes, estudiantes, apoderados y más."
+            }
+        }
+    },
+    "form": {
+        "title": "Envíanos un mensaje",
+        "description": "Completa el formulario y te responderemos a la brevedad.",
+        "fields": {
+            "name": "Nombre completo",
+            "email": "Correo electrónico",
+            "subject": "Asunto",
+            "recipient": "¿A quién va dirigido?",
+            "message": "Mensaje"
+        },
+        "placeholders": {
+            "name": "Escribe tu nombre",
+            "email": "tu@correo.cl",
+            "subject": "Motivo de tu consulta",
+            "recipient": "Selecciona un área",
+            "message": "Escribe aquí tu mensaje..."
+        },
+        "recipients": {
+            "support": "Soporte técnico",
+            "sales": "Ventas y planes",
+            "education": "Equipo educativo",
+            "alliances": "Alianzas y colaboraciones"
+        },
+        "privacy": {
+            "before": "Acepto la ",
+            "link": "política de privacidad",
+            "after": " y el tratamiento de mis datos."
+        },
+        "button": "Enviar mensaje"
+    },
+    "methods": {
+        "title": "Otras formas de contacto",
+        "items": {
+            "email": {
+                "title": "Correo electrónico",
+                "value": "hola@tiajobank.com",
+                "text": "Respondemos en menos de 24 horas."
+            },
+            "phone": {
+                "title": "Teléfono / WhatsApp",
+                "value": "+56 9 1234 5678",
+                "text": "Lunes a viernes de 8:00 a 18:00 hrs."
+            },
+            "chat": {
+                "title": "Chat en vivo",
+                "value": "Disponible en la plataforma",
+                "text": "Atención directa desde el centro de ayuda."
+            },
+            "address": {
+                "title": "Dirección",
+                "value": "Av. Educación 1234, Oficina 501",
+                "text": "Santiago, Chile."
+            },
+            "hours": {
+                "title": "Horario de atención",
+                "value": "Lunes a viernes",
+                "text": "8:00 a 18:00 hrs."
+            }
+        }
+    },
+    "help": {
+        "eyebrow": "Ayuda inmediata",
+        "title": "¿Necesitas ayuda urgente?",
+        "description": "Visita nuestro Centro de ayuda, donde encontrarás guías, preguntas frecuentes y más recursos.",
+        "button": "Ir al Centro de ayuda",
+        "imageAlt": "Pepe del equipo de soporte"
+    },
+    "social": {
+        "eyebrow": "Comunidad TíaJo",
+        "title": "Síguenos en redes",
+        "description": "Entérate de novedades, consejos y recursos educativos."
+    },
+    "faq": {
+        "title": "Preguntas frecuentes",
+        "action": "Ver todas las preguntas frecuentes",
+        "items": {
+            "support": {
+                "question": "¿Cómo puedo obtener soporte técnico?",
+                "answer": "Puedes escribirnos mediante este formulario, enviar un correo o utilizar el Centro de ayuda."
+            },
+            "response": {
+                "question": "¿En cuánto tiempo responden mi mensaje?",
+                "answer": "Nuestro objetivo es responder dentro de un plazo máximo de 24 horas hábiles."
+            },
+            "phone": {
+                "question": "¿TíaJo Bank tiene soporte telefónico?",
+                "answer": "Sí. Puedes contactarnos durante nuestro horario de atención."
+            },
+            "suggestions": {
+                "question": "¿Puedo sugerir nuevas funcionalidades?",
+                "answer": "Sí. Valoramos las propuestas de docentes, familias e instituciones."
+            },
+            "guides": {
+                "question": "¿Dónde puedo ver guías y tutoriales?",
+                "answer": "Puedes encontrarlos en la sección Guías y en el Centro de ayuda."
+            }
+        }
+    },
+    "location": {
+        "title": "¿Dónde estamos?",
+        "description": "Encuentra nuestra oficina y conéctate con nosotros.",
+        "mapAlt": "Mapa con la ubicación de TíaJo Bank",
+        "office": {
+            "title": "TíaJo Bank",
+            "address": "Av. Educación 1234, Oficina 501, Santiago, Chile."
+        }
+    },
+    "cta": {
+        "title": "Tu opinión es importante para nosotros",
+        "description": "Queremos seguir mejorando TíaJo Bank para transformar la educación juntos.",
+        "button": "¡Envíanos tu opinión!",
+        "imageAlt": "Pepe agradece la opinión de la comunidad"
+    }
+}

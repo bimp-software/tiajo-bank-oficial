@@ -1,0 +1,224 @@
+{
+    "hero": {
+        "badge": "Centro de ayuda",
+        "title": "¿Cómo podemos",
+        "highlight": "ayudarte hoy?",
+        "description": "Encuentra respuestas, guías paso a paso y recursos para aprovechar todas las herramientas de TíaJo Bank.",
+        "searchPlaceholder": "Busca una pregunta, función o problema…",
+        "searchLabel": "Buscar en el centro de ayuda",
+        "searchButton": "Buscar",
+        "suggestionsLabel": "Búsquedas frecuentes:",
+        "suggestions": {
+            "login": "No puedo iniciar sesión",
+            "bank": "Cómo entregar monedas",
+            "students": "Agregar estudiantes"
+        },
+        "imageAlt": "Pepe ayudando en el Centro de ayuda de TíaJo Bank",
+        "floating": {
+            "supportTitle": "Ayuda cercana",
+            "supportText": "Respuestas claras y sencillas",
+            "guidesTitle": "Guías paso a paso",
+            "guidesText": "Aprende a tu propio ritmo"
+        },
+        "stats": {
+            "quickTitle": "Respuestas rápidas",
+            "quickText": "Encuentra soluciones sin perder tiempo",
+            "rolesTitle": "Ayuda para cada perfil",
+            "rolesText": "Directivos, docentes, estudiantes y familias",
+            "secureTitle": "Información confiable",
+            "secureText": "Seguridad y privacidad"
+        }
+    },
+    "categories": {
+        "eyebrow": "Explora por tema",
+        "title": "Encuentra ayuda según lo que necesitas",
+        "description": "Revisa las principales categorías del Centro de ayuda.",
+        "items": {
+            "gettingStarted": {
+                "title": "Primeros pasos",
+                "text": "Conoce la plataforma, configura tu perfil y comienza a utilizar TíaJo Bank.",
+                "articles": "8 artículos"
+            },
+            "account": {
+                "title": "Cuenta y acceso",
+                "text": "Inicio de sesión, contraseñas, perfiles, permisos y recuperación.",
+                "articles": "10 artículos"
+            },
+            "classroom": {
+                "title": "Gestión del aula",
+                "text": "Crea cursos, agrega estudiantes y organiza experiencias.",
+                "articles": "14 artículos"
+            },
+            "bank": {
+                "title": "TíaJo Bank",
+                "text": "Monedas, recompensas, tienda, movimientos y economía escolar.",
+                "articles": "16 artículos"
+            },
+            "gamification": {
+                "title": "Gamificación",
+                "text": "Misiones, roles, paneles, metas, avatares y dinámicas.",
+                "articles": "12 artículos"
+            },
+            "reports": {
+                "title": "Reportes y seguimiento",
+                "text": "Consulta avances, participación y evidencias.",
+                "articles": "9 artículos"
+            },
+            "families": {
+                "title": "Familias y comunicación",
+                "text": "Notificaciones, mensajes y acompañamiento familiar.",
+                "articles": "7 artículos"
+            },
+            "security": {
+                "title": "Seguridad y privacidad",
+                "text": "Protección de datos, permisos y buenas prácticas.",
+                "articles": "11 artículos"
+            }
+        }
+    },
+    "popular": {
+        "eyebrow": "Lo más consultado",
+        "title": "Artículos populares",
+        "description": "Respuestas rápidas a las dudas más frecuentes.",
+        "viewAll": "Ver todos los artículos",
+        "readArticle": "Leer artículo",
+        "items": {
+            "createClass": {
+                "title": "Cómo crear tu primer curso",
+                "text": "Configura un curso y comienza a trabajar con tu grupo."
+            },
+            "addStudents": {
+                "title": "Cómo agregar estudiantes",
+                "text": "Invita estudiantes mediante una lista o código de acceso."
+            },
+            "giveCoins": {
+                "title": "Cómo entregar monedas",
+                "text": "Reconoce esfuerzo, responsabilidad y colaboración."
+            },
+            "roles": {
+                "title": "Cómo asignar roles de aula",
+                "text": "Organiza responsabilidades y promueve autonomía."
+            },
+            "learningRoute": {
+                "title": "Cómo utilizar la ruta de aprendizaje",
+                "text": "Haz visible cada etapa de la clase."
+            },
+            "recoverPassword": {
+                "title": "Cómo recuperar tu contraseña",
+                "text": "Restablece el acceso a tu cuenta de forma segura."
+            }
+        }
+    },
+    "guides": {
+        "eyebrow": "Aprende paso a paso",
+        "title": "Guías recomendadas",
+        "description": "Recorridos breves para utilizar las funciones principales.",
+        "levels": {
+            "beginner": "Inicial",
+            "intermediate": "Intermedio"
+        },
+        "openGuide": "Abrir guía",
+        "items": {
+            "firstSteps": {
+                "title": "Guía de primeros pasos",
+                "text": "Conoce la plataforma y prepara tu primera experiencia.",
+                "duration": "10 minutos",
+                "steps": "6 pasos"
+            },
+            "classroom": {
+                "title": "Configura tu aula digital",
+                "text": "Crea cursos, incorpora estudiantes y organiza el aula.",
+                "duration": "15 minutos",
+                "steps": "8 pasos"
+            },
+            "economy": {
+                "title": "Implementa la economía escolar",
+                "text": "Define monedas, criterios, recompensas y acuerdos.",
+                "duration": "18 minutos",
+                "steps": "9 pasos"
+            }
+        }
+    },
+    "roles": {
+        "eyebrow": "Ayuda personalizada",
+        "title": "Recursos para cada integrante de la comunidad",
+        "description": "Accede a orientaciones pensadas para cada perfil.",
+        "note": "Los permisos pueden variar según la configuración institucional.",
+        "items": {
+            "director": {
+                "title": "Directivos y administración",
+                "text": "Configuración institucional, usuarios y reportes."
+            },
+            "teacher": {
+                "title": "Docentes",
+                "text": "Cursos, estudiantes, economía escolar y metodología."
+            },
+            "student": {
+                "title": "Estudiantes",
+                "text": "Perfil, saldo, misiones, recompensas y avances."
+            },
+            "family": {
+                "title": "Familias y apoderados",
+                "text": "Seguimiento, comunicaciones y acompañamiento."
+            }
+        }
+    },
+    "faq": {
+        "eyebrow": "Preguntas frecuentes",
+        "title": "Resolvemos tus dudas principales",
+        "description": "Respuestas para comprender cómo funciona TíaJo Bank.",
+        "items": {
+            "whatIs": {
+                "question": "¿Qué es TíaJo Bank?",
+                "answer": "Es una plataforma educativa basada en economía escolar, gamificación, responsabilidades y seguimiento del aprendizaje."
+            },
+            "whoCanUse": {
+                "question": "¿Quiénes pueden utilizar la plataforma?",
+                "answer": "Instituciones, directivos, docentes, estudiantes, familias y perfiles autorizados."
+            },
+            "needInstall": {
+                "question": "¿Necesito instalar algún programa?",
+                "answer": "La versión web funciona desde un navegador compatible."
+            },
+            "password": {
+                "question": "¿Qué hago si olvidé mi contraseña?",
+                "answer": "Utiliza la recuperación disponible en la pantalla de acceso."
+            },
+            "data": {
+                "question": "¿Cómo se protegen los datos?",
+                "answer": "Se aplican controles de acceso, permisos por rol y medidas de seguridad."
+            },
+            "support": {
+                "question": "¿Cómo contacto al equipo de soporte?",
+                "answer": "Envía una solicitud o escribe al correo indicado incluyendo una descripción clara."
+            }
+        }
+    },
+    "contact": {
+        "eyebrow": "¿Todavía necesitas ayuda?",
+        "title": "Nuestro equipo está para orientarte",
+        "description": "Cuéntanos qué ocurrió y entrega todos los antecedentes posibles.",
+        "imageAlt": "Pepe representando al equipo de soporte",
+        "items": {
+            "ticket": {
+                "title": "Enviar una solicitud",
+                "text": "Describe el problema y adjunta antecedentes."
+            },
+            "email": {
+                "title": "Escribir por correo",
+                "text": "soporte@tiajo-bank.cl"
+            },
+            "demo": {
+                "title": "Solicitar una demostración",
+                "text": "Conoce la plataforma junto a nuestro equipo."
+            }
+        }
+    },
+    "cta": {
+        "eyebrow": "Comienza con confianza",
+        "title": "Conoce TíaJo Bank en funcionamiento",
+        "description": "Explora cómo la plataforma puede acompañar a tu comunidad educativa.",
+        "primaryButton": "Ver demostración",
+        "secondaryButton": "Contactar al equipo"
+    }
+}

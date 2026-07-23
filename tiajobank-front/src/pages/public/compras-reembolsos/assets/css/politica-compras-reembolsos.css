@@ -1,0 +1,436 @@
+
+.compras-reembolsos-hero,
+.compras-reembolsos-content,
+.compras-reembolsos-cta {
+    --cr-green: #078b45;
+    --cr-green-dark: #073b2b;
+    --cr-green-light: #55b749;
+    --cr-blue: #3d7fe0;
+    --cr-purple: #7a35cf;
+    --cr-orange: #ef8c2f;
+    --cr-text: #19342a;
+    --cr-muted: #607169;
+    --cr-border: #e4eae6;
+    --cr-shadow: 0 20px 55px rgba(16, 65, 43, .09);
+    color: var(--cr-text);
+}
+
+.compras-reembolsos-hero *,
+.compras-reembolsos-content *,
+.compras-reembolsos-cta * { box-sizing: border-box; }
+
+.compras-reembolsos-container {
+    width: min(1180px, calc(100% - 2rem));
+    margin-inline: auto;
+}
+
+.compras-reembolsos-hero {
+    padding: clamp(3.5rem, 7vw, 6rem) 0 2rem;
+    background:
+        radial-gradient(circle at 82% 10%, rgba(61, 127, 224, .1), transparent 24%),
+        linear-gradient(180deg, #fffdf9, #fff);
+}
+
+.compras-reembolsos-hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, .9fr) minmax(520px, 1.1fr);
+    align-items: center;
+    gap: clamp(2rem, 5vw, 5rem);
+}
+
+.compras-reembolsos-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: .55rem;
+    margin-bottom: 1.35rem;
+    padding: .65rem 1rem;
+    border-radius: 999px;
+    background: #eaf2ff;
+    color: var(--cr-blue);
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+.compras-reembolsos-hero h1 {
+    margin: 0 0 1.25rem;
+    color: var(--cr-green-dark);
+    font-size: clamp(3rem, 5.2vw, 5rem);
+    line-height: 1;
+    letter-spacing: -.055em;
+    font-weight: 950;
+}
+
+.compras-reembolsos-hero h1 span {
+    display: block;
+    color: var(--cr-green-light);
+}
+
+.compras-reembolsos-hero__content > p {
+    max-width: 640px;
+    margin: 0 0 1.4rem;
+    color: var(--cr-muted);
+    font-size: clamp(1rem, 1.3vw, 1.12rem);
+    line-height: 1.8;
+    font-weight: 600;
+}
+
+.compras-reembolsos-hero__note {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    max-width: 620px;
+    padding: 1rem 1.15rem;
+    border: 1px solid #dfe7f2;
+    border-radius: 14px;
+    background: #f7faff;
+}
+
+.compras-reembolsos-hero__note span {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    flex: 0 0 42px;
+    border-radius: 50%;
+    background: #e7effd;
+    color: var(--cr-blue);
+}
+
+.compras-reembolsos-hero__note p {
+    margin: 0;
+    color: #43544d;
+    font-size: .82rem;
+    line-height: 1.55;
+    font-weight: 700;
+}
+
+.compras-reembolsos-hero__visual {
+    position: relative;
+    min-height: 520px;
+    border-radius: 34px;
+    background: linear-gradient(145deg, #f4f8ff, #f1f8f3);
+    overflow: hidden;
+}
+
+.compras-reembolsos-hero__visual img {
+    position: absolute;
+    left: 7%;
+    bottom: 0;
+    z-index: 2;
+    width: 82%;
+    max-height: 96%;
+    object-fit: contain;
+}
+
+.compras-reembolsos-floating {
+    position: absolute;
+    z-index: 3;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 1.7rem;
+    box-shadow: var(--cr-shadow);
+}
+
+.compras-reembolsos-floating--cart { top: 10%; right: 20%; background: var(--cr-blue); }
+.compras-reembolsos-floating--refund { top: 18%; right: 5%; background: var(--cr-purple); }
+.compras-reembolsos-floating--shield { right: 9%; bottom: 20%; background: var(--cr-green-light); }
+
+.compras-reembolsos-content {
+    padding: 2rem 0 clamp(4rem, 7vw, 6rem);
+    background: #fff;
+}
+
+.compras-reembolsos-content__grid {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr) 300px;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.compras-reembolsos-index,
+.compras-reembolsos-summary,
+.compras-reembolsos-warning,
+.compras-reembolsos-support {
+    border: 1px solid var(--cr-border);
+    border-radius: 20px;
+    background: #fff;
+}
+
+.compras-reembolsos-index {
+    position: sticky;
+    top: 1rem;
+    overflow: hidden;
+}
+
+.compras-reembolsos-index h2 {
+    margin: 0;
+    padding: 1.2rem;
+    border-bottom: 1px solid var(--cr-border);
+    color: var(--cr-green-dark);
+    font-size: 1.15rem;
+    font-weight: 950;
+}
+
+.compras-reembolsos-index nav { display: grid; }
+
+.compras-reembolsos-index nav a {
+    display: flex;
+    gap: .55rem;
+    padding: .8rem 1rem;
+    border-bottom: 1px solid #f0f3f1;
+    color: #3d4f47;
+    font-size: .76rem;
+    text-decoration: none;
+}
+
+.compras-reembolsos-index nav a.is-active {
+    background: #edf4ff;
+    color: var(--cr-blue);
+    font-weight: 900;
+}
+
+.compras-reembolsos-download {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin: 1rem;
+    padding: .9rem;
+    border: 1px solid #dce6f2;
+    border-radius: 12px;
+    color: var(--cr-blue);
+    text-decoration: none;
+}
+
+.compras-reembolsos-download i { font-size: 1.35rem; }
+.compras-reembolsos-download strong,
+.compras-reembolsos-download small { display: block; }
+.compras-reembolsos-download small { margin-top: .15rem; color: var(--cr-muted); font-size: .68rem; }
+
+.compras-reembolsos-sections { display: grid; gap: .1rem; }
+
+.compras-reembolsos-section {
+    display: grid;
+    grid-template-columns: 54px 1fr auto;
+    align-items: start;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--cr-border);
+}
+
+.compras-reembolsos-section__icon {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #edf4ff;
+    color: var(--cr-blue);
+    font-size: 1.2rem;
+}
+
+.compras-reembolsos-section h2 {
+    margin: 0 0 .35rem;
+    color: var(--cr-green-dark);
+    font-size: 1rem;
+    font-weight: 950;
+}
+
+.compras-reembolsos-section p {
+    margin: 0;
+    color: var(--cr-muted);
+    font-size: .78rem;
+    line-height: 1.55;
+}
+
+.compras-reembolsos-section__chevron {
+    margin-top: .6rem;
+    color: #8a9892;
+}
+
+.compras-reembolsos-sidebar { display: grid; gap: 1rem; }
+
+.compras-reembolsos-summary,
+.compras-reembolsos-warning,
+.compras-reembolsos-support { padding: 1.3rem; }
+
+.compras-reembolsos-summary {
+    background: linear-gradient(145deg, #f4f8ff, #fff);
+}
+
+.compras-reembolsos-summary > span,
+.compras-reembolsos-support > span {
+    display: inline-block;
+    margin-bottom: .4rem;
+    color: var(--cr-blue);
+    font-size: .75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.compras-reembolsos-summary h2,
+.compras-reembolsos-warning h2,
+.compras-reembolsos-support h2 {
+    margin: 0 0 .55rem;
+    color: var(--cr-green-dark);
+    font-size: 1.2rem;
+    font-weight: 950;
+}
+
+.compras-reembolsos-summary > p,
+.compras-reembolsos-warning p,
+.compras-reembolsos-support > p {
+    margin: 0;
+    color: var(--cr-muted);
+    font-size: .8rem;
+    line-height: 1.6;
+}
+
+.compras-reembolsos-summary ul,
+.compras-reembolsos-support ul {
+    display: grid;
+    gap: .7rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.compras-reembolsos-summary li {
+    display: flex;
+    gap: .5rem;
+    font-size: .78rem;
+    font-weight: 700;
+}
+
+.compras-reembolsos-summary li i { color: var(--cr-blue); }
+
+.compras-reembolsos-warning {
+    background: linear-gradient(145deg, #fff8ed, #fffdf7);
+}
+
+.compras-reembolsos-warning__icon {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    margin-bottom: .8rem;
+    border-radius: 50%;
+    background: #ffeddc;
+    color: var(--cr-orange);
+}
+
+.compras-reembolsos-support {
+    background: linear-gradient(145deg, #f5f1ff, #fbf9ff);
+}
+
+.compras-reembolsos-support > span,
+.compras-reembolsos-support h2 { color: var(--cr-purple); }
+
+.compras-reembolsos-support li {
+    display: flex;
+    gap: .7rem;
+}
+
+.compras-reembolsos-support li > span {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    flex: 0 0 40px;
+    border-radius: 50%;
+    background: #ece4fb;
+    color: var(--cr-purple);
+}
+
+.compras-reembolsos-support strong { display: block; font-size: .8rem; }
+.compras-reembolsos-support li p { margin: .15rem 0 0; color: var(--cr-muted); font-size: .72rem; line-height: 1.4; }
+
+.compras-reembolsos-support > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: .9rem;
+    padding: .8rem 1rem;
+    border: 1px solid var(--cr-purple);
+    border-radius: 10px;
+    color: var(--cr-purple);
+    font-size: .8rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.compras-reembolsos-cta {
+    padding: 0 0 clamp(4rem, 7vw, 6rem);
+    background: #fff;
+}
+
+.compras-reembolsos-cta__panel {
+    display: grid;
+    grid-template-columns: 180px 1fr auto;
+    align-items: center;
+    gap: 2rem;
+    min-height: 180px;
+    padding: 0 2rem;
+    border: 1px solid #dfe7f2;
+    border-radius: 24px;
+    background: linear-gradient(120deg, #f4f8ff, #fbfffc);
+    overflow: hidden;
+}
+
+.compras-reembolsos-cta img {
+    align-self: end;
+    width: 180px;
+    max-height: 185px;
+    object-fit: contain;
+}
+
+.compras-reembolsos-cta h2 {
+    margin: 0 0 .4rem;
+    color: var(--cr-green-dark);
+    font-size: clamp(1.7rem, 2.6vw, 2.3rem);
+    font-weight: 950;
+}
+
+.compras-reembolsos-cta p {
+    margin: 0;
+    color: var(--cr-muted);
+    font-weight: 600;
+}
+
+.compras-reembolsos-cta a {
+    display: inline-flex;
+    align-items: center;
+    gap: .55rem;
+    padding: .9rem 1.2rem;
+    border-radius: 10px;
+    background: var(--cr-green-dark);
+    color: #fff;
+    font-weight: 950;
+    text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+    .compras-reembolsos-hero__grid { grid-template-columns: 1fr; }
+    .compras-reembolsos-hero__content { text-align: center; }
+    .compras-reembolsos-hero__content > p,
+    .compras-reembolsos-hero__note { margin-inline: auto; }
+    .compras-reembolsos-content__grid { grid-template-columns: 220px 1fr; }
+    .compras-reembolsos-sidebar { grid-column: 1 / -1; grid-template-columns: repeat(3, 1fr); }
+    .compras-reembolsos-cta__panel { grid-template-columns: 150px 1fr; }
+    .compras-reembolsos-cta a { grid-column: 1 / -1; margin: 0 auto 1.5rem; }
+}
+
+@media (max-width: 767px) {
+    .compras-reembolsos-hero__visual { min-height: 500px; }
+    .compras-reembolsos-content__grid,
+    .compras-reembolsos-sidebar { grid-template-columns: 1fr; }
+    .compras-reembolsos-index { position: static; }
+    .compras-reembolsos-cta__panel { grid-template-columns: 1fr; padding: 1.5rem; text-align: center; }
+    .compras-reembolsos-cta img { width: 150px; margin: -1.5rem auto 0; }
+    .compras-reembolsos-cta a { grid-column: auto; width: 100%; margin: 0; justify-content: center; }
+}

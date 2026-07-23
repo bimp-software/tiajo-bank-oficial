@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "badge": "Creatividad y protección",
+    "title": "Política de propiedad",
+    "highlight": "intelectual",
+    "description": "Esta política explica cómo protegemos los contenidos, marcas, diseños, software y materiales asociados a TíaJo Bank.",
+    "note": "Respetar la autoría y los derechos de terceros es fundamental para construir una comunidad educativa creativa y responsable.",
+    "imageAlt": "Pepe presenta la política de propiedad intelectual de TíaJo Bank"
+  },
+  "index": {
+    "title": "En esta página",
+    "download": "Descargar política",
+    "updated": "Versión actualizada: 15 de mayo de 2024"
+  },
+  "sections": {
+    "purpose": {
+      "title": "Objetivo de la política",
+      "text": "Esta política establece las reglas para proteger, utilizar y respetar los activos intelectuales vinculados a TíaJo Bank."
+    },
+    "ownership": {
+      "title": "Titularidad de los derechos",
+      "text": "Salvo indicación distinta, los derechos sobre la plataforma, sus contenidos y elementos distintivos pertenecen a sus respectivos titulares."
+    },
+    "platformContent": {
+      "title": "Contenidos de la plataforma",
+      "text": "Textos, ilustraciones, materiales, interfaces, recursos educativos, bases de datos y diseños están protegidos por la normativa aplicable."
+    },
+    "trademarks": {
+      "title": "Marcas y signos distintivos",
+      "text": "Los nombres, logotipos, personajes, marcas y elementos gráficos no pueden utilizarse sin autorización previa."
+    },
+    "software": {
+      "title": "Software y código fuente",
+      "text": "El software, arquitectura, código, documentación técnica y funcionalidades de TíaJo Bank están protegidos y no pueden copiarse ni descompilarse."
+    },
+    "licenses": {
+      "title": "Licencia de uso",
+      "text": "El acceso a la plataforma concede una licencia limitada, revocable, no exclusiva y no transferible para fines autorizados."
+    },
+    "userContent": {
+      "title": "Contenido de los usuarios",
+      "text": "Cada usuario conserva los derechos sobre el contenido que crea y declara contar con autorización suficiente para compartirlo."
+    },
+    "educationalUse": {
+      "title": "Uso educativo permitido",
+      "text": "Los materiales pueden utilizarse dentro de la plataforma y conforme a los permisos, planes o condiciones establecidos por TíaJo Bank."
+    },
+    "restrictions": {
+      "title": "Usos no permitidos",
+      "text": "No se permite copiar, vender, modificar, distribuir, publicar, extraer o reutilizar activos protegidos sin autorización."
+    },
+    "thirdParty": {
+      "title": "Contenido de terceros",
+      "text": "Los recursos de terceros se utilizan conforme a sus licencias y permanecen sujetos a los derechos de sus respectivos propietarios."
+    },
+    "reports": {
+      "title": "Denuncias por infracción",
+      "text": "Las personas titulares de derechos pueden comunicar posibles infracciones entregando antecedentes suficientes para su revisión."
+    },
+    "measures": {
+      "title": "Medidas ante infracciones",
+      "text": "Podemos retirar contenidos, restringir funciones, suspender cuentas o adoptar otras medidas cuando exista una infracción fundada."
+    },
+    "changes": {
+      "title": "Actualizaciones de la política",
+      "text": "Esta política puede modificarse para reflejar cambios legales, técnicos, contractuales o de funcionamiento."
+    },
+    "contact": {
+      "title": "Contacto",
+      "text": "Puedes comunicarte con nuestro equipo para realizar consultas o informar posibles vulneraciones de propiedad intelectual."
+    }
+  },
+  "rights": {
+    "eyebrow": "Activos protegidos",
+    "title": "Protegemos nuestras creaciones",
+    "description": "Esta protección comprende, entre otros:",
+    "items": {
+      "brand": "Marcas, nombres, logotipos y personajes.",
+      "software": "Software, código y documentación técnica.",
+      "content": "Materiales educativos y contenidos digitales.",
+      "design": "Diseños, interfaces y recursos visuales."
+    }
+  },
+  "warning": {
+    "title": "No copies ni reutilices sin permiso",
+    "description": "El acceso a TíaJo Bank no transfiere derechos de propiedad sobre sus contenidos, marcas, diseños o tecnología."
+  },
+  "reporting": {
+    "eyebrow": "Protección de derechos",
+    "title": "¿Detectaste una posible infracción?",
+    "description": "Puedes enviar un aviso para que nuestro equipo revise la situación.",
+    "items": {
+      "notice": {
+        "title": "Describe la infracción",
+        "text": "Indica el contenido, ubicación y uso que consideras indebido."
+      },
+      "evidence": {
+        "title": "Adjunta antecedentes",
+        "text": "Incluye pruebas de titularidad o autorización cuando corresponda."
+      },
+      "contact": {
+        "title": "Envía tu solicitud",
+        "text": "Nuestro equipo evaluará los antecedentes disponibles."
+      }
+    },
+    "button": "Contactar al equipo"
+  },
+  "cta": {
+    "title": "La creatividad merece ser respetada",
+    "description": "Ayúdanos a proteger las ideas, recursos y contenidos que hacen posible TíaJo Bank.",
+    "button": "Contactar al equipo",
+    "imageAlt": "Pepe invita a respetar la propiedad intelectual"
+  }
+}

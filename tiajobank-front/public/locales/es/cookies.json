@@ -1,0 +1,111 @@
+{
+    "hero": {
+        "badge": "Transparencia y control",
+        "title": "Política de",
+        "highlight": "cookies",
+        "description": "Esta política explica qué cookies utiliza TíaJo Bank, para qué sirven y cómo puedes administrar tus preferencias.",
+        "note": "Tú decides qué cookies opcionales deseas permitir. Las cookies esenciales mantienen el sitio seguro y operativo.",
+        "imageAlt": "Pepe explica la política de cookies de TíaJo Bank"
+    },
+    "index": {
+        "title": "En esta página",
+        "download": "Descargar política",
+        "updated": "Versión actualizada: 15 de mayo de 2024"
+    },
+    "sections": {
+        "what": {
+            "title": "¿Qué son las cookies?",
+            "text": "Las cookies son pequeños archivos que un sitio web almacena en el dispositivo para recordar información sobre la navegación, preferencias o sesión."
+        },
+        "purpose": {
+            "title": "¿Para qué utilizamos cookies?",
+            "text": "Las utilizamos para mantener el sitio operativo, proteger las sesiones, recordar preferencias y mejorar la experiencia."
+        },
+        "types": {
+            "title": "Tipos de cookies",
+            "text": "Podemos utilizar cookies esenciales, funcionales, analíticas y de personalización."
+        },
+        "essential": {
+            "title": "Cookies esenciales",
+            "text": "Son necesarias para la seguridad, autenticación, navegación y funcionamiento básico del sitio."
+        },
+        "functional": {
+            "title": "Cookies funcionales",
+            "text": "Permiten recordar configuraciones como idioma, región u opciones de accesibilidad."
+        },
+        "analytics": {
+            "title": "Cookies analíticas",
+            "text": "Nos ayudan a comprender de forma agregada cómo se utiliza el sitio y mejorar su rendimiento."
+        },
+        "personalization": {
+            "title": "Cookies de personalización",
+            "text": "Permiten adaptar ciertos contenidos o experiencias según las preferencias del usuario."
+        },
+        "thirdParty": {
+            "title": "Cookies de terceros",
+            "text": "Algunos servicios integrados pueden establecer cookies propias, sujetas a sus respectivas políticas."
+        },
+        "duration": {
+            "title": "Duración de las cookies",
+            "text": "Algunas cookies se eliminan al cerrar el navegador y otras permanecen durante un plazo definido."
+        },
+        "management": {
+            "title": "Cómo administrar las cookies",
+            "text": "Puedes modificar tus preferencias desde el panel de cookies o la configuración del navegador."
+        },
+        "consent": {
+            "title": "Consentimiento",
+            "text": "Las cookies opcionales solo se activan cuando otorgas tu consentimiento."
+        },
+        "changes": {
+            "title": "Cambios a esta política",
+            "text": "Podemos actualizar esta política para reflejar cambios técnicos, legales o funcionales."
+        },
+        "contact": {
+            "title": "Contacto",
+            "text": "Puedes comunicarte con nuestro equipo para realizar consultas relacionadas con las cookies."
+        }
+    },
+    "preferences": {
+        "eyebrow": "Tus preferencias",
+        "title": "Tú tienes el control",
+        "description": "Desde el panel de configuración podrás revisar y modificar las categorías opcionales.",
+        "items": {
+            "essential": "Esenciales: siempre activas.",
+            "functional": "Funcionales: recuerdan tus opciones.",
+            "analytics": "Analíticas: ayudan a mejorar el sitio.",
+            "personalization": "Personalización: adapta la experiencia."
+        },
+        "button": "Configurar cookies"
+    },
+    "essentialCard": {
+        "title": "Cookies estrictamente necesarias",
+        "description": "Estas cookies son indispensables para prestar el servicio de forma segura."
+    },
+    "support": {
+        "eyebrow": "Más información",
+        "title": "¿Tienes preguntas?",
+        "description": "Consulta nuestras políticas o comunícate con el equipo de TíaJo Bank.",
+        "items": {
+            "help": {
+                "title": "Centro de ayuda",
+                "text": "Revisa preguntas frecuentes y orientaciones."
+            },
+            "privacy": {
+                "title": "Política de privacidad",
+                "text": "Conoce cómo protegemos y tratamos los datos."
+            },
+            "contact": {
+                "title": "Contacto",
+                "text": "Escríbenos si necesitas asistencia."
+            }
+        },
+        "button": "Ver Política de Privacidad"
+    },
+    "cta": {
+        "title": "Tu privacidad también depende de tus decisiones",
+        "description": "Administra tus preferencias y conoce cómo protegemos tu información.",
+        "button": "Ver Política de Privacidad",
+        "imageAlt": "Pepe invita a conocer la política de privacidad"
+    }
+}

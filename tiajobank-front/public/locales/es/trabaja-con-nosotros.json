@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "badge": "Sé parte del equipo",
+    "title": "Trabaja con",
+    "highlight": "nosotros",
+    "subtitle": "Únete a un equipo que transforma la educación y crea experiencias que cambian vidas.",
+    "description": "En TíaJo Bank creemos en el poder de la educación, la gamificación y la tecnología para inspirar a millones de estudiantes a alcanzar su máximo potencial.",
+    "button": "Conoce nuestra cultura",
+    "imageAlt": "Equipo de TíaJo Bank trabajando en una oficina"
+  },
+  "benefits": {
+    "title": "¿Por qué trabajar en TíaJo Bank?",
+    "description": "Buscamos personas apasionadas, creativas y comprometidas con transformar la educación.",
+    "items": {
+      "purpose": {
+        "title": "Propósito que inspira",
+        "text": "Trabaja en una misión que impacta positivamente la vida de estudiantes y educadores."
+      },
+      "team": {
+        "title": "Equipo increíble",
+        "text": "Colabora con personas apasionadas, creativas y comprometidas."
+      },
+      "growth": {
+        "title": "Crecimiento continuo",
+        "text": "Aprende, desarrolla tus habilidades y crece profesionalmente con nosotros."
+      },
+      "innovation": {
+        "title": "Innovación y diversión",
+        "text": "Usamos tecnología y gamificación para crear soluciones educativas únicas."
+      },
+      "benefits": {
+        "title": "Beneficios que importan",
+        "text": "Ofrecemos flexibilidad, bienestar y equilibrio entre vida personal y laboral."
+      }
+    }
+  },
+  "vacancies": {
+    "title": "Vacantes abiertas",
+    "viewAll": "Ver todas las vacantes",
+    "items": {
+      "developer": {
+        "title": "Desarrollador/a Full Stack",
+        "area": "Tecnología",
+        "text": "Únete al equipo de desarrollo para crear experiencias increíbles para miles de estudiantes.",
+        "mode": "Remoto",
+        "modeTone": "purple"
+      },
+      "designer": {
+        "title": "Diseñador/a UX/UI",
+        "area": "Diseño",
+        "text": "Diseña interfaces intuitivas y atractivas que hagan del aprendizaje una aventura.",
+        "mode": "Remoto",
+        "modeTone": "purple"
+      },
+      "marketing": {
+        "title": "Especialista en Marketing Digital",
+        "area": "Marketing",
+        "text": "Ayúdanos a llevar TíaJo Bank a más escuelas y comunidades.",
+        "mode": "Híbrido",
+        "modeTone": "green"
+      },
+      "support": {
+        "title": "Soporte al Usuario",
+        "area": "Atención al cliente",
+        "text": "Brinda la mejor experiencia de soporte a docentes, estudiantes y apoderados.",
+        "mode": "Remoto",
+        "modeTone": "blue"
+      }
+    }
+  },
+  "process": {
+    "title": "Nuestro proceso",
+    "steps": {
+      "apply": {
+        "title": "Postula",
+        "text": "Encuentra la vacante que mejor se adapte a ti y envíanos tu postulación."
+      },
+      "interview": {
+        "title": "Entrevista",
+        "text": "Conocemos más sobre ti, tu experiencia y tus motivaciones."
+      },
+      "challenge": {
+        "title": "Desafío",
+        "text": "Realiza un pequeño desafío relacionado con el rol, cuando corresponda."
+      },
+      "offer": {
+        "title": "Oferta",
+        "text": "Si somos el match perfecto, te damos la bienvenida al equipo."
+      }
+    }
+  },
+  "testimonial": {
+    "quote": "Trabajar en TíaJo Bank me ha permitido crecer profesionalmente y, lo más importante, ser parte de algo que realmente hace la diferencia.",
+    "name": "Carolina R.",
+    "role": "Product Manager",
+    "ratingLabel": "Cinco estrellas"
+  },
+  "cta": {
+    "title": "¿Listo para ser parte de la aventura?",
+    "description": "En TíaJo Bank estamos construyendo el futuro de la educación. ¡Únete y hagamos historia juntos!",
+    "primary": "Ver vacantes abiertas",
+    "secondary": "No encuentro mi vacante, pero quiero postular",
+    "imageAlt": "Pepe invita a trabajar en TíaJo Bank"
+  }
+}

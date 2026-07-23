@@ -1,0 +1,118 @@
+{
+  "hero": {
+    "badge": "Pagos claros y seguros",
+    "title": "Política de compras",
+    "highlight": "y reembolsos",
+    "description": "Esta política explica cómo funcionan las compras, suscripciones, renovaciones, cancelaciones y solicitudes de reembolso en TíaJo Bank.",
+    "note": "Antes de confirmar una compra, revisa el precio, la periodicidad, los impuestos aplicables y las condiciones específicas del plan.",
+    "imageAlt": "Pepe explica la política de compras y reembolsos de TíaJo Bank"
+  },
+  "index": {
+    "title": "En esta página",
+    "download": "Descargar política",
+    "updated": "Versión actualizada: 15 de mayo de 2024"
+  },
+  "sections": {
+    "scope": {
+      "title": "Alcance de la política",
+      "text": "Esta política se aplica a la contratación de planes, servicios, licencias, complementos y productos digitales ofrecidos por TíaJo Bank."
+    },
+    "products": {
+      "title": "Productos y servicios",
+      "text": "Las características, límites, vigencia y condiciones de cada producto o plan se informan antes de confirmar la compra."
+    },
+    "prices": {
+      "title": "Precios",
+      "text": "Los precios se muestran en la moneda indicada y pueden variar según el plan, modalidad, cantidad de usuarios, vigencia o promociones disponibles."
+    },
+    "payment": {
+      "title": "Métodos de pago",
+      "text": "Los pagos pueden procesarse mediante los medios habilitados en la plataforma o a través de proveedores de pago autorizados."
+    },
+    "billing": {
+      "title": "Facturación y comprobantes",
+      "text": "El cliente debe proporcionar información correcta para la emisión de comprobantes, facturas u otros documentos tributarios cuando corresponda."
+    },
+    "subscriptions": {
+      "title": "Suscripciones",
+      "text": "Algunos servicios se ofrecen mediante suscripción periódica. La frecuencia, duración y precio se informan antes de la contratación."
+    },
+    "renewals": {
+      "title": "Renovaciones",
+      "text": "Cuando exista renovación automática, esta condición será informada previamente y el cobro se realizará según el ciclo contratado."
+    },
+    "cancellations": {
+      "title": "Cancelación de suscripciones",
+      "text": "La cancelación evita cobros futuros, pero normalmente no elimina de inmediato el acceso ya pagado durante el período vigente."
+    },
+    "refunds": {
+      "title": "Solicitudes de reembolso",
+      "text": "Las solicitudes deben enviarse dentro del plazo aplicable, indicando la compra, motivo y antecedentes necesarios para su evaluación."
+    },
+    "exceptions": {
+      "title": "Casos sin reembolso",
+      "text": "Podemos rechazar solicitudes cuando el servicio fue utilizado sustancialmente, hubo incumplimiento, fraude o cuando la ley no exige devolución."
+    },
+    "processing": {
+      "title": "Plazos de procesamiento",
+      "text": "Los reembolsos aprobados se gestionan mediante el método de pago original y pueden tardar según el proveedor financiero."
+    },
+    "promotions": {
+      "title": "Promociones y descuentos",
+      "text": "Las promociones pueden tener condiciones, vigencia y restricciones propias, y no necesariamente son acumulables."
+    },
+    "taxes": {
+      "title": "Impuestos y cargos",
+      "text": "Los impuestos, retenciones o cargos aplicables pueden incorporarse al precio final según la legislación y ubicación del cliente."
+    },
+    "changes": {
+      "title": "Cambios a esta política",
+      "text": "Podemos actualizar esta política para reflejar cambios legales, comerciales, técnicos o en los métodos de pago disponibles."
+    },
+    "contact": {
+      "title": "Contacto",
+      "text": "Puedes comunicarte con nuestro equipo para realizar consultas sobre compras, facturación, cancelaciones o reembolsos."
+    }
+  },
+  "summary": {
+    "eyebrow": "Compra con confianza",
+    "title": "Transparencia en cada pago",
+    "description": "Buscamos que cada transacción sea clara y fácil de revisar.",
+    "items": {
+      "clearPrices": "Precios y condiciones informados antes del pago.",
+      "securePayments": "Procesamiento mediante medios de pago habilitados.",
+      "invoices": "Comprobantes y facturación cuando corresponda.",
+      "support": "Canales de ayuda para compras y reembolsos."
+    }
+  },
+  "warning": {
+    "title": "Revisa antes de confirmar",
+    "description": "Las condiciones específicas de cada compra, plan o promoción prevalecen cuando hayan sido informadas expresamente antes del pago."
+  },
+  "support": {
+    "eyebrow": "Soporte de pagos",
+    "title": "¿Necesitas ayuda con una compra?",
+    "description": "Ten a mano tu comprobante, correo de compra y los antecedentes de la operación.",
+    "items": {
+      "receipt": {
+        "title": "Identifica la compra",
+        "text": "Indica fecha, plan, monto y medio de pago."
+      },
+      "refund": {
+        "title": "Explica la solicitud",
+        "text": "Describe el motivo y adjunta antecedentes relevantes."
+      },
+      "contact": {
+        "title": "Contacta al equipo",
+        "text": "Revisaremos tu caso y te informaremos el resultado."
+      }
+    },
+    "button": "Contactar al equipo"
+  },
+  "cta": {
+    "title": "Estamos para ayudarte con tus pagos",
+    "description": "Consulta sobre compras, renovaciones, facturación o solicitudes de reembolso.",
+    "button": "Contactar al equipo",
+    "imageAlt": "Pepe invita a contactar al equipo de compras y reembolsos"
+  }
+}

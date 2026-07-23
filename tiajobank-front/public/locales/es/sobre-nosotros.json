@@ -1,0 +1,132 @@
+{
+    "hero": {
+        "badge": "Conoce nuestra historia",
+        "title": "Sobre",
+        "highlight": "nosotros",
+        "lead": {
+            "before": "TíaJo Bank nace con una misión clara: ",
+            "emphasis": "transformar la educación a través de la motivación, ",
+            "after": "la gamificación y el desarrollo integral de los estudiantes."
+        },
+        "description": "Creemos en una educación que inspire, que reconozca el esfuerzo y que entregue herramientas para la vida. Por eso creamos un ecosistema que conecta a estudiantes, docentes, apoderados e instituciones en una experiencia única.",
+        "button": "Conoce nuestra historia",
+        "imageAlt": "Personajes de la comunidad TíaJo Bank frente a una escuela"
+    },
+    "purpose": {
+        "mission": {
+            "title": "Nuestra misión",
+            "text": "Motivar y acompañar a los estudiantes en su crecimiento personal y académico mediante una plataforma gamificada que fortalece valores, habilidades y educación financiera."
+        },
+        "vision": {
+            "title": "Nuestra visión",
+            "text": "Ser una plataforma educativa referente en Latinoamérica, reconocida por transformar la experiencia escolar y preparar a los estudiantes para los desafíos del futuro."
+        },
+        "values": {
+            "title": "Nuestros valores",
+            "items": {
+                "empathy": "Empatía y respeto",
+                "innovation": "Innovación constante",
+                "commitment": "Compromiso con la educación",
+                "transparency": "Transparencia y confianza",
+                "fun": "Diversión con propósito"
+            }
+        }
+    },
+    "differences": {
+        "title": "¿Qué nos hace diferentes?",
+        "description": "Combinamos tecnología, motivación y comunidad para crear una experiencia educativa con propósito.",
+        "items": {
+            "gamification": {
+                "title": "Gamificación con propósito",
+                "text": "Convertimos el aprendizaje y la convivencia en una aventura motivadora."
+            },
+            "economy": {
+                "title": "Economía educativa",
+                "text": "Los estudiantes aprenden a administrar, ahorrar y tomar decisiones."
+            },
+            "emotional": {
+                "title": "Educación emocional",
+                "text": "Fortalecemos autoestima, empatía y trabajo en equipo."
+            },
+            "community": {
+                "title": "Comunidad conectada",
+                "text": "Unimos a docentes, estudiantes y familias en un mismo objetivo."
+            },
+            "growth": {
+                "title": "Desarrollo integral",
+                "text": "Impulsamos responsabilidad, esfuerzo, perseverancia y autonomía."
+            },
+            "security": {
+                "title": "Seguro y confiable",
+                "text": "Una plataforma privada, protegida y diseñada para el entorno escolar."
+            }
+        }
+    },
+    "team": {
+        "eyebrow": "Personas que hacen posible TíaJo Bank",
+        "title": "Nuestro equipo",
+        "description": "Somos un equipo multidisciplinario de educadores, diseñadores, desarrolladores y especialistas en innovación educativa.",
+        "members": {
+            "juan": {
+                "name": "Juan Pablo",
+                "role": "Co-fundador & CEO",
+                "text": "Apasionado por la educación, la innovación y el impacto social."
+            },
+            "carolina": {
+                "name": "Carolina",
+                "role": "Co-fundadora & CPO",
+                "text": "Especialista en pedagogía, diseño de experiencias y producto."
+            },
+            "nicolas": {
+                "name": "Nicolás",
+                "role": "CTO",
+                "text": "Responsable de la tecnología y el desarrollo de la plataforma."
+            },
+            "valentina": {
+                "name": "Valentina",
+                "role": "Directora de Educación",
+                "text": "Docente y especialista en gamificación e innovación educativa."
+            },
+            "felipe": {
+                "name": "Felipe",
+                "role": "Diseñador UX/UI",
+                "text": "Crea experiencias visuales intuitivas, accesibles y motivadoras."
+            }
+        }
+    },
+    "impact": {
+        "title": "Nuestro impacto en números",
+        "items": {
+            "schools": {
+                "value": "+500",
+                "label": "Colegios activos"
+            },
+            "students": {
+                "value": "+100.000",
+                "label": "Estudiantes motivados"
+            },
+            "coins": {
+                "value": "+10.000.000",
+                "label": "Tiajitos entregados"
+            },
+            "countries": {
+                "value": "14",
+                "label": "Países"
+            },
+            "rewards": {
+                "value": "+4.5M",
+                "label": "Recompensas canjeadas"
+            }
+        }
+    },
+    "cta": {
+        "title": {
+            "before": "Juntos estamos transformando la educación y construyendo un ",
+            "highlight": "futuro mejor",
+            "after": "."
+        },
+        "description": "Únete a miles de instituciones que ya forman parte de TíaJo Bank.",
+        "button": "¡Únete ahora!",
+        "imageAlt": "Pepe invita a unirse a TíaJo Bank"
+    }
+}

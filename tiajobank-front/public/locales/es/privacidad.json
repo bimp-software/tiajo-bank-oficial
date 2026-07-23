@@ -1,0 +1,107 @@
+{
+    "hero": {
+        "badge": "Protección de datos",
+        "title": "Política de",
+        "highlight": "privacidad",
+        "description": "En TíaJo Bank, tu privacidad es muy importante. Esta política explica cómo recopilamos, usamos, protegemos y compartimos tu información personal cuando utilizas nuestra plataforma.",
+        "note": "Nos comprometemos a proteger tus datos personales y a utilizarlos de manera transparente, segura y responsable.",
+        "imageAlt": "Pepe protege la privacidad de los usuarios de TíaJo Bank"
+    },
+    "index": {
+        "title": "En esta página",
+        "download": "Descargar política",
+        "updated": "Versión actualizada: 15 de mayo de 2024"
+    },
+    "sections": {
+        "collection": {
+            "title": "Información que recopilamos",
+            "text": "Recopilamos información personal que nos proporcionas directamente y datos obtenidos automáticamente cuando utilizas TíaJo Bank."
+        },
+        "use": {
+            "title": "Cómo usamos tu información",
+            "text": "Utilizamos tu información para ofrecer, mejorar y personalizar nuestros servicios, comunicarnos contigo y cumplir obligaciones legales."
+        },
+        "legal": {
+            "title": "Base legal para el tratamiento",
+            "text": "Tratamos tus datos sobre la base de tu consentimiento, la ejecución de un contrato, el cumplimiento de obligaciones legales o nuestro interés legítimo."
+        },
+        "sharing": {
+            "title": "Compartimos tu información",
+            "text": "No vendemos tu información personal. Podemos compartirla con proveedores de servicios y autoridades cuando sea necesario."
+        },
+        "cookies": {
+            "title": "Cookies y tecnologías similares",
+            "text": "Usamos cookies y tecnologías similares para mejorar tu experiencia, analizar el uso de la plataforma y personalizar contenido."
+        },
+        "storage": {
+            "title": "Almacenamiento de datos",
+            "text": "Almacenamos tu información en servidores seguros y tomamos medidas para conservarla solo durante el tiempo necesario."
+        },
+        "security": {
+            "title": "Seguridad de la información",
+            "text": "Implementamos medidas técnicas y organizativas para proteger tu información contra accesos no autorizados, pérdida o uso indebido."
+        },
+        "rights": {
+            "title": "Tus derechos",
+            "text": "Puedes solicitar acceso, rectificación, eliminación, limitación u oposición al tratamiento de tus datos."
+        },
+        "children": {
+            "title": "Información de menores",
+            "text": "TíaJo Bank está diseñado para estudiantes y requiere el consentimiento o autorización correspondiente para tratar datos de menores."
+        },
+        "international": {
+            "title": "Transferencias internacionales",
+            "text": "Tus datos pueden transferirse y almacenarse en servidores ubicados en otros países con niveles adecuados de protección."
+        },
+        "changes": {
+            "title": "Cambios a esta política",
+            "text": "Podemos actualizar esta Política de Privacidad y te informaremos cuando existan cambios importantes."
+        },
+        "contact": {
+            "title": "Contacto",
+            "text": "Puedes comunicarte con nosotros para resolver preguntas sobre esta política o ejercer tus derechos."
+        }
+    },
+    "commitment": {
+        "eyebrow": "Nuestro compromiso",
+        "title": "Privacidad con responsabilidad",
+        "description": "Respetamos tu privacidad y estamos comprometidos con:",
+        "items": {
+            "transparency": "Transparencia en el uso de tus datos",
+            "protection": "Protección y seguridad de la información",
+            "compliance": "Cumplimiento de la normativa vigente",
+            "rights": "Respeto a tus derechos"
+        }
+    },
+    "priority": {
+        "title": "Tu privacidad, nuestra prioridad",
+        "description": "Trabajamos cada día para mantener un entorno digital seguro y confiable para estudiantes, docentes, familias e instituciones.",
+        "action": "Conoce más sobre seguridad"
+    },
+    "support": {
+        "eyebrow": "Estamos para ayudarte",
+        "title": "¿Tienes dudas?",
+        "description": "Encuentra apoyo y orientación a través de nuestros canales.",
+        "items": {
+            "help": {
+                "title": "Centro de ayuda",
+                "text": "Encuentra respuestas y preguntas frecuentes."
+            },
+            "contact": {
+                "title": "Contáctanos",
+                "text": "Escríbenos y nuestro equipo te responderá."
+            },
+            "chat": {
+                "title": "Chat en vivo",
+                "text": "Disponible dentro de la plataforma."
+            }
+        },
+        "button": "Ir al Centro de ayuda"
+    },
+    "cta": {
+        "title": "Gracias por confiar en TíaJo Bank",
+        "description": "Tu confianza nos motiva a seguir construyendo una plataforma educativa segura para todos.",
+        "button": "¡Comienza ahora!",
+        "imageAlt": "Pepe agradece la confianza de la comunidad"
+    }
+}

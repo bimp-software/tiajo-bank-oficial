@@ -1,0 +1,117 @@
+{
+    "hero": {
+        "badge": "Blog TíaJo Bank",
+        "title": "Ideas que inspiran",
+        "highlight": "una mejor educación",
+        "description": "Descubre tendencias, experiencias, consejos y recursos para transformar el aprendizaje dentro y fuera del aula.",
+        "searchPlaceholder": "Buscar artículos, temas o recursos...",
+        "searchLabel": "Buscar en el blog",
+        "searchButton": "Buscar",
+        "imageAlt": "Pepe leyendo y compartiendo ideas educativas",
+        "stats": {
+            "articles": {
+                "value": "+40",
+                "label": "Artículos publicados"
+            },
+            "categories": {
+                "value": "4",
+                "label": "Categorías"
+            },
+            "community": {
+                "value": "+1.000",
+                "label": "Lectores de la comunidad"
+            }
+        },
+        "cards": {
+            "ideas": {
+                "title": "Ideas para transformar",
+                "text": "Estrategias prácticas para el aula."
+            },
+            "community": {
+                "title": "Comunidad educativa",
+                "text": "Experiencias que inspiran a otros."
+            }
+        }
+    },
+    "featured": {
+        "eyebrow": "Artículo destacado",
+        "title": "Una lectura para comenzar",
+        "description": "Conoce una de las experiencias más destacadas de nuestra comunidad educativa.",
+        "article": {
+            "imageAlt": "Estudiantes aprendiendo mediante actividades lúdicas",
+            "category": "Innovación educativa",
+            "date": "21 de julio de 2026",
+            "readingTime": "6 min de lectura",
+            "title": "Aprender jugando: cuando la motivación transforma la sala de clases",
+            "excerpt": "La gamificación puede convertir una experiencia cotidiana en una oportunidad auténtica de aprendizaje, participación y crecimiento.",
+            "author": "Equipo TíaJo Bank",
+            "authorRole": "Comunidad educativa",
+            "action": "Leer artículo"
+        }
+    },
+    "categories": {
+        "eyebrow": "Explora por categoría",
+        "title": "Encuentra el contenido que necesitas",
+        "description": "Artículos pensados para docentes, familias, instituciones y toda la comunidad educativa.",
+        "action": "Explorar artículos",
+        "items": {
+            "innovation": {
+                "title": "Innovación educativa",
+                "text": "Metodologías, gamificación y nuevas formas de enseñar."
+            },
+            "education": {
+                "title": "Aprendizaje y docencia",
+                "text": "Recursos y estrategias para fortalecer el trabajo pedagógico."
+            },
+            "family": {
+                "title": "Familias y comunidad",
+                "text": "Ideas para acompañar el aprendizaje desde el hogar."
+            },
+            "technology": {
+                "title": "Tecnología educativa",
+                "text": "Herramientas digitales aplicadas a la educación."
+            }
+        }
+    },
+    "articles": {
+        "eyebrow": "Últimas publicaciones",
+        "title": "Nuevas ideas para seguir aprendiendo",
+        "viewAll": "Ver todos los artículos",
+        "readMore": "Leer más",
+        "items": {
+            "economy": {
+                "imageAlt": "Estudiantes trabajando con economía escolar",
+                "category": "Innovación",
+                "date": "18 de julio de 2026",
+                "readingTime": "5 min",
+                "title": "Economía escolar: aprender responsabilidad a través de experiencias reales",
+                "excerpt": "Una propuesta que fortalece la autonomía, la organización y la participación de los estudiantes."
+            },
+            "family": {
+                "imageAlt": "Familia acompañando el aprendizaje",
+                "category": "Familias",
+                "date": "15 de julio de 2026",
+                "readingTime": "4 min",
+                "title": "Cómo acompañar el aprendizaje sin hacer la tarea por los niños",
+                "excerpt": "Claves simples para apoyar, motivar y desarrollar autonomía desde el hogar."
+            },
+            "technology": {
+                "imageAlt": "Tecnología utilizada en educación",
+                "category": "Tecnología",
+                "date": "10 de julio de 2026",
+                "readingTime": "7 min",
+                "title": "Tecnología con propósito: más allá de usar pantallas en el aula",
+                "excerpt": "La verdadera transformación digital comienza cuando la herramienta responde a una necesidad pedagógica."
+            }
+        }
+    },
+    "newsletter": {
+        "eyebrow": "Newsletter educativo",
+        "title": "Recibe nuevas ideas directamente en tu correo",
+        "description": "Suscríbete para conocer artículos, recursos y experiencias que ayudan a transformar la educación.",
+        "emailLabel": "Correo electrónico",
+        "placeholder": "Tu correo electrónico",
+        "button": "Suscribirme",
+        "imageAlt": "Pepe invitando a suscribirse al blog"
+    }
+}

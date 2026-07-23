@@ -1,0 +1,436 @@
+
+.propiedad-intelectual-hero,
+.propiedad-intelectual-content,
+.propiedad-intelectual-cta {
+    --pi-green: #078b45;
+    --pi-green-dark: #073b2b;
+    --pi-green-light: #55b749;
+    --pi-purple: #7a35cf;
+    --pi-gold: #e0a400;
+    --pi-blue: #3d7fe0;
+    --pi-text: #19342a;
+    --pi-muted: #607169;
+    --pi-border: #e4eae6;
+    --pi-shadow: 0 20px 55px rgba(16, 65, 43, .09);
+    color: var(--pi-text);
+}
+
+.propiedad-intelectual-hero *,
+.propiedad-intelectual-content *,
+.propiedad-intelectual-cta * { box-sizing: border-box; }
+
+.propiedad-intelectual-container {
+    width: min(1180px, calc(100% - 2rem));
+    margin-inline: auto;
+}
+
+.propiedad-intelectual-hero {
+    padding: clamp(3.5rem, 7vw, 6rem) 0 2rem;
+    background:
+        radial-gradient(circle at 82% 10%, rgba(122, 53, 207, .1), transparent 24%),
+        linear-gradient(180deg, #fffdf9, #fff);
+}
+
+.propiedad-intelectual-hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, .9fr) minmax(520px, 1.1fr);
+    align-items: center;
+    gap: clamp(2rem, 5vw, 5rem);
+}
+
+.propiedad-intelectual-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: .55rem;
+    margin-bottom: 1.35rem;
+    padding: .65rem 1rem;
+    border-radius: 999px;
+    background: #f0e8fb;
+    color: var(--pi-purple);
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+.propiedad-intelectual-hero h1 {
+    margin: 0 0 1.25rem;
+    color: var(--pi-green-dark);
+    font-size: clamp(3rem, 5.2vw, 5rem);
+    line-height: 1;
+    letter-spacing: -.055em;
+    font-weight: 950;
+}
+
+.propiedad-intelectual-hero h1 span {
+    display: block;
+    color: var(--pi-green-light);
+}
+
+.propiedad-intelectual-hero__content > p {
+    max-width: 640px;
+    margin: 0 0 1.4rem;
+    color: var(--pi-muted);
+    font-size: clamp(1rem, 1.3vw, 1.12rem);
+    line-height: 1.8;
+    font-weight: 600;
+}
+
+.propiedad-intelectual-hero__note {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    max-width: 620px;
+    padding: 1rem 1.15rem;
+    border: 1px solid #e7deef;
+    border-radius: 14px;
+    background: #faf7ff;
+}
+
+.propiedad-intelectual-hero__note span {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    flex: 0 0 42px;
+    border-radius: 50%;
+    background: #efe5fb;
+    color: var(--pi-purple);
+}
+
+.propiedad-intelectual-hero__note p {
+    margin: 0;
+    color: #43544d;
+    font-size: .82rem;
+    line-height: 1.55;
+    font-weight: 700;
+}
+
+.propiedad-intelectual-hero__visual {
+    position: relative;
+    min-height: 520px;
+    border-radius: 34px;
+    background: linear-gradient(145deg, #f8f4ff, #f1f8f3);
+    overflow: hidden;
+}
+
+.propiedad-intelectual-hero__visual img {
+    position: absolute;
+    left: 7%;
+    bottom: 0;
+    z-index: 2;
+    width: 82%;
+    max-height: 96%;
+    object-fit: contain;
+}
+
+.propiedad-intelectual-floating {
+    position: absolute;
+    z-index: 3;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 1.7rem;
+    box-shadow: var(--pi-shadow);
+}
+
+.propiedad-intelectual-floating--copyright { top: 10%; right: 20%; background: var(--pi-purple); }
+.propiedad-intelectual-floating--idea { top: 18%; right: 5%; background: var(--pi-gold); }
+.propiedad-intelectual-floating--shield { right: 9%; bottom: 20%; background: var(--pi-green-light); }
+
+.propiedad-intelectual-content {
+    padding: 2rem 0 clamp(4rem, 7vw, 6rem);
+    background: #fff;
+}
+
+.propiedad-intelectual-content__grid {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr) 300px;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.propiedad-intelectual-index,
+.propiedad-intelectual-rights,
+.propiedad-intelectual-warning,
+.propiedad-intelectual-reporting {
+    border: 1px solid var(--pi-border);
+    border-radius: 20px;
+    background: #fff;
+}
+
+.propiedad-intelectual-index {
+    position: sticky;
+    top: 1rem;
+    overflow: hidden;
+}
+
+.propiedad-intelectual-index h2 {
+    margin: 0;
+    padding: 1.2rem;
+    border-bottom: 1px solid var(--pi-border);
+    color: var(--pi-green-dark);
+    font-size: 1.15rem;
+    font-weight: 950;
+}
+
+.propiedad-intelectual-index nav { display: grid; }
+
+.propiedad-intelectual-index nav a {
+    display: flex;
+    gap: .55rem;
+    padding: .82rem 1rem;
+    border-bottom: 1px solid #f0f3f1;
+    color: #3d4f47;
+    font-size: .77rem;
+    text-decoration: none;
+}
+
+.propiedad-intelectual-index nav a.is-active {
+    background: #f4edfc;
+    color: var(--pi-purple);
+    font-weight: 900;
+}
+
+.propiedad-intelectual-download {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin: 1rem;
+    padding: .9rem;
+    border: 1px solid #e8dff1;
+    border-radius: 12px;
+    color: var(--pi-purple);
+    text-decoration: none;
+}
+
+.propiedad-intelectual-download i { font-size: 1.35rem; }
+.propiedad-intelectual-download strong,
+.propiedad-intelectual-download small { display: block; }
+.propiedad-intelectual-download small { margin-top: .15rem; color: var(--pi-muted); font-size: .68rem; }
+
+.propiedad-intelectual-sections { display: grid; gap: .1rem; }
+
+.propiedad-intelectual-section {
+    display: grid;
+    grid-template-columns: 54px 1fr auto;
+    align-items: start;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--pi-border);
+}
+
+.propiedad-intelectual-section__icon {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #f3ebfc;
+    color: var(--pi-purple);
+    font-size: 1.2rem;
+}
+
+.propiedad-intelectual-section h2 {
+    margin: 0 0 .35rem;
+    color: var(--pi-green-dark);
+    font-size: 1rem;
+    font-weight: 950;
+}
+
+.propiedad-intelectual-section p {
+    margin: 0;
+    color: var(--pi-muted);
+    font-size: .78rem;
+    line-height: 1.55;
+}
+
+.propiedad-intelectual-section__chevron {
+    margin-top: .6rem;
+    color: #8a9892;
+}
+
+.propiedad-intelectual-sidebar { display: grid; gap: 1rem; }
+
+.propiedad-intelectual-rights,
+.propiedad-intelectual-warning,
+.propiedad-intelectual-reporting { padding: 1.3rem; }
+
+.propiedad-intelectual-rights {
+    background: linear-gradient(145deg, #f8f4ff, #fff);
+}
+
+.propiedad-intelectual-rights > span,
+.propiedad-intelectual-reporting > span {
+    display: inline-block;
+    margin-bottom: .4rem;
+    color: var(--pi-purple);
+    font-size: .75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.propiedad-intelectual-rights h2,
+.propiedad-intelectual-warning h2,
+.propiedad-intelectual-reporting h2 {
+    margin: 0 0 .55rem;
+    color: var(--pi-green-dark);
+    font-size: 1.2rem;
+    font-weight: 950;
+}
+
+.propiedad-intelectual-rights > p,
+.propiedad-intelectual-warning p,
+.propiedad-intelectual-reporting > p {
+    margin: 0;
+    color: var(--pi-muted);
+    font-size: .8rem;
+    line-height: 1.6;
+}
+
+.propiedad-intelectual-rights ul,
+.propiedad-intelectual-reporting ul {
+    display: grid;
+    gap: .7rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.propiedad-intelectual-rights li {
+    display: flex;
+    gap: .5rem;
+    font-size: .78rem;
+    font-weight: 700;
+}
+
+.propiedad-intelectual-rights li i { color: var(--pi-purple); }
+
+.propiedad-intelectual-warning {
+    background: linear-gradient(145deg, #fff8ed, #fffdf7);
+}
+
+.propiedad-intelectual-warning__icon {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    margin-bottom: .8rem;
+    border-radius: 50%;
+    background: #ffeddc;
+    color: #ef7a25;
+}
+
+.propiedad-intelectual-reporting {
+    background: linear-gradient(145deg, #f4f8ff, #fbfdff);
+}
+
+.propiedad-intelectual-reporting > span,
+.propiedad-intelectual-reporting h2 { color: var(--pi-blue); }
+
+.propiedad-intelectual-reporting li {
+    display: flex;
+    gap: .7rem;
+}
+
+.propiedad-intelectual-reporting li > span {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    flex: 0 0 40px;
+    border-radius: 50%;
+    background: #e8f0ff;
+    color: var(--pi-blue);
+}
+
+.propiedad-intelectual-reporting strong { display: block; font-size: .8rem; }
+.propiedad-intelectual-reporting li p { margin: .15rem 0 0; color: var(--pi-muted); font-size: .72rem; line-height: 1.4; }
+
+.propiedad-intelectual-reporting > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: .9rem;
+    padding: .8rem 1rem;
+    border: 1px solid var(--pi-blue);
+    border-radius: 10px;
+    color: var(--pi-blue);
+    font-size: .8rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.propiedad-intelectual-cta {
+    padding: 0 0 clamp(4rem, 7vw, 6rem);
+    background: #fff;
+}
+
+.propiedad-intelectual-cta__panel {
+    display: grid;
+    grid-template-columns: 180px 1fr auto;
+    align-items: center;
+    gap: 2rem;
+    min-height: 180px;
+    padding: 0 2rem;
+    border: 1px solid #e8dff1;
+    border-radius: 24px;
+    background: linear-gradient(120deg, #f8f4ff, #fbfffc);
+    overflow: hidden;
+}
+
+.propiedad-intelectual-cta img {
+    align-self: end;
+    width: 180px;
+    max-height: 185px;
+    object-fit: contain;
+}
+
+.propiedad-intelectual-cta h2 {
+    margin: 0 0 .4rem;
+    color: var(--pi-green-dark);
+    font-size: clamp(1.7rem, 2.6vw, 2.3rem);
+    font-weight: 950;
+}
+
+.propiedad-intelectual-cta p {
+    margin: 0;
+    color: var(--pi-muted);
+    font-weight: 600;
+}
+
+.propiedad-intelectual-cta a {
+    display: inline-flex;
+    align-items: center;
+    gap: .55rem;
+    padding: .9rem 1.2rem;
+    border-radius: 10px;
+    background: var(--pi-green-dark);
+    color: #fff;
+    font-weight: 950;
+    text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+    .propiedad-intelectual-hero__grid { grid-template-columns: 1fr; }
+    .propiedad-intelectual-hero__content { text-align: center; }
+    .propiedad-intelectual-hero__content > p,
+    .propiedad-intelectual-hero__note { margin-inline: auto; }
+    .propiedad-intelectual-content__grid { grid-template-columns: 220px 1fr; }
+    .propiedad-intelectual-sidebar { grid-column: 1 / -1; grid-template-columns: repeat(3, 1fr); }
+    .propiedad-intelectual-cta__panel { grid-template-columns: 150px 1fr; }
+    .propiedad-intelectual-cta a { grid-column: 1 / -1; margin: 0 auto 1.5rem; }
+}
+
+@media (max-width: 767px) {
+    .propiedad-intelectual-hero__visual { min-height: 500px; }
+    .propiedad-intelectual-content__grid,
+    .propiedad-intelectual-sidebar { grid-template-columns: 1fr; }
+    .propiedad-intelectual-index { position: static; }
+    .propiedad-intelectual-cta__panel { grid-template-columns: 1fr; padding: 1.5rem; text-align: center; }
+    .propiedad-intelectual-cta img { width: 150px; margin: -1.5rem auto 0; }
+    .propiedad-intelectual-cta a { grid-column: auto; width: 100%; margin: 0; justify-content: center; }
+}

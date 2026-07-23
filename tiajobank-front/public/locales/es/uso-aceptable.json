@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "badge": "Convivencia digital",
+    "title": "Política de",
+    "highlight": "uso aceptable",
+    "description": "Esta política establece las reglas para utilizar TíaJo Bank de manera responsable, segura y respetuosa dentro de la comunidad educativa.",
+    "note": "Cada usuario contribuye a construir un entorno digital positivo, protegido y orientado al aprendizaje.",
+    "imageAlt": "Pepe promueve el uso responsable de TíaJo Bank"
+  },
+  "index": {
+    "title": "En esta página",
+    "download": "Descargar política",
+    "updated": "Versión actualizada: 15 de mayo de 2024"
+  },
+  "sections": {
+    "purpose": {
+      "title": "Objetivo de la política",
+      "text": "El objetivo es promover un uso seguro, respetuoso, educativo y responsable de TíaJo Bank por parte de toda la comunidad."
+    },
+    "scope": {
+      "title": "A quién se aplica",
+      "text": "Esta política se aplica a estudiantes, docentes, familias, administradores, instituciones y cualquier persona con acceso autorizado."
+    },
+    "responsibleUse": {
+      "title": "Uso responsable de la plataforma",
+      "text": "Las herramientas deben utilizarse para fines educativos, de convivencia, comunicación y gestión autorizados por la institución."
+    },
+    "prohibitedConduct": {
+      "title": "Conductas prohibidas",
+      "text": "No se permite acosar, amenazar, discriminar, suplantar identidades, alterar información, cometer fraude o interferir con el servicio."
+    },
+    "content": {
+      "title": "Contenido compartido",
+      "text": "El contenido publicado debe ser respetuoso, apropiado para el entorno educativo y no vulnerar derechos de otras personas."
+    },
+    "privacy": {
+      "title": "Privacidad y datos personales",
+      "text": "No se deben divulgar datos personales, credenciales, imágenes o información privada sin autorización."
+    },
+    "security": {
+      "title": "Seguridad de cuentas",
+      "text": "Cada usuario debe proteger su contraseña, evitar compartir accesos e informar inmediatamente cualquier actividad sospechosa."
+    },
+    "communications": {
+      "title": "Comunicaciones respetuosas",
+      "text": "Los mensajes, comentarios y publicaciones deben mantener un lenguaje respetuoso, constructivo y adecuado para la comunidad."
+    },
+    "intellectualProperty": {
+      "title": "Propiedad intelectual",
+      "text": "No se permite copiar, distribuir o utilizar contenidos protegidos sin autorización de sus titulares."
+    },
+    "reporting": {
+      "title": "Reporte de incumplimientos",
+      "text": "Las situaciones contrarias a esta política pueden informarse a la institución educativa o al equipo de soporte de TíaJo Bank."
+    },
+    "measures": {
+      "title": "Medidas ante incumplimientos",
+      "text": "Los incumplimientos pueden generar advertencias, restricciones, suspensión o cierre de cuentas, según su gravedad."
+    },
+    "changes": {
+      "title": "Cambios a esta política",
+      "text": "Esta política puede actualizarse para responder a nuevas necesidades, riesgos, funciones o cambios normativos."
+    },
+    "contact": {
+      "title": "Contacto",
+      "text": "Puedes comunicarte con nuestro equipo para realizar consultas o reportar situaciones relacionadas con el uso de la plataforma."
+    }
+  },
+  "principles": {
+    "eyebrow": "Principios de convivencia",
+    "title": "Una comunidad positiva",
+    "description": "El uso de TíaJo Bank debe basarse en:",
+    "items": {
+      "respect": "Respeto entre todos los integrantes.",
+      "safety": "Protección de la información y las personas.",
+      "responsibility": "Responsabilidad sobre las acciones realizadas.",
+      "education": "Uso orientado al aprendizaje y la convivencia."
+    }
+  },
+  "warning": {
+    "title": "Uso indebido de la plataforma",
+    "description": "Las acciones que afecten la seguridad, privacidad o bienestar de otras personas pueden dar lugar a restricciones o suspensión de acceso."
+  },
+  "support": {
+    "eyebrow": "Estamos para ayudarte",
+    "title": "¿Necesitas reportar algo?",
+    "description": "Utiliza nuestros canales para informar situaciones que vulneren esta política.",
+    "items": {
+      "report": {
+        "title": "Reportar una situación",
+        "text": "Entrega antecedentes claros para que podamos revisar el caso."
+      },
+      "help": {
+        "title": "Centro de ayuda",
+        "text": "Consulta guías, respuestas y orientaciones."
+      },
+      "contact": {
+        "title": "Contacto directo",
+        "text": "Escríbenos si necesitas apoyo personalizado."
+      }
+    },
+    "button": "Ir al Centro de ayuda"
+  },
+  "cta": {
+    "title": "Construyamos juntos una comunidad segura",
+    "description": "El respeto y la responsabilidad hacen posible una mejor experiencia educativa para todos.",
+    "button": "¡Comienza ahora!",
+    "imageAlt": "Pepe invita a usar TíaJo Bank de forma responsable"
+  }
+}

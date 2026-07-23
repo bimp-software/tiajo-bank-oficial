@@ -1,0 +1,126 @@
+{
+    "hero": {
+        "badge": "Seguridad",
+        "title": "La seguridad de tu comunidad",
+        "highlight": "es nuestra prioridad",
+        "description": "En TíaJo Bank protegemos la información y el bienestar de estudiantes, docentes y familias con los más altos estándares de seguridad y privacidad.",
+        "imageAlt": "Pepe protege la información de la comunidad educativa",
+        "benefits": {
+            "protection": {
+                "title": "Protegemos tus datos",
+                "text": "con tecnología de nivel mundial."
+            },
+            "privacy": {
+                "title": "Privacidad garantizada",
+                "text": "y cumplimiento de normativas."
+            },
+            "environment": {
+                "title": "Entorno seguro",
+                "text": "para aprender y crecer con confianza."
+            }
+        },
+        "compliance": {
+            "title": "TíaJo Bank cumple con normativas internacionales",
+            "text": "Protección de datos, seguridad infantil y buenas prácticas digitales.",
+            "link": "Ver certificaciones y cumplimiento"
+        },
+        "safeCard": {
+            "title": "Tus datos siempre seguros",
+            "items": {
+                "encryption": "Cifrado de datos de extremo a extremo",
+                "access": "Acceso seguro y autenticado",
+                "monitoring": "Monitoreo permanente contra amenazas",
+                "backups": "Copias de seguridad automáticas",
+                "privacy": "Control de privacidad para familias e instituciones"
+            }
+        }
+    },
+    "protection": {
+        "title": "Así protegemos tu información",
+        "description": "Aplicamos múltiples capas de seguridad para que puedas usar TíaJo Bank con total tranquilidad.",
+        "items": {
+            "encryption": {
+                "title": "Cifrado avanzado",
+                "text": "Toda la información se protege en tránsito y en reposo mediante protocolos modernos."
+            },
+            "infrastructure": {
+                "title": "Infraestructura segura",
+                "text": "Nuestra plataforma funciona sobre servicios confiables y controles permanentes."
+            },
+            "access": {
+                "title": "Control de acceso",
+                "text": "Cada persona accede únicamente a la información permitida según su rol."
+            },
+            "monitoring": {
+                "title": "Monitoreo continuo",
+                "text": "Revisamos el funcionamiento y las señales de riesgo de forma constante."
+            },
+            "recovery": {
+                "title": "Respaldo y recuperación",
+                "text": "Mantenemos copias de seguridad para proteger la continuidad de la información."
+            }
+        }
+    },
+    "standards": {
+        "title": "Cumplimos con altos estándares y normativas",
+        "description": "Diseñamos nuestra plataforma siguiendo principios reconocidos de seguridad, privacidad y protección infantil.",
+        "items": {
+            "iso": {
+                "title": "ISO 27001",
+                "text": "Buenas prácticas de seguridad de la información."
+            },
+            "coppa": {
+                "title": "COPPA",
+                "text": "Protección de la privacidad infantil."
+            },
+            "gdpr": {
+                "title": "RGPD",
+                "text": "Principios europeos de protección de datos."
+            },
+            "chile": {
+                "title": "Normativa chilena",
+                "text": "Protección de datos personales en Chile."
+            },
+            "pci": {
+                "title": "PCI DSS",
+                "text": "Buenas prácticas para entornos de pago."
+            }
+        },
+        "link": "Ver todas nuestras certificaciones"
+    },
+    "privacy": {
+        "title": "Privacidad y protección infantil",
+        "children": {
+            "title": "Un entorno seguro para aprender y crecer",
+            "text": "La plataforma está diseñada pensando en niñas, niños y adolescentes, sin publicidad invasiva ni usos ajenos al aprendizaje."
+        },
+        "items": {
+            "minimum": "Solicitamos únicamente los datos necesarios.",
+            "education": "La información se utiliza para fines educativos.",
+            "control": "Familias e instituciones mantienen control sobre los datos.",
+            "parental": "Incluimos herramientas de supervisión y permisos."
+        },
+        "families": {
+            "title": "Transparencia con las familias",
+            "text": "Las familias pueden revisar y gestionar la información disponible de sus estudiantes.",
+            "link": "Conocer más sobre privacidad familiar"
+        }
+    },
+    "practices": {
+        "title": "Buenas prácticas de seguridad",
+        "items": {
+            "passwords": "Utiliza contraseñas seguras y no las compartas.",
+            "verification": "Activa la verificación en dos pasos cuando esté disponible.",
+            "sessions": "Cierra sesión en equipos compartidos o públicos.",
+            "updates": "Mantén tus dispositivos y navegadores actualizados.",
+            "report": "Informa cualquier actividad extraña al equipo de soporte."
+        }
+    },
+    "support": {
+        "title": "¿Tienes dudas sobre seguridad?",
+        "description": "Nuestro equipo está disponible para ayudarte a proteger tu información y la de toda tu comunidad educativa.",
+        "contact": "Contactar soporte",
+        "helpCenter": "Centro de ayuda",
+        "imageAlt": "Pepe saluda al equipo de soporte"
+    }
+}

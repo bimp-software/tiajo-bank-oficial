@@ -1,0 +1,1330 @@
+:root {
+    --historia-green-950: #063f32;
+    --historia-green-900: #075944;
+    --historia-green-800: #08745a;
+    --historia-green-700: #0b8f6d;
+    --historia-green-600: #11a97d;
+    --historia-green-500: #22c993;
+    --historia-green-100: #dff9ef;
+    --historia-green-50: #f1fdf8;
+    --historia-ink: #17342d;
+    --historia-muted: #60756f;
+    --historia-border: rgba(9, 109, 83, 0.13);
+    --historia-shadow: 0 28px 70px rgba(4, 70, 53, 0.12);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.historia-section {
+    position: relative;
+    padding: 110px 0;
+    overflow: hidden;
+}
+
+.historia-section-heading {
+    max-width: 760px;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+
+.historia-section-heading--left {
+    margin-right: 0;
+    margin-left: 0;
+    text-align: left;
+}
+
+.historia-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+    color: var(--historia-green-700);
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.historia-eyebrow--light {
+    color: #9ff2d5;
+}
+
+.historia-section-heading h2,
+.historia-futuro h2,
+.historia-cta h2 {
+    margin: 0 0 18px;
+    color: var(--historia-ink);
+    font-size: clamp(2rem, 4vw, 3.35rem);
+    font-weight: 900;
+    letter-spacing: -0.055em;
+    line-height: 1.03;
+}
+
+.historia-section-heading p,
+.historia-futuro p,
+.historia-cta p {
+    margin: 0;
+    color: var(--historia-muted);
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.historia-hero {
+    position: relative;
+    min-height: 760px;
+    padding: 142px 0 105px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 10% 20%, rgba(34, 201, 147, 0.16), transparent 28%),
+        radial-gradient(circle at 86% 18%, rgba(17, 169, 125, 0.17), transparent 25%),
+        linear-gradient(135deg, #f8fffc 0%, #eefcf6 58%, #e1f8ef 100%);
+}
+
+.historia-hero::before {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(8, 116, 90, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(8, 116, 90, 0.045) 1px, transparent 1px);
+    background-size: 34px 34px;
+    content: "";
+    mask-image: linear-gradient(to bottom, black, transparent 82%);
+}
+
+.historia-hero__glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(10px);
+}
+
+.historia-hero__glow--one {
+    top: 100px;
+    left: -120px;
+    width: 340px;
+    height: 340px;
+    background: rgba(34, 201, 147, 0.15);
+}
+
+.historia-hero__glow--two {
+    right: -140px;
+    bottom: 60px;
+    width: 410px;
+    height: 410px;
+    background: rgba(11, 143, 109, 0.12);
+}
+
+.historia-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 22px;
+    padding: 9px 14px;
+    border: 1px solid rgba(11, 143, 109, 0.15);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.82);
+    color: var(--historia-green-700);
+    font-size: 0.82rem;
+    font-weight: 900;
+    box-shadow: 0 12px 30px rgba(7, 89, 68, 0.08);
+    backdrop-filter: blur(12px);
+}
+
+.historia-hero__title {
+    max-width: 760px;
+    margin: 0 0 24px;
+    color: var(--historia-ink);
+    font-size: clamp(3rem, 6vw, 5.2rem);
+    font-weight: 950;
+    letter-spacing: -0.07em;
+    line-height: 0.98;
+}
+
+.historia-hero__title span {
+    display: block;
+    background: linear-gradient(100deg, var(--historia-green-700), var(--historia-green-500));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.historia-hero__description {
+    max-width: 680px;
+    margin: 0 0 28px;
+    color: var(--historia-muted);
+    font-size: 1.12rem;
+    line-height: 1.82;
+}
+
+.historia-hero__question {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 620px;
+    margin-bottom: 30px;
+    padding: 17px 20px;
+    border: 1px solid rgba(11, 143, 109, 0.13);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.74);
+    box-shadow: 0 16px 36px rgba(7, 89, 68, 0.08);
+    backdrop-filter: blur(12px);
+}
+
+.historia-hero__question-icon {
+    display: grid;
+    flex: 0 0 auto;
+    width: 46px;
+    height: 46px;
+    place-items: center;
+    border-radius: 15px;
+    background: linear-gradient(135deg, var(--historia-green-600), var(--historia-green-800));
+    color: #fff;
+    font-size: 1.15rem;
+    box-shadow: 0 12px 26px rgba(11, 143, 109, 0.22);
+}
+
+.historia-hero__question p {
+    margin: 0;
+    color: var(--historia-ink);
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.historia-hero__actions,
+.historia-cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.btn-historia {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 52px;
+    padding: 0 22px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    font-weight: 900;
+    text-decoration: none;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+}
+
+.btn-historia:hover {
+    transform: translateY(-3px);
+}
+
+.btn-historia--primary {
+    background: linear-gradient(135deg, var(--historia-green-700), var(--historia-green-600));
+    color: #fff;
+    box-shadow: 0 16px 32px rgba(11, 143, 109, 0.26);
+}
+
+.btn-historia--primary:hover {
+    color: #fff;
+    box-shadow: 0 22px 38px rgba(11, 143, 109, 0.32);
+}
+
+.btn-historia--secondary {
+    border-color: rgba(9, 109, 83, 0.16);
+    background: rgba(255, 255, 255, 0.8);
+    color: var(--historia-green-800);
+    box-shadow: 0 12px 28px rgba(7, 89, 68, 0.08);
+}
+
+.btn-historia--secondary:hover {
+    background: #fff;
+    color: var(--historia-green-900);
+}
+
+.btn-historia--light {
+    background: #fff;
+    color: var(--historia-green-900);
+    box-shadow: 0 16px 34px rgba(1, 43, 32, 0.2);
+}
+
+.btn-historia--outline-light {
+    border-color: rgba(255, 255, 255, 0.46);
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+}
+
+.btn-historia--outline-light:hover {
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
+}
+
+.historia-hero__trust {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.historia-hero__trust-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #45645b;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.historia-hero__trust-item i {
+    color: var(--historia-green-600);
+}
+
+.historia-hero__visual {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.historia-hero__image-card {
+    position: relative;
+    z-index: 2;
+    padding: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.76);
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.66);
+    box-shadow: var(--historia-shadow);
+    backdrop-filter: blur(18px);
+}
+
+.historia-hero__image {
+    display: block;
+    width: 100%;
+    min-height: 490px;
+    object-fit: cover;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #d8f6ea, #a8e7d1);
+}
+
+.historia-hero__floating {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 205px;
+    padding: 13px 15px;
+    border: 1px solid rgba(8, 116, 90, 0.12);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 18px 36px rgba(4, 70, 53, 0.16);
+}
+
+.historia-hero__floating--top {
+    top: 52px;
+    left: -62px;
+}
+
+.historia-hero__floating--bottom {
+    right: -46px;
+    bottom: 48px;
+}
+
+.historia-hero__floating-icon {
+    display: grid;
+    flex: 0 0 auto;
+    width: 42px;
+    height: 42px;
+    place-items: center;
+    border-radius: 13px;
+    background: var(--historia-green-100);
+    color: var(--historia-green-700);
+}
+
+.historia-hero__floating strong,
+.historia-hero__floating small {
+    display: block;
+}
+
+.historia-hero__floating strong {
+    color: var(--historia-ink);
+    font-size: 0.9rem;
+}
+
+.historia-hero__floating small {
+    margin-top: 2px;
+    color: var(--historia-muted);
+    font-size: 0.74rem;
+}
+
+.historia-hero__dots {
+    position: absolute;
+    right: -36px;
+    bottom: -34px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 8px);
+    gap: 12px;
+}
+
+.historia-hero__dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(11, 143, 109, 0.36);
+}
+
+.historia-origen {
+    background: #fff;
+}
+
+.historia-quote {
+    position: relative;
+    margin-top: 32px;
+    padding: 28px;
+    border: 1px solid var(--historia-border);
+    border-radius: 26px;
+    background: linear-gradient(145deg, #fff, var(--historia-green-50));
+    box-shadow: 0 20px 48px rgba(7, 89, 68, 0.08);
+}
+
+.historia-quote > i {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    color: rgba(11, 143, 109, 0.16);
+    font-size: 3.4rem;
+}
+
+.historia-quote blockquote {
+    position: relative;
+    margin: 0 0 22px;
+    color: var(--historia-ink);
+    font-size: 1.08rem;
+    font-weight: 750;
+    line-height: 1.8;
+}
+
+.historia-quote__author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.historia-quote__avatar {
+    display: grid;
+    width: 46px;
+    height: 46px;
+    place-items: center;
+    border-radius: 15px;
+    background: var(--historia-green-100);
+    color: var(--historia-green-700);
+}
+
+.historia-quote__author strong,
+.historia-quote__author small {
+    display: block;
+}
+
+.historia-quote__author strong {
+    color: var(--historia-ink);
+}
+
+.historia-quote__author small {
+    color: var(--historia-muted);
+}
+
+.historia-origin-card {
+    position: relative;
+    min-height: 460px;
+    padding: 42px;
+    overflow: hidden;
+    border-radius: 34px;
+    background: linear-gradient(145deg, var(--historia-green-900), var(--historia-green-700));
+    color: #fff;
+    box-shadow: var(--historia-shadow);
+}
+
+.historia-origin-card__number {
+    position: absolute;
+    top: 22px;
+    right: 28px;
+    color: rgba(255, 255, 255, 0.14);
+    font-size: 5.2rem;
+    font-weight: 950;
+    line-height: 1;
+}
+
+.historia-origin-card__icon {
+    position: relative;
+    display: grid;
+    width: 68px;
+    height: 68px;
+    margin-bottom: 28px;
+    place-items: center;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.14);
+    font-size: 1.75rem;
+    backdrop-filter: blur(12px);
+}
+
+.historia-origin-card h3 {
+    position: relative;
+    max-width: 430px;
+    margin: 0 0 18px;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: -0.045em;
+}
+
+.historia-origin-card > p {
+    position: relative;
+    max-width: 480px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.82);
+    line-height: 1.8;
+}
+
+.historia-origin-card__details {
+    position: relative;
+    display: grid;
+    gap: 13px;
+    margin-top: 30px;
+}
+
+.historia-origin-card__details div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+}
+
+.historia-origin-card__details i {
+    color: #a7f5d8;
+}
+
+.historia-origin-card__decor {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.historia-origin-card__decor--one {
+    right: -80px;
+    bottom: -80px;
+    width: 230px;
+    height: 230px;
+}
+
+.historia-origin-card__decor--two {
+    right: 90px;
+    bottom: 30px;
+    width: 78px;
+    height: 78px;
+}
+
+.historia-problema {
+    background: var(--historia-green-50);
+}
+
+.historia-problem-card {
+    position: relative;
+    height: 100%;
+    min-height: 320px;
+    padding: 28px;
+    overflow: hidden;
+    border: 1px solid var(--historia-border);
+    border-radius: 26px;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 18px 45px rgba(5, 77, 59, 0.07);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.historia-problem-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 28px 56px rgba(5, 77, 59, 0.12);
+}
+
+.historia-problem-card__index {
+    position: absolute;
+    top: 20px;
+    right: 22px;
+    color: rgba(11, 143, 109, 0.15);
+    font-size: 2.7rem;
+    font-weight: 950;
+}
+
+.historia-problem-card__icon {
+    display: grid;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 28px;
+    place-items: center;
+    border-radius: 18px;
+    background: var(--historia-green-100);
+    color: var(--historia-green-700);
+    font-size: 1.4rem;
+}
+
+.historia-problem-card h3,
+.historia-evolution-card h3,
+.historia-value-card h3 {
+    margin: 0 0 13px;
+    color: var(--historia-ink);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.historia-problem-card p,
+.historia-evolution-card p,
+.historia-value-card p {
+    margin: 0;
+    color: var(--historia-muted);
+    line-height: 1.75;
+}
+
+.historia-problema__bridge {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    max-width: 760px;
+    margin: 46px auto 0;
+    padding: 20px 24px;
+    border: 1px solid rgba(11, 143, 109, 0.14);
+    border-radius: 22px;
+    background: #fff;
+    box-shadow: 0 18px 42px rgba(5, 77, 59, 0.08);
+}
+
+.historia-problema__bridge-icon {
+    display: grid;
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    place-items: center;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--historia-green-700), var(--historia-green-500));
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.historia-problema__bridge strong {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--historia-ink);
+}
+
+.historia-problema__bridge p {
+    margin: 0;
+    color: var(--historia-muted);
+}
+
+.historia-nacimiento {
+    background: #fff;
+}
+
+.historia-sticky-heading {
+    position: sticky;
+    top: 120px;
+}
+
+.historia-birth-highlight {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid var(--historia-border);
+    border-radius: 22px;
+    background: var(--historia-green-50);
+}
+
+.historia-birth-highlight i {
+    color: var(--historia-green-700);
+    font-size: 1.8rem;
+}
+
+.historia-birth-highlight strong,
+.historia-birth-highlight span {
+    display: block;
+}
+
+.historia-birth-highlight strong {
+    color: var(--historia-ink);
+}
+
+.historia-birth-highlight span {
+    margin-top: 3px;
+    color: var(--historia-muted);
+    font-size: 0.9rem;
+}
+
+.historia-timeline {
+    position: relative;
+}
+
+.historia-timeline::before {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 23px;
+    width: 2px;
+    background: linear-gradient(var(--historia-green-500), rgba(34, 201, 147, 0.1));
+    content: "";
+}
+
+.historia-timeline__item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 20px;
+    padding-bottom: 24px;
+}
+
+.historia-timeline__marker {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    width: 48px;
+    height: 48px;
+    place-items: center;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    background: var(--historia-green-700);
+    color: #fff;
+    font-weight: 900;
+    box-shadow: 0 10px 24px rgba(11, 143, 109, 0.22);
+}
+
+.historia-timeline__card {
+    display: flex;
+    gap: 18px;
+    padding: 25px;
+    border: 1px solid var(--historia-border);
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0 18px 40px rgba(4, 70, 53, 0.07);
+}
+
+.historia-timeline__icon {
+    display: grid;
+    flex: 0 0 auto;
+    width: 52px;
+    height: 52px;
+    place-items: center;
+    border-radius: 17px;
+    background: var(--historia-green-100);
+    color: var(--historia-green-700);
+    font-size: 1.25rem;
+}
+
+.historia-timeline__phase {
+    color: var(--historia-green-700);
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.historia-timeline__card h3 {
+    margin: 5px 0 8px;
+    color: var(--historia-ink);
+    font-size: 1.18rem;
+    font-weight: 900;
+}
+
+.historia-timeline__card p {
+    margin: 0;
+    color: var(--historia-muted);
+    line-height: 1.7;
+}
+
+.historia-evolucion {
+    background:
+        radial-gradient(circle at 15% 20%, rgba(34, 201, 147, 0.09), transparent 26%),
+        #f8fcfa;
+}
+
+.historia-evolution-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.historia-evolution-card {
+    min-height: 260px;
+    padding: 25px;
+    border: 1px solid var(--historia-border);
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 16px 38px rgba(4, 70, 53, 0.06);
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.historia-evolution-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(11, 143, 109, 0.3);
+}
+
+.historia-evolution-card__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.historia-evolution-card__number {
+    color: rgba(11, 143, 109, 0.24);
+    font-size: 1rem;
+    font-weight: 950;
+}
+
+.historia-evolution-card__icon {
+    display: grid;
+    width: 48px;
+    height: 48px;
+    place-items: center;
+    border-radius: 15px;
+    background: var(--historia-green-100);
+    color: var(--historia-green-700);
+    font-size: 1.2rem;
+}
+
+.historia-metodologia {
+    background: #fff;
+}
+
+.historia-methodology-pillars {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.historia-methodology-pillars div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 14px;
+    border: 1px solid var(--historia-border);
+    border-radius: 16px;
+    background: var(--historia-green-50);
+    color: var(--historia-ink);
+    font-size: 0.9rem;
+    font-weight: 850;
+}
+
+.historia-methodology-pillars i {
+    color: var(--historia-green-700);
+}
+
+.historia-route-card {
+    position: relative;
+    padding: 34px;
+    overflow: hidden;
+    border-radius: 32px;
+    background: linear-gradient(145deg, var(--historia-green-950), var(--historia-green-800));
+    box-shadow: var(--historia-shadow);
+}
+
+.historia-route-card::after {
+    position: absolute;
+    right: -100px;
+    bottom: -130px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    content: "";
+}
+
+.historia-route-card__header {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 28px;
+}
+
+.historia-route-card__header span {
+    color: #a8f3d9;
+    font-size: 0.76rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.historia-route-card__header h3 {
+    margin: 7px 0 0;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.historia-route {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.historia-route__step {
+    position: relative;
+    padding: 18px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.08);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.historia-route__icon {
+    display: grid;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto 11px;
+    place-items: center;
+    border-radius: 14px;
+    background: rgba(167, 245, 216, 0.15);
+    color: #b8f7e0;
+    font-size: 1.08rem;
+}
+
+.historia-route__step > span {
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.historia-route__step strong {
+    display: block;
+    margin-top: 4px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.historia-route-card__note {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 9px;
+    margin: 22px 0 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.87rem;
+    line-height: 1.6;
+}
+
+.historia-valores {
+    background: var(--historia-green-50);
+}
+
+.historia-value-card {
+    position: relative;
+    height: 100%;
+    min-height: 280px;
+    padding: 28px;
+    overflow: hidden;
+    border: 1px solid var(--historia-border);
+    border-radius: 26px;
+    background: #fff;
+    box-shadow: 0 18px 42px rgba(4, 70, 53, 0.07);
+}
+
+.historia-value-card__icon {
+    display: grid;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 25px;
+    place-items: center;
+    border-radius: 18px;
+    background: linear-gradient(145deg, var(--historia-green-100), #effdf8);
+    color: var(--historia-green-700);
+    font-size: 1.35rem;
+}
+
+.historia-value-card__line {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--historia-green-700), var(--historia-green-500));
+    transform: scaleX(0.22);
+    transform-origin: left;
+    transition: transform 0.28s ease;
+}
+
+.historia-value-card:hover .historia-value-card__line {
+    transform: scaleX(1);
+}
+
+.historia-futuro {
+    padding-top: 110px;
+    padding-bottom: 60px;
+    background: #fff;
+}
+
+.historia-futuro__panel {
+    position: relative;
+    padding: 58px;
+    overflow: hidden;
+    border-radius: 40px;
+    background:
+        radial-gradient(circle at 85% 20%, rgba(114, 242, 196, 0.12), transparent 28%),
+        linear-gradient(145deg, #063f32, #08745a);
+    box-shadow: 0 36px 80px rgba(4, 70, 53, 0.22);
+}
+
+.historia-futuro__panel h2 {
+    color: #fff;
+}
+
+.historia-futuro__panel p {
+    max-width: 680px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.historia-future-goals {
+    display: grid;
+    gap: 13px;
+    margin-top: 28px;
+}
+
+.historia-future-goals > div {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    max-width: 560px;
+    padding: 14px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.historia-future-goals > div > span {
+    display: grid;
+    flex: 0 0 auto;
+    width: 43px;
+    height: 43px;
+    place-items: center;
+    border-radius: 14px;
+    background: rgba(167, 245, 216, 0.14);
+    color: #b8f7e0;
+}
+
+.historia-future-goals strong,
+.historia-future-goals small {
+    display: block;
+}
+
+.historia-future-goals strong {
+    color: #fff;
+}
+
+.historia-future-goals small {
+    margin-top: 2px;
+    color: rgba(255, 255, 255, 0.62);
+}
+
+.historia-futuro__image-wrap {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.historia-futuro__image {
+    display: block;
+    width: 100%;
+    min-height: 390px;
+    object-fit: contain;
+    filter: drop-shadow(0 24px 34px rgba(0, 0, 0, 0.25));
+}
+
+.historia-futuro__orbit {
+    position: absolute;
+    display: grid;
+    width: 52px;
+    height: 52px;
+    place-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.13);
+    color: #fff;
+    backdrop-filter: blur(12px);
+}
+
+.historia-futuro__orbit--one {
+    top: 18%;
+    left: 0;
+}
+
+.historia-futuro__orbit--two {
+    top: 42%;
+    right: -8px;
+}
+
+.historia-futuro__orbit--three {
+    bottom: 13%;
+    left: 12%;
+}
+
+.historia-cta {
+    padding: 60px 0 120px;
+    background: #fff;
+}
+
+.historia-cta__card {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    min-height: 410px;
+    overflow: hidden;
+    border-radius: 40px;
+    background: linear-gradient(135deg, var(--historia-green-800), var(--historia-green-600));
+    box-shadow: 0 32px 76px rgba(4, 70, 53, 0.2);
+}
+
+.historia-cta__content {
+    position: relative;
+    z-index: 2;
+    padding: 58px;
+}
+
+.historia-cta__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+    color: #c9fae8;
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+}
+
+.historia-cta h2 {
+    max-width: 700px;
+    color: #fff;
+}
+
+.historia-cta p {
+    max-width: 680px;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.historia-cta__actions {
+    margin-top: 28px;
+}
+
+.historia-cta__visual {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px 24px 0;
+}
+
+.historia-cta__visual img {
+    display: block;
+    width: 100%;
+    max-height: 380px;
+    object-fit: contain;
+    filter: drop-shadow(0 22px 30px rgba(0, 0, 0, 0.22));
+}
+
+.historia-cta__shape {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.historia-cta__shape--one {
+    right: -80px;
+    bottom: -120px;
+    width: 360px;
+    height: 360px;
+}
+
+.historia-cta__shape--two {
+    top: -120px;
+    left: 35%;
+    width: 260px;
+    height: 260px;
+}
+
+@media (max-width: 1199.98px) {
+    .historia-evolution-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .historia-hero__floating--top {
+        left: -20px;
+    }
+
+    .historia-hero__floating--bottom {
+        right: -18px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .historia-section {
+        padding: 88px 0;
+    }
+
+    .historia-hero {
+        padding-top: 118px;
+        text-align: center;
+    }
+
+    .historia-hero__description,
+    .historia-hero__question {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .historia-hero__actions,
+    .historia-hero__trust {
+        justify-content: center;
+    }
+
+    .historia-hero__visual {
+        margin-top: 28px;
+    }
+
+    .historia-section-heading--left {
+        max-width: 760px;
+    }
+
+    .historia-sticky-heading {
+        position: static;
+    }
+
+    .historia-futuro__panel {
+        padding: 42px;
+    }
+
+    .historia-cta__card {
+        grid-template-columns: 1fr;
+    }
+
+    .historia-cta__visual {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .historia-hero {
+        min-height: auto;
+        padding: 104px 0 78px;
+    }
+
+    .historia-hero__title {
+        font-size: clamp(2.7rem, 13vw, 4rem);
+    }
+
+    .historia-hero__image {
+        min-height: 390px;
+    }
+
+    .historia-hero__floating {
+        position: static;
+        margin-top: 12px;
+    }
+
+    .historia-hero__image-card {
+        border-radius: 28px;
+    }
+
+    .historia-hero__image {
+        border-radius: 21px;
+    }
+
+    .historia-evolution-grid,
+    .historia-route {
+        grid-template-columns: 1fr;
+    }
+
+    .historia-methodology-pillars {
+        grid-template-columns: 1fr;
+    }
+
+    .historia-origin-card,
+    .historia-futuro__panel,
+    .historia-cta__content {
+        padding: 30px;
+    }
+
+    .historia-timeline__card {
+        display: block;
+    }
+
+    .historia-timeline__icon {
+        margin-bottom: 16px;
+    }
+
+    .historia-futuro__image {
+        min-height: 310px;
+    }
+
+    .historia-cta {
+        padding-bottom: 88px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .historia-section {
+        padding: 72px 0;
+    }
+
+    .historia-hero__question {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .historia-hero__actions,
+    .historia-cta__actions {
+        display: grid;
+    }
+
+    .btn-historia {
+        width: 100%;
+    }
+
+    .historia-hero__trust {
+        display: grid;
+        justify-content: start;
+        max-width: 280px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: left;
+    }
+
+    .historia-problema__bridge {
+        align-items: flex-start;
+    }
+
+    .historia-timeline__item {
+        grid-template-columns: 42px 1fr;
+        gap: 14px;
+    }
+
+    .historia-timeline::before {
+        left: 20px;
+    }
+
+    .historia-timeline__marker {
+        width: 42px;
+        height: 42px;
+    }
+
+    .historia-futuro__panel {
+        padding: 28px 22px;
+        border-radius: 28px;
+    }
+
+    .historia-cta__card {
+        border-radius: 28px;
+    }
+
+    .historia-cta__content {
+        padding: 32px 24px;
+    }
+}

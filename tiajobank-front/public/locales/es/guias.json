@@ -1,0 +1,160 @@
+{
+    "hero": {
+        "badge": "Guías TíaJo Bank",
+        "title": "Todo lo que necesitas",
+        "highlight": "para aprovechar TíaJo Bank al máximo",
+        "description": "Explora nuestras guías prácticas, paso a paso y recursos descargables para docentes, estudiantes, familias y equipos directivos.",
+        "searchPlaceholder": "Buscar guías...",
+        "searchLabel": "Buscar guías",
+        "searchButton": "Buscar",
+        "imageAlt": "Pepe presenta las guías de TíaJo Bank"
+    },
+    "benefits": {
+        "items": {
+            "easy": {
+                "title": "Fáciles de seguir",
+                "text": "Pasos claros, ejemplos y orientaciones prácticas."
+            },
+            "everyone": {
+                "title": "Para todos",
+                "text": "Recursos para docentes, estudiantes y familias."
+            },
+            "updated": {
+                "title": "Siempre actualizadas",
+                "text": "Contenido revisado y mejorado constantemente."
+            },
+            "downloadable": {
+                "title": "Descargables",
+                "text": "Material listo para aplicar en tu comunidad."
+            }
+        }
+    },
+    "explorer": {
+        "eyebrow": "Biblioteca de guías",
+        "title": "Explora nuestras guías",
+        "description": "Encuentra orientaciones pensadas para cada integrante de la comunidad educativa.",
+        "readGuide": "Ver guía",
+        "loadMore": "Cargar más guías",
+        "filters": {
+            "all": "Todas",
+            "teachers": "Docentes",
+            "students": "Estudiantes",
+            "families": "Apoderados",
+            "administrators": "Administradores",
+            "methodologies": "Metodologías",
+            "tutorials": "Tutoriales"
+        },
+        "items": {
+            "teachers": {
+                "imageAlt": "Docente utilizando TíaJo Bank",
+                "category": "Docentes",
+                "title": "Guía docente: primeros pasos con TíaJo Bank",
+                "description": "Aprende a configurar tu aula, crear misiones y motivar a tus estudiantes.",
+                "time": "15 min"
+            },
+            "students": {
+                "imageAlt": "Estudiante aprendiendo a usar TíaJo Bank",
+                "category": "Estudiantes",
+                "title": "Guía del estudiante: cómo ganar y usar Tiajitos",
+                "description": "Descubre las formas de ganar, ahorrar y utilizar tus recompensas.",
+                "time": "10 min"
+            },
+            "families": {
+                "imageAlt": "Familia acompañando el aprendizaje",
+                "category": "Apoderados",
+                "title": "Guía para apoderados: acompaña y motiva",
+                "description": "Consejos para apoyar a tus hijos y celebrar sus avances.",
+                "time": "12 min"
+            },
+            "methodologies": {
+                "imageAlt": "Metodología educativa con metas",
+                "category": "Metodologías",
+                "title": "Cómo integrar TíaJo Bank en tu metodología de aula",
+                "description": "Ideas y estrategias para alinear la plataforma con tus objetivos pedagógicos.",
+                "time": "18 min"
+            },
+            "tutorials": {
+                "imageAlt": "Pepe trabajando en un computador",
+                "category": "Tutoriales",
+                "title": "Tutorial: configuración inicial para administradores",
+                "description": "Paso a paso para configurar colegio, usuarios, cursos y permisos.",
+                "time": "20 min"
+            },
+            "administrators": {
+                "imageAlt": "Panel de reportes de TíaJo Bank",
+                "category": "Administradores",
+                "title": "Guía de reportes y seguimiento de resultados",
+                "description": "Aprende a interpretar reportes y tomar mejores decisiones.",
+                "time": "16 min"
+            }
+        }
+    },
+    "featured": {
+        "eyebrow": "Guía destacada",
+        "imageAlt": "Pepe como superhéroe educativo",
+        "title": "Convierte tu aula en una aventura inolvidable",
+        "description": "Una guía completa para transformar la experiencia educativa mediante gamificación, misiones y recompensas.",
+        "time": "25 min",
+        "button": "Descargar guía",
+        "sideEyebrow": "Recurso recomendado",
+        "sideTitle": "Una guía para aplicar desde el primer día",
+        "sideDescription": "Diseñada para que puedas avanzar paso a paso, sin complicaciones y con ejemplos concretos.",
+        "points": {
+            "practical": "Actividades y orientaciones prácticas.",
+            "visual": "Diseño visual y fácil de comprender.",
+            "ready": "Material listo para usar en tu aula."
+        }
+    },
+    "resources": {
+        "eyebrow": "Material complementario",
+        "title": "Recursos descargables",
+        "description": "Complementa las guías con plantillas, carteles y materiales editables.",
+        "items": {
+            "planners": {
+                "title": "Plantillas y planificadores",
+                "text": "Organiza tus actividades y misiones."
+            },
+            "posters": {
+                "title": "Carteles motivacionales",
+                "text": "Recursos visuales para ambientar el aula."
+            },
+            "diplomas": {
+                "title": "Diplomas editables",
+                "text": "Reconoce los logros de tus estudiantes."
+            },
+            "quick": {
+                "title": "Guías rápidas",
+                "text": "Resumen de funciones y pasos esenciales."
+            }
+        },
+        "request": {
+            "eyebrow": "¿No encuentras lo que buscas?",
+            "title": "Solicita una guía o recurso específico",
+            "description": "Cuéntanos qué necesitas y lo consideraremos para próximas publicaciones.",
+            "button": "Solicitar guía"
+        }
+    },
+    "process": {
+        "title": "Aprende, aplica y transforma con TíaJo Bank",
+        "description": "Nuestras guías te acompañan para crear experiencias educativas significativas y divertidas.",
+        "imageAlt": "Pepe aprendiendo con una guía",
+        "steps": {
+            "learn": {
+                "title": "Aprende",
+                "text": "Conoce nuevas ideas y estrategias."
+            },
+            "apply": {
+                "title": "Aplica",
+                "text": "Implementa en tu aula y comunidad."
+            },
+            "motivate": {
+                "title": "Motiva",
+                "text": "Inspira a tus estudiantes cada día."
+            },
+            "transform": {
+                "title": "Transforma",
+                "text": "Crea experiencias educativas inolvidables."
+            }
+        }
+    }
+}
